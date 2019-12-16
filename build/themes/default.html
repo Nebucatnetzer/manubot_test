@@ -487,6 +487,9 @@
         @page {
             /* suggested printing margin */
             margin: 0.5in;
+        @bottom-right{
+            content: counter(page) " of " counter(pages);
+            }
         }
 
         /* document and "page" elements */
@@ -1212,8 +1215,5 @@
         hypothesis-adder {
             display: none !important;
         }
-    }
-    @bottom-center{
-        content: counter(page) " of " counter(pages);
     }
 </style>
