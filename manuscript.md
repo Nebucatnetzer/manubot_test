@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/5618a3ec2fb4a20f76c8d55d742775293ba104f3/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c16732a65365adb934c11303de6e4d0d075f8dc9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/5618a3ec2fb4a20f76c8d55d742775293ba104f3/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c16732a65365adb934c11303de6e4d0d075f8dc9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/5618a3ec2fb4a20f76c8d55d742775293ba104f3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c16732a65365adb934c11303de6e4d0d075f8dc9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/5618a3ec2fb4a20f76c8d55d742775293ba104f3/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c16732a65365adb934c11303de6e4d0d075f8dc9/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@5618a3e](https://github.com/Nebucatnetzer/manubot_test/tree/5618a3ec2fb4a20f76c8d55d742775293ba104f3)
+from [Nebucatnetzer/manubot_test@c16732a](https://github.com/Nebucatnetzer/manubot_test/tree/c16732a65365adb934c11303de6e4d0d075f8dc9)
 on December 16, 2019.
 </em></small>
 
