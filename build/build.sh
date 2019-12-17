@@ -70,6 +70,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_EXISTS" ]; then
     --to=html5 \
     --pdf-engine=weasyprint \
     --pdf-engine-opt=--presentational-hints \
+    --toc \
     --filter=pandoc-fignos \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
