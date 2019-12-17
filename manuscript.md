@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/37b7baf19afd19103281fda214d8229b0668dcd5/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b4654d3c06097664a8c33d151db82fd6c8487817/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/37b7baf19afd19103281fda214d8229b0668dcd5/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b4654d3c06097664a8c33d151db82fd6c8487817/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/37b7baf19afd19103281fda214d8229b0668dcd5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b4654d3c06097664a8c33d151db82fd6c8487817/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/37b7baf19afd19103281fda214d8229b0668dcd5/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b4654d3c06097664a8c33d151db82fd6c8487817/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@37b7baf](https://github.com/Nebucatnetzer/manubot_test/tree/37b7baf19afd19103281fda214d8229b0668dcd5)
+from [Nebucatnetzer/manubot_test@b4654d3](https://github.com/Nebucatnetzer/manubot_test/tree/b4654d3c06097664a8c33d151db82fd6c8487817)
 on December 17, 2019.
 </em></small>
 
@@ -113,7 +113,7 @@ die Realisierung besagter Oberflache und der dabei verwendeten Werkzeuge, die
 Projektplanung sowie die dabei aufgetretenen Probleme.
 
 
-# 1 Über dieses Dokument
+# 1 Über dieses Dokument{.page_break_before}
 
 ## 1.1 Beschreibung
 
@@ -140,7 +140,7 @@ Schule erstellt und steht unter der cc BY-SA 4.0
 Arbeit unter Beibehalten der Lizenz kopiert und weiterverarbeitet werden.
 Zusätzlich muss der Urheber genannt werden.
 
-# 2 Initialisierung
+# 2 Initialisierung{.page_break_before}
 
 ## 2.1 Vision
 
@@ -398,7 +398,7 @@ In der Tabelle: (6) sind die Risiken des Projektes gemeinsam mit ihren
 Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits vorher
 vermieden werden.
 
-# 3 Analyse
+# 3 Analyse{.page_break_before}
 
 ## 3.1 SWOT-Analyse
 
@@ -518,7 +518,7 @@ Die detaillierte Implementation wird in der Sektion [Realisierung] beschrieben.
 
 [Realisierung] siehe Abschnitt 5
 
-# 4 Konzept
+# 4 Konzept{.page_break_before}
 
 ## 4.1 Varianten
 
@@ -1028,7 +1028,7 @@ umbenannt. Somit zeigen die Buttons dann auch direkt, dass sie Dateien
 respektive Ordner ein-/ausschliessen. Ein paar der Probanden hatten es zuerst
 über den „Remove“ Button versucht.
 
-# 5 Realisierung
+# 5 Realisierung{.page_break_before}
 
 ## 5.1 Cross-plattform Kompatibilität
 
@@ -1697,7 +1697,7 @@ Funktionen noch nicht implementiert wurden. TC-18 ist zwar technisch bereits
 möglich wurde im gui jedoch noch nicht umgesetzt. Die Resultate wurden in der
 Tabelle:(29) erfasst.
 
-# 6 Ausblick/Fazit
+# 6 Ausblick/Fazit{.page_break_before}
 
 ## 6.1 Zielbewertung
 
