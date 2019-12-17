@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/793779505cf786ede08bc00afd0e239d866bfc0a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/793779505cf786ede08bc00afd0e239d866bfc0a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/793779505cf786ede08bc00afd0e239d866bfc0a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/793779505cf786ede08bc00afd0e239d866bfc0a/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@c255d88](https://github.com/Nebucatnetzer/manubot_test/tree/c255d8818155d2504ddf091a03b595bb70663427)
+from [Nebucatnetzer/manubot_test@7937795](https://github.com/Nebucatnetzer/manubot_test/tree/793779505cf786ede08bc00afd0e239d866bfc0a)
 on December 17, 2019.
 </em></small>
 
@@ -1067,7 +1067,9 @@ diesem lassen sich die Oberflächen in einer grafischen Oberfläche designen und
 auch gleich starten. Damit ist direkt zu sehen wie sich die Oberflächen auf dem
 System verhalten.
 
-![](images/qt_designer.png) Mit der ersten gui Version wurden die ersten
+![](images/qt_designer.png){width="90%"}
+
+Mit der ersten gui Version wurden die ersten
 Basisziele der Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(17),
 befinden sich wie auch bei „Back in Time“ in der einen Hälfte eine Liste der
 vorhandenen Archive und in der anderen Hälfte ein Dateimanager. Dieser dient
