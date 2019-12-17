@@ -38,11 +38,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Andreas Zweili" />
 
-  <meta name="citation_author_institution" content="Contria GmbH" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@-" />
+  <meta name="citation_author_orcid" content="-" />
 
   <link rel="canonical" href="https://Nebucatnetzer.github.io/manubot_test/" />
 
@@ -56,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/91f63c8443899206173845acb6e8e8750c1d41e9/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/91f63c8443899206173845acb6e8e8750c1d41e9/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/91f63c8443899206173845acb6e8e8750c1d41e9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/91f63c8443899206173845acb6e8e8750c1d41e9/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@91f63c8](https://github.com/Nebucatnetzer/manubot_test/tree/91f63c8443899206173845acb6e8e8750c1d41e9)
+from [Nebucatnetzer/manubot_test@7a2d6be](https://github.com/Nebucatnetzer/manubot_test/tree/7a2d6bed645ad60e2552706db88506d01aa0585b)
 on December 17, 2019.
 </em></small>
 
@@ -100,14 +96,10 @@ on December 17, 2019.
 
 + **Andreas Zweili**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [-](https://orcid.org/-)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [Nebucatnetzer](https://github.com/Nebucatnetzer)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [-](https://twitter.com/-)<br>
+    [Nebucatnetzer](https://github.com/Nebucatnetzer)<br>
   <small>
-     Contria GmbH
-     · Funded by -
   </small>
 
 
