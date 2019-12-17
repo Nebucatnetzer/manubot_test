@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/7a2d6bed645ad60e2552706db88506d01aa0585b/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@7a2d6be](https://github.com/Nebucatnetzer/manubot_test/tree/7a2d6bed645ad60e2552706db88506d01aa0585b)
+from [Nebucatnetzer/manubot_test@10727f7](https://github.com/Nebucatnetzer/manubot_test/tree/10727f79d30831ee230b58985902ff8b5268d65d)
 on December 17, 2019.
 </em></small>
 
@@ -105,8 +105,12 @@ on December 17, 2019.
 
 
 ## Abstract {.page_break_before}
-
-
+Dies ist die Dokumentation für die Diplomarbeit von Andreas Zweili, welche
+dieser im Rahmen seines Studiums an der IBZ Schule in Aarau erarbeitete. Die
+Diplomarbeit behandelt dabei: das Auswählen der Technologien für das Erstellen
+einer grafischen Oberfläche für das Kommandozeilen Backup Programm BorgBackup,
+die Realisierung besagter Oberflache und der dabei verwendeten Werkzeuge, die
+Projektplanung sowie die dabei aufgetretenen Probleme.
 
 
 # 1 Über dieses Dokument
