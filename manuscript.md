@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/33f330d929344a3bc8516d92b897d5bb2f4df60a/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/33f330d929344a3bc8516d92b897d5bb2f4df60a/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/33f330d929344a3bc8516d92b897d5bb2f4df60a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/33f330d929344a3bc8516d92b897d5bb2f4df60a/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@33f330d](https://github.com/Nebucatnetzer/manubot_test/tree/33f330d929344a3bc8516d92b897d5bb2f4df60a)
+from [Nebucatnetzer/manubot_test@14235b0](https://github.com/Nebucatnetzer/manubot_test/tree/14235b00585b5a9b7977d70e75c6e0874eee8545)
 on December 17, 2019.
 </em></small>
 
@@ -140,7 +140,7 @@ kann die chronologische Reihenfolge allenfalls nicht gewährleistet
 werden.
 
 
-1.4 Lizenz
+## 1.4 Lizenz
 
 
 Dieses Dokument wurde von Andreas Zweili im Rahmen der Diplomarbeit an
@@ -149,10 +149,10 @@ Dadurch darf die Arbeit unter Beibehalten der Lizenz kopiert und
 weiterverarbeitet werden. Zusätzlich muss der Urheber genannt werden.
 
 
-2 Initialisierung
+# 2 Initialisierung
 
 
-2.1 Vision
+## 2.1 Vision
 
 
 Die Software soll borg für den durchschnittlichen Computer User
@@ -165,7 +165,7 @@ Die besten Backups sind solche, bei denen man gar nicht mehr weiss,
 dass man sie hat bis man sie braucht.
 
 
-2.2 Ausgangslage
+## 2.2 Ausgangslage
 
 
 borg ist deshalb interessant, weil es während einem Backup relativ
@@ -205,7 +205,7 @@ Das Projekt muss dabei vom Studenten in Eigenarbeit und einer Zeit von
 250 Stunden bis zum 18. März 2019 erarbeitet werden.
 
 
-2.3 Projektziele
+## 2.3 Projektziele
 
 
 borg ist eine Kommandozeilen basierte Backup Software. Hauptziel
@@ -234,7 +234,7 @@ eingesetzt werden, damit es in der Zukunft möglich ist das Projekt auf
 andere Plattformen auszuweiten.
 
 
-2.3.1 Ziele inklusive Gewichtung
+### 2.3.1 Ziele inklusive Gewichtung
 
 
 Im Projektantrag wurden vorgängig folgende Ziele definiert und
@@ -247,7 +247,7 @@ Zukunft zu implementieren ist. Ein Ziel mit einer tiefen Bewertung
 sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
-2.4 Projektabgrenzung
+## 2.4 Projektabgrenzung
 
 
 Die Anwendung beschränkt sich darauf Funktionen von borg grafisch
@@ -272,7 +272,7 @@ beheben.
 <file:pictures/kontextdiagramm.pdf>
 
 
-2.5 Projektmethode
+## 2.5 Projektmethode
 
 
 Für das Projekt wurde die wasserfall gewählt. Da nur eine einzige
@@ -282,10 +282,10 @@ zueinander. Somit macht das iterative Vorgehen der wasserfall für
 dieses Projekt am meisten Sinn.
 
 
-2.6 Konfigurationsmanagement
+## 2.6 Konfigurationsmanagement
 
 
-2.6.1 Versionskontrolle
+### 2.6.1 Versionskontrolle
 
 
 Die komplette Dokumentation, der Quellcode der Applikation sowie
@@ -313,7 +313,7 @@ Auf jeden Fall sollte, sofern möglich, immer nur lauffähiger Code im
 Master Branch eingecheckt sein, damit der Master Branch immer eine
 funktionierende Software repräsentiert. Dies gilt auch für das
 Repository der Dokumentation. Der Master Branch der Dokumentation
-sollte maximal mit zwei Befehlen `make clean' und `make'
+sollte maximal mit zwei Befehlen `make clean` und `make`
 „kompilierbar“ sein.
 
 Als Software für die Versionskontrolle wurde git [git] aus den
@@ -331,7 +331,7 @@ schnelle Software erwiesen.
 * git ist libre unter der gpl v2.
 
 
-2.6.2 Editor
+## 2.6.2 Editor
 
 
 Sowohl bei der Dokumentation wie auch bei der Programmierung wurde
@@ -343,7 +343,7 @@ und sehr flexibler Texteditor ist. Von normaler Textmanipulation über
 Taskmanagement bis zu Emails schreiben ist alles möglich.
 
 
-2.6.3 Dokumentation
+### 2.6.3 Dokumentation
 
 
 Diese Dokumentation wurde in Org-mode [orgmode], einer Erweiterung für
@@ -379,7 +379,7 @@ der von Google entwickelten Design Sprache „Material“ [material]
 eingesetzt.
 
 
-2.7 Zeitplanung
+## 2.7 Zeitplanung
 
 
 Die detaillierte Zeitplanung ist dem Ganttchart in der Datei
@@ -403,7 +403,7 @@ Prozent Arbeitsstelle möglich wäre.
 <file:02_Zeitplanung_Andreas_Zweili.html>
 
 
-2.8 Controlling
+## 2.8 Controlling
 
 
 Mit dem Controlling wird die Planung mit den effektiv verwendeten
@@ -411,7 +411,7 @@ Ressourcen verglichen und ausgewertet. Somit können für zukünftige
 Projekte Lehren gezogen werden.
 
 
-2.8.1 Zeitaufwand
+### 2.8.1 Zeitaufwand
 
 
 Um den geschätzten Zeitaufwand mit dem effektiv geleisteten Aufwand zu
@@ -421,7 +421,7 @@ begründet. Die Nummer vor jeder Aufgabe in der Tabelle korreliert
 dabei mit den Aufgabennummern im Ganttchart.
 
 
-2.8.2 Ressourcen
+### 2.8.2 Ressourcen
 
 
 In der Tabelle:(26) wurden die für die Arbeit benötigten Materialen
@@ -431,7 +431,7 @@ Projektes werden die geplanten Ressourcen den effektiv verwendeten
 gegenübergestellt.
 
 
-2.8.3 Kosten
+### 2.8.3 Kosten
 
 
 Werden die internen Lohnkosten des Projektleiters auf ca. 60 CHF pro
@@ -443,7 +443,7 @@ nicht berücksichtigt. Somit sind diese nur ein rein theoretischer
 Faktor.
 
 
-2.9 Projektrisiken
+## 2.9 Projektrisiken
 
 
 Das Risikomanagement dient dazu Risiken im Projekt zu erkennen und
@@ -451,17 +451,17 @@ Massnahmen zur Vermeidung zu definieren. Dadurch steht man Risiken
 nicht unvorbereitet gegenüber, sollten sie eintreffen.
 
 
-2.9.1 Risikobeschreibung
+### 2.9.1 Risikobeschreibung
 
 
 In der Tabelle: (6) sind die Risiken des Projektes gemeinsam mit ihren
 Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits
 vorher vermieden werden.
 
-3 Analyse
+# 3 Analyse
 
 
-3.1 SWOT-Analyse
+## 3.1 SWOT-Analyse
 
 
 Die SWOT-Analyse ist eine Methode die Stärken, Schwächen, Chancen und
@@ -474,7 +474,7 @@ der Abbildung:(2) zu sehen.
 <file:pictures/swot_analyse.pdf>
 
 
-3.2 Umweltanalyse
+## 3.2 Umweltanalyse
 
 
 Die Projektumwelt-Analyse ist eine Methode die Beziehungen,
@@ -500,7 +500,7 @@ bereits während der Arbeit öffentlich zur Verfügung gestellt.
 <file:pictures/stakeholder_diagramm.pdf>
 
 
-3.3 Risiko-Analyse
+## 3.3 Risiko-Analyse
 
 
 Bei der Risiko-Analyse wird von einem durchschnittlichen Benutzer
@@ -529,7 +529,7 @@ Risiko Nr. 5 im Rahmen dieser Arbeit reduzieren kann.
 <file:pictures/sollrisiko.pdf>
 
 
-3.4 Anforderungskatalog
+## 3.4 Anforderungskatalog
 
 
 Der Anforderungskatalog entspricht 1:1 den Zielen, welche in der
@@ -538,7 +538,7 @@ auf die Muss-Ziele gelegt. Ein paar der Kann-Ziele sind im Konzept
 jedoch auch abgebildet.
 
 
-3.5 Use Cases
+## 3.5 Use Cases
 
 
 Ein Use Case sammelt alle möglichen Szenarien, die eintreten können,
@@ -551,7 +551,7 @@ beschrieben. Die Detailstufe kann dabei sehr unterschiedlich
 sein.[usecase]
 
 
-3.5.1 Anwendungsfalldiagramm
+### 3.5.1 Anwendungsfalldiagramm
 
 
 „Ein Anwendungsfalldiagramm … ist eine der 14 Diagrammarten der
@@ -566,7 +566,7 @@ zu sehen.
 <file:pictures/use_case.pdf>
 
 
-3.5.2 Use Cases Detailbeschreibung
+### 3.5.2 Use Cases Detailbeschreibung
 
 
 Use Cases werden in der Regel mithilfe einer sogenannten Use Case
@@ -584,18 +584,18 @@ Erweitern von Use Cases und zeigt einem gut die Zuständigkeiten der
 Aktoren auf.
 
 
-3.6 Benötigte Funktionalität von Borg
+## 3.6 Benötigte Funktionalität von Borg
 
 
 Damit nachvollziehbar ist welche Funktionen von borg verwendet wurden
 um die Use Cases umsetzen zu können, werden diese hier in Beziehung
 zur jeweiligen Funktion des gui aufgelistet:
-* Für das Erstellen von Archiven `borg create' [borgcreate].
-* Für das Anzeigen der Archiven `borg list' [borginfo].
-* Für das Wiederherstellen der Archive `borg extract' [borgextract].
-* Für das Löschen der Archive `borg delete' [borgdelete].
-* Zum Mounten der Archive `borg mount' [borgmount].
-* Zum Unmounten der Archive `borg umount' [borgumount].
+* Für das Erstellen von Archiven `borg create` [borgcreate].
+* Für das Anzeigen der Archiven `borg list` [borginfo].
+* Für das Wiederherstellen der Archive `borg extract` [borgextract].
+* Für das Löschen der Archive `borg delete` [borgdelete].
+* Zum Mounten der Archive `borg mount` [borgmount].
+* Zum Unmounten der Archive `borg umount` [borgumount].
 * Zum anzeigen der Repository Statistik ~borg info~[borginfo].
 
 Die detaillierte Implementation wird in der Sektion [Realisierung]
@@ -605,10 +605,10 @@ beschrieben.
 [Realisierung] siehe Abschnitt 5
 
 
-4 Konzept
+# 4 Konzept
 
 
-4.1 Varianten
+## 4.1 Varianten
 
 
 Mit der json api von borg stehen einem diverse Möglichkeiten zur
@@ -621,7 +621,7 @@ sie vor der Nutzung einen lokalen Webserver starten und diesen im
 Anschluss zur Nutzung wieder beenden müssten.
 
 
-4.1.1 Bewertung
+### 4.1.1 Bewertung
 
 
 Mit der Idee aus der „Einleitung zu den Varianten“ wurde dann eine
@@ -644,7 +644,7 @@ Variante mit der höchsten Summe wurde für das Projekt ausgewählt.
 Mussziele erhalten dabei eine Gewichtung von 10 und Wunschziele eine
 Gewichtung entsprechend der Bewertung in der Tabelle Projektziele (1).
 
-4.1.2 Backend
+### 4.1.2 Backend
 
 
 Für die Backend Programmierung bieten sich die folgende drei Sprachen
@@ -659,7 +659,7 @@ eignen.
 
 [Python] siehe Abschnitt 4.1.2.3
 
-4.1.2.1 C#
+#### 4.1.2.1 C\#
 
 
 C# ist eine von Microsoft entwickelte Programmiersprache, welche viele
@@ -719,7 +719,7 @@ Software. Dies alles führt dazu das C# nicht gerade die schnellste
 Sprache zum Programmieren ist. Jedoch aufgrund des moderneren
 Unterbaus ist sie sicher schneller als C++.
 
-4.1.2.2 C++
+#### 4.1.2.2 C++
 
 
 C++ ist eine stark typisierte und kompilierte Programmiersprache. Sie
@@ -764,7 +764,7 @@ eher umständlich zu schreiben. Hinzu kommt noch, dass man, während der
 Entwicklung immer wieder den Code kompilieren muss. In einem Projekt
 mit dieser begrenzten Zeitspanne eher ungeeignet.
 
-4.1.2.3 Python
+#### 4.1.2.3 Python
 
 
 Der Python Interpreter ist für eine Vielzahl an Betriebssystemen
@@ -823,7 +823,7 @@ Interpretierte Sprachen haben den Vorteil, dass man mit ihnen in der
 Regel sehr schnell und unkompliziert entwickeln kann, dies jedoch
 zulasten der Performance.
 
-4.1.3 Frontend
+### 4.1.3 Frontend
 
 
 Fürs Frontend sind folgende Projekte interessant: [Qt], [Gtk] und
@@ -841,7 +841,7 @@ wäre nicht mal eine ungenaue Schätzung wirklich möglich.
 
 [Electron] siehe Abschnitt 4.1.3.3
 
-4.1.3.1 Qt
+#### 4.1.3.1 Qt
 
 
 Qt [qt], „cute“ ausgesprochen, ist ein Framework zum Entwickeln von
@@ -876,7 +876,7 @@ in ein Projekt integrierbar zu sein.
 Da noch sehr wenig Kenntnisse vorhanden sind, ist der Lernfaktor
 entsprechend gross.
 
-4.1.3.2 Gtk
+#### 4.1.3.2 Gtk
 
 
 Gtk ist sowohl für Linux wie auch für Windows und OS X erhältlich. Gtk
@@ -913,7 +913,7 @@ das Gegenteil von einfach.
 Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem
 Maximum.
 
-4.1.3.3 Electron
+#### 4.1.3.3 Electron
 
 
 Electron ist ein cross-plattform Framework zum Entwickeln von gui,
@@ -955,14 +955,14 @@ und man in diesem Rahmen bereits ein paar Webapplikationen erstellt
 hat, wäre der Lernfaktor bei Electron wohl nicht so gross wie etwa bei
 Qt oder Gtk.
 
-4.1.4 Ergebnis
+### 4.1.4 Ergebnis
 
 
 Aufgrund der erreichten Punktzahl, Tabelle:(21), bei den
 vorhergehenden Variantenbewertungen, wurde entschieden für das Backend
 der Applikation auf Python zu setzen und fürs Frontend Qt zu benutzen.
 
-4.2 Applikationsname
+## 4.2 Applikationsname
 
 
 Da die einzusetzende Technologie nun feststeht lässt sich auch gut ein
@@ -973,7 +973,7 @@ erstellende gui für borg im weiteren Verlauf der Arbeit nun Borg-Qt
 genannt
 
 
-4.3 Testing
+## 4.3 Testing
 
 
 Die Anwendung wird während der Realisierung soweit als möglich mit
@@ -1003,9 +1003,9 @@ gemacht.
 
 Als Testdateien wird jeweils das Code Repository von Borg-Qt selber
 verwendet. Der Pfad des borg Repository für lokale Backups soll
-`/tmp/test-borgqt' sein, in den Testfällen „Lokales Repository“
-genannt und das Passwort `foo'. Im Makefile des Repository wird dieses
-Setup definiert. Somit kann man als Entwickler nur `make init'
+`/tmp/test-borgqt` sein, in den Testfällen „Lokales Repository“
+genannt und das Passwort `foo`. Im Makefile des Repository wird dieses
+Setup definiert. Somit kann man als Entwickler nur `make init`
 ausführen und hat eine funktionsfähige Testumgebung.
 
 Um Backups über ssh testen zu können, wird eine virtuelle Maschine mit
@@ -1014,10 +1014,10 @@ sieht dabei wie folgt aus:
 * 2 CPU Kerne
 * 1024 MB RAM
 * IP: 10.7.89.117
-* Ein User `borg' mit Passwort `borg'
-* borg Repository unter `/home/borg/backup/diplom' mit Passwort `foo',
+* Ein User `borg` mit Passwort `borg`
+* borg Repository unter `/home/borg/backup/diplom` mit Passwort `foo`,
 in den Testfällen „Server Repository“ genannt
-* Der ssh Key des Entwicklers wird in den User `borg' importiert. Dies
+* Der ssh Key des Entwicklers wird in den User `borg` importiert. Dies
 ermöglicht Passwort freie Logins.
 
 Die Testfälle werden während der Entwicklung kontinuierlich
@@ -1031,7 +1031,7 @@ Kapitel [Realisierung] beschrieben.
 [Realisierung] siehe Abschnitt 5
 
 
-4.4 Klassendiagramm
+## 4.4 Klassendiagramm
 
 
 Um die Abhängigkeiten zwischen den einzelnen Klassen der Anwendung
@@ -1045,7 +1045,7 @@ Klassennamen, welche kursiv sind, sind Klassen, welche entweder von
 Python oder Qt bereitgestellt werden.
 
 
-4.5 Usability-Studie
+## 4.5 Usability-Studie
 
 
 Um Borg-Qt auf seine Nutzerfreundlichkeit zu testen, wird im Rahmen
@@ -1068,26 +1068,26 @@ Erfahrungsstufen behilflich sein soll. Die Angaben in der Tabelle:(22)
 sind jedoch die Selbsteinschätzung der Probanden und nicht die des
 Projektleiters.
 
-4.5.1 Aufgaben
+### 4.5.1 Aufgaben
 
 
 1. Du möchtest deine Dateien sichern. Erstelle dazu eine
-    Datensicherung des Ordners `/home/testuser/Downloads'.
+    Datensicherung des Ordners `/home/testuser/Downloads`.
 2. Du hast aus Versehen die Datei
-    `/home/testuser/Downloads/Example.pdf' gelöscht. Stelle die Datei
+    `/home/testuser/Downloads/Example.pdf` gelöscht. Stelle die Datei
     wieder her. Am Ende soll sie unter
-    `/home/testuser/Documents/Example.pdf' zu finden sein.
+    `/home/testuser/Documents/Example.pdf` zu finden sein.
 3. Stelle ein beliebiges Archiv wieder her. Der Zielpfad ist
-    `/home/testuser/Documents/'.
+    `/home/testuser/Documents/`.
 4. Lösche ein Archiv deiner Wahl.
-5. Du möchtest, dass der Ordner `/home/testuser/Pictures/' nicht mehr
+5. Du möchtest, dass der Ordner `/home/testuser/Pictures/` nicht mehr
     gesichert wird. Konfiguriere die Applikation entsprechend.
 
 
-4.5.2 Resultate
+### 4.5.2 Resultate
 
 
-4.5.2.1 Proband 1
+#### 4.5.2.1 Proband 1
 
 
 Der Proband fand die Aufgaben grundsätzlich einfach zu lösen. Dass die
@@ -1095,7 +1095,7 @@ Der Proband fand die Aufgaben grundsätzlich einfach zu lösen. Dass die
 hat er nicht erkannt.
 
 
-4.5.2.2 Proband 2
+#### 4.5.2.2 Proband 2
 
 
 Der Proband kam mit den Aufgaben insgesamt gut klar. Bei der ersten
@@ -1105,7 +1105,7 @@ Funktion nicht genutzt zum Wiederherstellen einer einzelnen Datei.
 Text Hinweise wurden nur bedingt wahrgenommen.
 
 
-4.5.2.3 Proband 3
+#### 4.5.2.3 Proband 3
 
 
 Proband 3 kam mit der Anwendung an sich gut klar. Die Aufgabe Zwei
@@ -1122,7 +1122,7 @@ welcher unter gewissen Umständen Probleme beim Erstellen von Archiven
 machte. Die detaillierte Lösung dafür ist im Kapitel 5 beschrieben.
 
 
-4.5.2.4 Proband 4
+#### 4.5.2.4 Proband 4
 
 
 Bei Proband 4 war die grösste Hürde, dass das Interface nur in
@@ -1132,7 +1132,7 @@ dem Rechtsklick gewünscht. Mit etwas Hilfe bei der Übersetzung waren
 die restlichen Aufgaben jedoch gut zu meistern.
 
 
-4.5.2.5 Probandin 5
+#### 4.5.2.5 Probandin 5
 
 
 Probandin 5 mit der Anwendung insgesamt sehr gut klar und hat auch als
@@ -1141,7 +1141,7 @@ Aufgabe 2 war jedoch auch schwierig zu lösen, danach ging es jedoch
 ohne Probleme.
 
 
-4.5.3 Auswertung
+### 4.5.3 Auswertung
 
 
 Alle Testpersonen konnten die Applikation nach anfänglichen
@@ -1189,10 +1189,10 @@ Ordner ein-/ausschliessen. Ein paar der Probanden hatten es zuerst
 über den „Remove“ Button versucht.
 
 
-5 Realisierung
+# 5 Realisierung
 
 
-5.1 Cross-plattform Kompatibilität
+## 5.1 Cross-plattform Kompatibilität
 
 
 Um sicherzugehen, dass die gewählten Technologien auch den
@@ -1204,10 +1204,10 @@ Abbildung:(14) zu sehen ist.
 <file:pictures/hello_world.png>
 
 
-5.2 Benutzerinterface
+## 5.2 Benutzerinterface
 
 
-5.2.1 Inspiration
+### 5.2.1 Inspiration
 
 
 In der Vorstudie zur Diplomarbeit wurde borg mit der Software „Back in
@@ -1223,7 +1223,7 @@ es dem User so einfach wie möglich macht ein Backup zu erstellen.
 <file:pictures/bit_main.png>
 
 
-5.2.2 Erste Umsetzung
+### 5.2.2 Erste Umsetzung
 
 
 Qt bietet einem mehrere Möglichkeiten zum Erstellen der grafischen
@@ -1280,7 +1280,7 @@ Tasks gleichermassen genutzt werden kann.
 <file:pictures/borgqt_progress_v1.png>
 
 
-5.3 Einstellungen
+## 5.3 Einstellungen
 
 
 Die Einstellungen werden von der Applikation benötigt, um die vom User
@@ -1292,11 +1292,11 @@ Applikation auch anpassen, ohne dass man die Applikation selber
 starten muss.
 
 
-5.3.1 Backend
+### 5.3.1 Backend
 
 
 Zum Erstellen und Auslesen der Konfigurationsdatei wurde das Python
-Standard Modul `configparser' [configparser] verwendet. Dieses macht
+Standard Modul `configparser` [configparser] verwendet. Dieses macht
 es einem sehr einfach eine Datei im „INI“ Stil zu erstellen und
 parsen.
 
@@ -1321,18 +1321,18 @@ Programmlisting 2 Ein Beispiel einer INI Datei.
 
 Das Auslesen und Schreiben der Konfigurationsdatei liess sicher
 relativ einfach realisieren. Die grösste Herausforderung dabei war,
-dass `Configparser' keinen Support für eine Liste von Werten hat. Die
-wurde insbesondere für `include' und `exclude' Pfade benötigt. Also
+dass `Configparser` keinen Support für eine Liste von Werten hat. Die
+wurde insbesondere für `include` und `exclude` Pfade benötigt. Also
 für die Pfade, welche gesichert werden oder von einem Backup
 ausgeschlossen werden sollen.
 
 Abhilfe schaffte hier ein Stackexchange Post [configlist]. Dieser
 schlug vor, dass man die Liste im json Format speichern soll. Da
-`Configparser' alle Werte im Format „String“ zurückgibt, können dann
+`Configparser` alle Werte im Format „String“ zurückgibt, können dann
 die json Listen sehr einfach von einem json Parser umgewandelt werden.
-Im Projekt wurde dies dann unter anderem als Methode der `Config'
+Im Projekt wurde dies dann unter anderem als Methode der `Config`
 Klasse, Code Snippet:(3), implementiert. Somit muss man jeweils nur
-die `_return_list_option()' Methode mit der benötigten Option als
+die `_return_list_option()` Methode mit der benötigten Option als
 Argument aufrufen und bekommt als Resultat eine funktionierende Python
 Liste zurück.
 
@@ -1345,8 +1345,8 @@ Umgekehrte. Man konvertiert eine Python Liste in einen json String.
  def _return_list_option(self, option):
      """Reads the provided option from the configparser object and returns
      it as a list."""
-     if option in self.config['borgqt']:
-         return json.loads(self.config['borgqt'][option])
+     if option in self.config[`borgqt`]:
+         return json.loads(self.config[`borgqt`][option])
      else:
          return []
 ```
@@ -1357,26 +1357,26 @@ Konfigurationsdateien.
 Die Datei wird jeweils beim Start der Applikation gelesen und
 angewendet. Somit weiss die Applikation bereits nach dem Start wo das
 Repository liegen sollte und wie die Login Daten dafür sind. Dies
-geschieht mittels der Methode `_get_path', Codesnippet:(4). Es gibt
+geschieht mittels der Methode `_get_path`, Codesnippet:(4). Es gibt
 dabei zwei mögliche Pfade, wo die Konfigurationsdatei liegen könnte.
 Befindet sich die Datei nicht am vorgegeben Pfad
-`~/.config/borg_qt/borg_qt.conf' oder direkt „neben“ dem Binary, gibt
+`~/.config/borg_qt/borg_qt.conf` oder direkt „neben“ dem Binary, gibt
 die Applikation eine entsprechende Meldung, Abbildung:(22), aus. Der
-Hauptpfad unter `~/.config/borg_qt/borg_qt.conf' wird dabei gemäss dem
-Ziel Nr. 21 über die Umgebungsvariable `HOME' zusammengesetzt
+Hauptpfad unter `~/.config/borg_qt/borg_qt.conf` wird dabei gemäss dem
+Ziel Nr. 21 über die Umgebungsvariable `HOME` zusammengesetzt
 
 ``` python
  # borg_qt/config.py
 
  def _get_path(self):
      """searches for the configuration file and returns its full path."""
-     home = os.environ['HOME']
+     home = os.environ[`HOME`]
      dir_path = os.path.dirname(os.path.realpath(__file__))
 
-     if os.path.exists(os.path.join(home, '.config/borg_qt/borg_qt.conf')):
-         return os.path.join(home, '.config/borg_qt/borg_qt.conf')
-     elif os.path.exists(os.path.join(dir_path, 'borg_qt.conf')):
-         return os.path.join(dir_path, 'borg_qt.conf')
+     if os.path.exists(os.path.join(home, `.config/borg_qt/borg_qt.conf`)):
+         return os.path.join(home, `.config/borg_qt/borg_qt.conf`)
+     elif os.path.exists(os.path.join(dir_path, `borg_qt.conf`)):
+         return os.path.join(dir_path, `borg_qt.conf`)
      else:
          raise BorgException("Configuration file not found!")
 ```
@@ -1386,7 +1386,7 @@ Programmlisting 4 Methode zum Suchen der Konfigurationsdatei
 <file:pictures/borgqt_missing_config.png>
 
 
-5.3.2 Frontend
+### 5.3.2 Frontend
 
 
 Zur Vereinfachung der Bedienbarkeit wurde die Applikation, um eine
@@ -1396,14 +1396,14 @@ hauptsächlich die Werte aus der Konfigurationsdatei grafisch dar und
 Konfiguration, dann wieder in der Datei speichert.
 
 Qt kennt keinen Mechanismus zum Auslesen aller Elemente aus einem
-sogenannten `QListWidget', einem gui Element, welches Listen
+sogenannten `QListWidget`, einem gui Element, welches Listen
 darstellt. Die Elemente müssen somit zuerst in einer Zwischenliste
-gespeichert werden, bevor sie zurück in das `Configparser' Objekt
+gespeichert werden, bevor sie zurück in das `Configparser` Objekt
 geschrieben. Im Code sieht dies dann wie in Codesnippet:(5) aus. Dabei
-wird jedes Element einzeln aus dem `QListWidget' geholt und in die
+wird jedes Element einzeln aus dem `QListWidget` geholt und in die
 Zwischenliste geschoben. Im zweiten Teil wird die Liste dann wieder zu
-einem json String konvertiert und im `Configparser' Objekt
-gespeichert. Die Option `indent=4' dient dabei der Lesbarkeit, damit
+einem json String konvertiert und im `Configparser` Objekt
+gespeichert. Die Option `indent=4` dient dabei der Lesbarkeit, damit
 nicht der ganze json String auf ein Zeile in der Konfigurationsdatei
 gespeichert wird, sondern jedes Listenelement seine eigene Zeile
 erhält.
@@ -1416,9 +1416,9 @@ erhält.
  for index in range(self.list_include.count()):
      includes.append(self.list_include.item(index).text())
 
- # Configparser doesn't know about list therefore we store them as json
+ # Configparser doesn`t know about list therefore we store them as json
  # strings
- self.config['borgqt']['includes'] = json.dumps(includes,
+ self.config[`borgqt`][`includes`] = json.dumps(includes,
                                                 indent=4,
                                                 sort_keys=True)
 ```
@@ -1426,7 +1426,7 @@ Programmlisting 5 Workaround zum Auslesen aller Elemente in
 QListWidgets.
 
 
-5.4 Borg Interface
+## 5.4 Borg Interface
 
 
 Zuerst erschien es sinnvoll die Kommunikation zwischen borg und
@@ -1436,42 +1436,42 @@ Informationen zu verarbeiten und weiterzugeben, zum anderen führte es
 zu dem unschönen Nebeneffekt, dass das gui eingefroren ist. Eine
 Recherche ergab, dass Threads hier Abhilfe schaffen könnten.
 
-Python liefert für Threads das Modul `threading.Thread' [threading],
+Python liefert für Threads das Modul `threading.Thread` [threading],
 mit. In der Praxis lies sich der Fortschrittsdialog und der Thread
 jedoch nicht so verknüpfen das sich der Dialog schliesst, wenn das
 Backup durchgelaufen ist und der Thread wieder entfernt wird. Aus
 diesem Grund wurde dann ein erfolgreicher Test mit dem PyQt Modul
-`QThread' [qthread] gemacht. Nach Beendigung des Backups wird der
+`QThread` [qthread] gemacht. Nach Beendigung des Backups wird der
 Fortschrittsdialog automatisch geschlossen. Auch das Stoppen des
 Threads mit einem Klick auf den „Cancel“ Button funktioniert
 einwandfrei.
 
 Damit borg aus der Anwendung angesteuert werden kann wird das Python
-Modul `subprocess' [subprocess] verwendet. Dieses erlaubt einem neue
+Modul `subprocess` [subprocess] verwendet. Dieses erlaubt einem neue
 Prozesse zu erstellen, welche man oftmals benötigt um etwa, wie im
 Fall von Borg-Qt, externe Applikationen zu starten, zu steuern und
 ihre Ausgabewerte auszulesen. Das effektive Kommando wird dann aus dem
-Property `self.command' gelesen.
+Property `self.command` gelesen.
 
 Damit borg die Ausgabe im json Format ausgibt, muss man man noch die
-Parameter `--log-json' und `--json' mitgeben. Der erste Parameter
+Parameter `--log-json` und `--json` mitgeben. Der erste Parameter
 ändert hauptsächlich das Format von Errormeldungen und der zweite
 formatiert dann die finale Ausgabe. Die Ausgaben werden jeweils an
-Variablen weitergegeben (`json_output' und `json_error') welche im
+Variablen weitergegeben (`json_output` und `json_error`) welche im
 weiteren Code verarbeitet werden.
 
-Insbesondere `json_error' ist für den weiteren Programmablauf von
+Insbesondere `json_error` ist für den weiteren Programmablauf von
 grosser Wichtigkeit. Wenn Borg ein Problem feststellt, wird die Error
-Meldung von borg an `json_error' weitergegeben. Mittels der Methode im
+Meldung von borg an `json_error` weitergegeben. Mittels der Methode im
 Codesnippet:(6), wird die Variabel ausgewertet und im Falle eines
 Fehlers wirft der Code eine Exception, welche im Hauptprogramm
 abgefangen wird. Dabei wird eine Fehlermeldung in einem separaten
 Fenster ausgegeben. Die Methode wurde dabei auf der Klasse
-`BorgQtThread' umgesetzt und steht somit allen Funktionen zur
+`BorgQtThread` umgesetzt und steht somit allen Funktionen zur
 Verfügung. Die Fehlermeldung bei einer fehlenden Konfigurationsdatei,
 Abbildung:(22), funktioniert nach dem gleichen Prinzip und konnte
 somit zum grössten Teil wiederverwendet werden. Der restliche json
-Output kann dann einfach mit dem `json' Modul geparst werden. Somit
+Output kann dann einfach mit dem `json` Modul geparst werden. Somit
 werden dem User, gemäss Ziel Nr. 14, direkt die Fehlermeldungen von
 borg angezeigt und es muss nur an gewissen Stellen noch
 applikationsspezifisches Exception Handling betrieben werden.
@@ -1481,26 +1481,26 @@ applikationsspezifisches Exception Handling betrieben werden.
 
  def process_json_error(self, json_err):
      if json_err:
-         error_list = json_err.split('\n')
+         error_list = json_err.split(`\n`)
          if "borg.locking" in error_list[0]:
              pass
          else:
              err = json.loads(error_list[0])
-             raise BorgException(err['message'])
+             raise BorgException(err[`message`])
 ```
 
 Programmlisting 6 Auswertung der json err Variabel.
 
-Die ganze Funktionalität wurde dann in der Klasse `BorgQtThread'
+Die ganze Funktionalität wurde dann in der Klasse `BorgQtThread`
 zusammengefasst. Somit kann für jede Funktion von borg eine einzelne
-Klasse geschrieben werden, welche dann von `BorgQtThread' die
+Klasse geschrieben werden, welche dann von `BorgQtThread` die
 Funktionen erbt. Die Funktionsklassen müssen dann jeweils nur die
-Methode `self.create_command(self)' implementieren, welche das
-Property `self.command' erstellt und die einfachen Funktionen von borg
+Methode `self.create_command(self)` implementieren, welche das
+Property `self.command` erstellt und die einfachen Funktionen von borg
 sollten direkt funktionieren.
 
 
-5.5 Backup
+## 5.5 Backup
 
 
 Daten zu sichern ist die primäre Funktion von Borg-Qt. Deshalb soll
@@ -1508,13 +1508,13 @@ das Erstellen eines Backups so schnell und unkompliziert wie möglich
 vonstattengehen.
 
 
-5.5.1 Backend
+### 5.5.1 Backend
 
 
-Um Backups erstellen zu können, wurde die Klasse `BackupThread'
-erstellt, welche von `BorgQtThread' erbt. Die Klasse `BackupThread'
-nimmt beim instantiieren 3 Argumente auf: `includes', `excludes',
-`prefix'. Wobei `excludes' und `prefix' beide optional sind. Im
+Um Backups erstellen zu können, wurde die Klasse `BackupThread`
+erstellt, welche von `BorgQtThread` erbt. Die Klasse `BackupThread`
+nimmt beim instantiieren 3 Argumente auf: `includes`, `excludes`,
+`prefix`. Wobei `excludes` und `prefix` beide optional sind. Im
 Hauptcode werden diese Argumente aus der Konfigurationsdatei
 ausgelesen und übergeben. Die Includes werden im Falle eines Backups
 im Hintergrund aus der Konfigurationsdatei gelesen. Wenn es der User
@@ -1525,11 +1525,11 @@ zusätzliche Anführungszeichen um die Exclude Pfade. Diese wurden aus
 Versehen hinzugefügt, da borg normalerweise auf der Kommandozeile
 ausgeführt wird und die Anführungszeichen dort notwendig sind, um
 allfällige Leer- oder Sonderzeichen abzufangen. Es wurde davon
-ausgegangen, dass das `subprocess' Modul ähnlich funktioniert wie die
+ausgegangen, dass das `subprocess` Modul ähnlich funktioniert wie die
 Kommandozeile. Da man an das Modul direkt einen String übergibt, sind
 die zusätzlichen Anführungszeichen nicht notwendig und führen sogar
 dazu, dass die Pfade gar nicht funktionieren. Somit werden die
-„Excludes“ mittels der Methode `_process_excludes' mit dem
+„Excludes“ mittels der Methode `_process_excludes` mit dem
 entsprechenden Parameter gepaart und als gesamte Liste an das finale
 Kommando angehängt. Die „Includes“ funktionieren auf die gleiche
 Weise, benötigen jedoch keine zusätzlichen Parameter. Zu sehen ist
@@ -1542,17 +1542,17 @@ dies im Codesnippet:(7).
      processed_items = []
      if excludes:
          for item in excludes:
-             processed_items.extend(['-e', item])
+             processed_items.extend([`-e`, item])
          return processed_items
      else:
          return processed_items
 
  # Methode zum Erstellen des gls:borg Kommandos.
  def create_command(self):
-     self.command = ['borg', 'create', '--log-json', '--json',
-                     ('::'
+     self.command = [`borg`, `create`, `--log-json`, `--json`,
+                     (`::`
                          + self.prefix
-                         + '{now:%Y-%m-%d_%H:%M:%S}')]
+                         + `{now:%Y-%m-%d_%H:%M:%S}`)]
      self.command.extend(self.includes)
      if self.excludes:
          self.command.extend(self.excludes)
@@ -1562,14 +1562,14 @@ Programmlisting 7 Erstellen des „borg create“ Kommandos fürs erstellen
 von Backups.
 
 
-5.5.2 Frontend
+### 5.5.2 Frontend
 
 
 Damit die Backups im Frontend funktionieren, musste zum einen der
-„Backup“ Knopf mit der Methode `create_backup' verknüpft werden. Des
+„Backup“ Knopf mit der Methode `create_backup` verknüpft werden. Des
 Weiteren wurde ein Dateibaum, in Abbildung:(23) grün umrahmt,
 eingefügt. Dieser gibt den Pfad des angewählten Objektes and die
-`create_backup' Methode weiter.
+`create_backup` Methode weiter.
 
 <file:pictures/borgqt_file_tree.png>
 
@@ -1601,9 +1601,9 @@ wiederholenden Ladebalken ersetzt.
 Wurde das Archiv erfolgreich erstellt, wird die Liste mit den Archiven
 sowie die Repository Statistik aktualisiert. Beide Elemente sind in
 der Abbildung:(25), grün respektive rot umrahmt. Für die beiden
-Funktionen wurde jeweils eine eigene Klasse, `ListThread' und
-`InfoThread', erstellt. Beide erben von `BorgQtThread'. In den Klassen
-wird wie bei `BackupThread' borg über einen `subprocess' aufgerufen,
+Funktionen wurde jeweils eine eigene Klasse, `ListThread` und
+`InfoThread`, erstellt. Beide erben von `BorgQtThread`. In den Klassen
+wird wie bei `BackupThread` borg über einen `subprocess` aufgerufen,
 um die Archiv Liste respektive Statistik zurückzuerhalten Die json
 Strings werden wieder auf die jeweilige Information geparst und die
 Archive in eine Python Liste, die Repository Statistik, in Zahlen
@@ -1611,7 +1611,7 @@ umgewandelt.
 
 Da borg die Repository Grössen in Bytes zurückgibt, sollten diese zur
 Anzeige noch in eine Menschen lesbarses Format umgerechnet werden. In
-Borg-Qt geschieht dies mit der Helferfunktion `convert_size'. Die
+Borg-Qt geschieht dies mit der Helferfunktion `convert_size`. Die
 Funktion wurde von Stackoverflow [sizeformat] übernommen.
 
 Beim Durchführen der Usability-Studie wurde noch ein Bug entdeckt
@@ -1632,7 +1632,7 @@ Datensicherung, wie wenn kein Archiv gemountet gewesen wäre.
 [Erste Umsetzung] siehe Abschnitt 5.2.2
 
 
-5.6 Restore
+## 5.6 Restore
 
 
 Der Code für das Wiederherstellen eines Archivs ist sehr ähnlich wie
@@ -1669,7 +1669,7 @@ Wird das gleiche Archiv nochmal an den gleichen Zielort
 wiederhergestellt, werden bereits vorhandene Dateien überschrieben.
 
 
-5.7 Mount
+## 5.7 Mount
 
 
 Die „Mount“ Funktion prüft zuerst ob der Benutzer ein Archiv angewählt
@@ -1677,11 +1677,11 @@ hat und gibt, falls dies nicht der Fall ist, eine entsprechende
 Fehlermeldung aus. Im Gegensatz zur „Restore“ Funktion zeigt die
 „Mount“ Funktion jedoch keinen Dialog zum Auswählen des Zielpfades.
 Die Funktion erstellt sich diesen selbst. Der Zielpfad ist dabei
-kombiniert aus dem `/tmp' Verzeichnis und dem Namen des Archivs
+kombiniert aus dem `/tmp` Verzeichnis und dem Namen des Archivs
 
 borg mountet jedes Archiv nur mit Leserechten. Es ist relativ
 unwahrscheinlich, dass der Zielpfad in unbeschreibbarer Form bereits
-vor dem Ausführen der `mount_backup' Methode bereits vorhanden ist.
+vor dem Ausführen der `mount_backup` Methode bereits vorhanden ist.
 Ist dies der Fall kann davon ausgegangen werden, dass der Benutzer das
 Archiv bereits einmal gemountet hat. Genau dies wird in der
 Applikation auch so überprüft. Hat die Applikation Schreibrechte auf
@@ -1699,7 +1699,7 @@ Ordner. Somit befindet sich das System wieder im gleichen Zustand wie
 vor dem Start der Applikation.
 
 
-5.8 Delete
+## 5.8 Delete
 
 
 Soll ein Archiv gelöscht werden wird, wie bei der „Restore“ und
@@ -1713,7 +1713,7 @@ aktualisiert, um den neuen Zustand wiederzugeben.
 <file:pictures/borgqt_yes_no.png>
 
 
-5.9 Automatische Backups
+## 5.9 Automatische Backups
 
 
 Damit der Benutzer die Backups nicht von Hand machen muss, ist es
@@ -1724,10 +1724,10 @@ allgemeinen Trubel des Lebens nicht vergessen gehen.
 Voraussetzung für automatisierte Backups ist, dass die Datensicherung
 ohne gui gestartet werden kann. Bei Borg-Qt wird dies über einen
 Kommandozeilen Parameter realisiert. Hierfür wurde das Python Standard
-Paket `argparser' verwendet. Konkret bedeutet dies, dass wenn die
+Paket `argparser` verwendet. Konkret bedeutet dies, dass wenn die
 Applikation auf der Kommandozeile mit folgendem Befehl ausgeführt
-wird: `borg_qt -B'. Wird die grafische Oberfläche nicht angezeigt und
-es wird direkt die Methode `background_backup' der Klasse `MainWindow'
+wird: `borg_qt -B`. Wird die grafische Oberfläche nicht angezeigt und
+es wird direkt die Methode `background_backup` der Klasse `MainWindow`
 ausgeführt. Dabei werden alle Ordner, welche in den Einstellungen
 unter „Include“ sowie „Exclude“ gespeichert wurden, im Archiv
 gesichert, respektive davon ausgeschlossen. Damit sind die
@@ -1760,13 +1760,13 @@ Systemd ist ein init System, welches dazu dient dazu die
 Benutzerumgebung und die dazugehörigen Prozesse zu starten und zu
 verwalten [systemd]. Die Prozesse werden über sogenannte „Services“
 gestartet. Die Services werden dabei einfach in Klartextdateien mit
-der Dateiendung `.service' definiert. Der Inhalt orientiert sich dabei
+der Dateiendung `.service` definiert. Der Inhalt orientiert sich dabei
 praktischerweise am „INI“ Stil. In Borg-Qt wurde das INI Format
 bereits bei den Konfigurationsdateien verwendet. Somit können die dort
-gesammelte Erfahrungen zur Implementation von `configparser'
+gesammelte Erfahrungen zur Implementation von `configparser`
 wiederverwendet werden. Soll ein Service in einem gewissen
 Zeitintervall ausgeführt werden, benötigt Systemd eine weitere Datei
-mit dem gleichen Namen jedoch mit der Dateiendung `.timer' . Der
+mit dem gleichen Namen jedoch mit der Dateiendung `.timer` . Der
 Inhalt ist auch wieder im INI Stil gehalten. Systemd versteht eine
 Vielzahl an Datumsformaten [systemddate]. In Borg-Qt wurden zwei
 Varianten in den Einstellungen umgesetzt. Eine, welche „Predefined
@@ -1777,37 +1777,37 @@ Systemd unterstützten Formate „hourly, daily, weekly und monthly“
 ein Archiv erstellt. Mit der Custom Option kann der Benutzer sich den
 Zeitplan individueller gestalten. Etwa „jeden Mittwoch um 12:00 Uhr“
 für Systemd übersetzt würde dieser Zeitplan dann so aussehen:
-`Wednesday *-*-* 12:00:00'. Für spätere Versionen von Borg-Qt wäre es
+`Wednesday *-*-* 12:00:00`. Für spätere Versionen von Borg-Qt wäre es
 allenfalls auch möglich die Auswahl von mehreren Wochentagen zu
 ermöglichen, damit der Benutzer etwa folgenden Zeitplan erstellen
 könnte „Montag, Mittwoch, Freitag stündliche Backups.“ (`Monday,
-Wednesday, Friday *-*-* *:00:00').
+Wednesday, Friday *-*-* *:00:00`).
 
 <file:pictures/borgqt_settings_schedule.png>
 
 Das Erstellen der eigentlichen Systemd Konfiguration passiert in
-Borg-Qt in der `Config' Klasse zum gleichen Zeitpunkt, wie die
+Borg-Qt in der `Config` Klasse zum gleichen Zeitpunkt, wie die
 eigentliche Konfigurationsdatei geschrieben wird. Zum Schreiben und
 de-/aktivieren des Systemd Services, respektive Timers wurde eine
-Klasse `SystemdFile' erstellt. Somit könnte die Funktion auch einfach
+Klasse `SystemdFile` erstellt. Somit könnte die Funktion auch einfach
 in einem anderen Projekt verwendet werden.
 
 Systemd benötigt zum Starten der Anwendung den absoluten Pfad in der
-Service Datei. Da davon ausgegangen werden kann, das Borg-Qt im `PATH'
-des Systems abgelegt wird, wurde das Unix Tool `which' verwendet, um
+Service Datei. Da davon ausgegangen werden kann, das Borg-Qt im `PATH`
+des Systems abgelegt wird, wurde das Unix Tool `which` verwendet, um
 den exakten Speicherort zu erhalten. Mittels des Befehls `which
-borg-qt' erhält man den absoluten Speicherort der Datei. Zusammen mit
+borg-qt` erhält man den absoluten Speicherort der Datei. Zusammen mit
 den Daten aus den Einstellungen wird diese Information in einem
-`Configparser' Objekt gespeichert, welches dann mithilfe der
-`SystemdFile' Klasse in eine `borg_qt.service', Codesnippet:(8),
-respektive `borg_qt.timer', Codesnippet:(9), Datei, im Systemd Pfad
-`/home/username/.config/systemd/user/' geschrieben und aktiviert wird.
+`Configparser` Objekt gespeichert, welches dann mithilfe der
+`SystemdFile` Klasse in eine `borg_qt.service`, Codesnippet:(8),
+respektive `borg_qt.timer`, Codesnippet:(9), Datei, im Systemd Pfad
+`/home/username/.config/systemd/user/` geschrieben und aktiviert wird.
 
-Eine Option in der Datei `borg_qt.timer', die noch erwähnenswert ist,
-ist `Persistent = true'. Ist `Persistent' auf `true' gesetzt, holt
+Eine Option in der Datei `borg_qt.timer`, die noch erwähnenswert ist,
+ist `Persistent = true`. Ist `Persistent` auf `true` gesetzt, holt
 Systemd den Tasks nach sollte er eine Ausführung verpasst haben. Dies
-ist insbesondere dann hilfreich, wenn etwa der Zeitplan auf `daily'
-oder `weekly' gesetzt wurde. Sollte also etwa jeden Mittwoch ein
+ist insbesondere dann hilfreich, wenn etwa der Zeitplan auf `daily`
+oder `weekly` gesetzt wurde. Sollte also etwa jeden Mittwoch ein
 Backup gemacht werden aber der Computer lief an diesem Tag nicht,
 startet Systemd Borg-Qt, sobald der Computer das nächste Mal
 eingeschaltet wird kommt.
@@ -1839,7 +1839,7 @@ Programmlisting 8 Systemd Service Datei für Borg-Qt
 Programmlisting 9 Systemd Timer Datei für Borg-Qt
 
 
-5.10 GUI Anpassungen nach Usability-Studie
+## 5.10 GUI Anpassungen nach Usability-Studie
 
 
 Im Rahmen der durchgeführten [Usability-Studie] machten die User
@@ -1877,12 +1877,12 @@ der Diplomarbeit gestoppt.
 [Usability-Studie] siehe Abschnitt 4.5
 
 
-5.11 Releases
+## 5.11 Releases
 
 
 Für die finale Veröffentlichung wird Borg-Qt als ein sogenanntes
 ausführbares „Binary“ zur Verfügung gestellt. Man kennt diese auf
-Windows Systemen etwa als die Dateien mit der Endung `.exe'. Beim
+Windows Systemen etwa als die Dateien mit der Endung `.exe`. Beim
 Binary handelt es sich um ein selbst entpackendes Dateiarchiv.
 Sämtliche benötigten Python Module und sonstige Dateien wie etwa die
 Icons oder gui Definitionsdateien sind darin enthalten.
@@ -1901,8 +1901,8 @@ Codesnippet:(10). Pfade zusätzlicher Dateien wie etwa Icons müssen mit
 angegeben werden. PyInstaller kann diese sonst nicht in das Binary
 einbinden. Der gezeigte Code wurde dabei in ein Makefile
 implementiert. Somit kann man in der obersten Ebene des Repository
-einfach den Befehl `make' ausführen und das Binary wird im Ordner
-`dist' erstellt.
+einfach den Befehl `make` ausführen und das Binary wird im Ordner
+`dist` erstellt.
 
 ```
  pyinstaller --hidden-import=PyQt5.sip \
@@ -1921,7 +1921,7 @@ der gpl zu folgen sowie um Benutzern die Möglichkeit zu geben den Code
 vor einer Nutzung zu überprüfen und als sicher zu befinden.
 
 
-5.12 Kontrollieren der Testfälle
+## 5.12 Kontrollieren der Testfälle
 
 
 Am 25.02.2019 würden gemäss dem Zeitplan die Testfälle durchgegangen.
@@ -1933,10 +1933,10 @@ noch nicht umgesetzt. Die Resultate wurden in der Tabelle:(29)
 erfasst.
 
 
-6 Ausblick/Fazit
+# 6 Ausblick/Fazit
 
 
-6.1 Zielbewertung
+## 6.1 Zielbewertung
 
 
 In der nachfolgenden Tabelle:(25) wurden die Ziele nach „Erfüllt“,
@@ -1945,7 +1945,7 @@ entspricht dabei der Ziel-Nr. in der Tabelle:(1). In der Spalte
 Bemerkung wird noch kurz ausgeführt, in welcher Form das Ziel bewiesen
 wurde.
 
-6.1.1 Risikoanalyse der neuen Ist-Situation
+### 6.1.1 Risikoanalyse der neuen Ist-Situation
 
 
 Das Ist-Riskio in der Sektion [Risiko-Analyse] könnte wie
@@ -1964,7 +1964,7 @@ Risikobewertung als das geplante [Soll-Risiko].
 [Soll-Risiko] See figure 5
 
 
-6.2 Projektmanagement
+## 6.2 Projektmanagement
 
 
 Das zu Beginn erstellte Gantt Chart war sehr hilfreich, um den
@@ -1993,7 +1993,7 @@ roten Faden während der Entwicklung zu behalten waren sie sehr
 hilfreich.
 
 
-6.2.1 Zeitaufwand
+### 6.2.1 Zeitaufwand
 
 
 Der Zeitaufwand ist wie in Tabelle:(28) zu sehen, leicht tiefer als
@@ -2001,14 +2001,14 @@ geplant. Dies ist vor allem auf die Zeitersparnisse bei der
 Realisierung zurückzuführen.
 
 
-6.2.2 Ressourcen
+### 6.2.2 Ressourcen
 
 
 Die im Projekt eingesetzten Ressourcen entsprechen den in der
 Tabelle:(26) geplanten 1:1.
 
 
-6.2.3 Kosten
+### 6.2.3 Kosten
 
 
 Da die geleisteten Stunden tiefer als geplant waren, sind auch die
@@ -2017,7 +2017,7 @@ sich die angenommenen, internen Kosten für die Arbeit auf ca. 17302.20
 CHF belaufen. Dies stellt eine Einsparung von 1777.8 CHF dar.
 
 
-6.3 Usability-Studie
+## 6.3 Usability-Studie
 
 
 Die Studie war eine sehr interessante Erfahrung. Enduser sehen eine
@@ -2039,7 +2039,7 @@ Eine Usability-Studie ist auf jeden Fall etwas, was man bei
 zukünftigen Software Projekten, wieder machten sollte.
 
 
-6.4 Umsetzung
+## 6.4 Umsetzung
 
 
 Die Entwicklung mit Qt und Python ging sehr gut von der Hand. Die
@@ -2074,7 +2074,7 @@ Sicherheit eines der Hauptthemen zum Lernen in den nächsten paar
 Monaten sein.
 
 
-6.5 Weiterverwendung von Borg-Qt
+## 6.5 Weiterverwendung von Borg-Qt
 
 
 Borg-Qt wird als Freizeitprojekt des Projektleiters weiter geführt.
@@ -2092,24 +2092,17 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu
 sichern.
 
 
-7 Anhang
+# 7 Anhang
 
+## 7.1 Ressourcen
 
-7.1 Ressourcen
+## 7.2 Kosten
 
+## 7.3 Zeitaufwand
 
-7.2 Kosten
+## 7.4 Testfälle
 
-
-
-7.3 Zeitaufwand
-
-
-
-7.4 Testfälle
-
-
-7.7 Meeting Protokolle
+## 7.7 Meeting Protokolle
 
 
 Die Meeting Protokolle sind in der Datei [03_Meeting_Protokolle.pdf]
