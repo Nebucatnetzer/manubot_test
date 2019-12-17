@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/d88c309fcc04c2de71c5c370f3c0fa11bea7c1d1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d88c309fcc04c2de71c5c370f3c0fa11bea7c1d1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d88c309fcc04c2de71c5c370f3c0fa11bea7c1d1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/d88c309fcc04c2de71c5c370f3c0fa11bea7c1d1/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@8293774](https://github.com/Nebucatnetzer/manubot_test/tree/8293774e698048e1a17bf33a3b87c363ec459ce9)
+from [Nebucatnetzer/manubot_test@d88c309](https://github.com/Nebucatnetzer/manubot_test/tree/d88c309fcc04c2de71c5c370f3c0fa11bea7c1d1)
 on December 17, 2019.
 </em></small>
 
@@ -216,15 +216,15 @@ selber auch wieder libre sein. Zum einen, um der Community etwas
 zurückzugeben, des weiteren, um anderen Entwicklern die Möglichkeit zu
 geben die Software zu verbessern und weiter zu entwickeln.
 
-Als Nebenziel soll mit dieser Arbeit auch die Verbreitung von freier
-Software gefördert werden. Dies wird insbesondere dadurch erreicht,
-dass die Software selbst unter der gpl Version 3 [gplv3]
-veröffentlicht wird. Wenn möglich soll während der Entwicklung auch
-hauptsächlich freie Software verwendet werden, um aufzuzeigen das ein
-solches Projekte nicht zwingend von proprietärer Software abhängig
-ist. Die gesamte Arbeit wird zudem zu jedem Zeitpunkt öffentlich
+Als Nebenziel soll mit dieser Arbeit auch die Verbreitung von freier Software
+gefördert werden. Dies wird insbesondere dadurch erreicht, dass die Software
+selbst unter der gpl Version 3 [gplv3] veröffentlicht wird. Wenn möglich soll
+während der Entwicklung auch hauptsächlich freie Software verwendet werden, um
+aufzuzeigen das ein solches Projekte nicht zwingend von proprietärer Software
+abhängig ist. Die gesamte Arbeit wird zudem zu jedem Zeitpunkt öffentlich
 einsehbar sein. Der Quelltext der Dokumentation ist unter diesem Link
-erreichbar: <https://git.2li.ch/Nebucatnetzer/thesis>
+erreichbar:
+[https://git.2li.ch/Nebucatnetzer/thesis](https://git.2li.ch/Nebucatnetzer/thesis)
 
 Die Entwicklung wird hauptsächlich auf einem Linux System stattfinden.
 Da borg einerseits hauptsächlich auf Unix Systeme ausgelegt ist und
@@ -269,7 +269,7 @@ Bugs von borg welche während der Dauer der Diplomarbeit vom Studenten
 entdeckt werden, wird dieser dem Projekt melden, jedoch nicht selber
 beheben.
 
-<file:images/kontextdiagramm.svg>
+![](images/kontextdiagramm.svg)
 
 
 ## 2.5 Projektmethode
@@ -398,11 +398,6 @@ auf der Arbeitsstelle jeder Montag als frei eingegeben. Dadurch steht
 während des Projektes etwas mehr Zeit zur Verfügung, als mit einer 100
 Prozent Arbeitsstelle möglich wäre.
 
-
-[02_Zeitplanung_Andreas_Zweili.html]
-<file:02_Zeitplanung_Andreas_Zweili.html>
-
-
 ## 2.8 Controlling
 
 
@@ -471,7 +466,7 @@ Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
 Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in
 der Abbildung:(2) zu sehen.
 
-<file:images/swot_analyse.svg>
+![](images/swot_analyse.svg)
 
 
 ## 3.2 Umweltanalyse
@@ -497,7 +492,7 @@ dem Laufenden gehalten. Nach Ende der Diplomarbeit soll das Projekt
 für interessierte Entwickler jedoch offen sein. Der Quellcode wird
 bereits während der Arbeit öffentlich zur Verfügung gestellt.
 
-<file:images/stakeholder_diagramm.svg>
+![](images/stakeholder_diagramm.svg)
 
 
 ## 3.3 Risiko-Analyse
@@ -524,9 +519,9 @@ verringern. Da automatische Hintergrundbackups jedoch ein Kann-Ziel
 sind wir in dieser Analyse nicht davon ausgegangen, dass man das
 Risiko Nr. 5 im Rahmen dieser Arbeit reduzieren kann.
 
-<file:images/istrisiko.svg>
+![](images/istrisiko.svg)
 
-<file:images/sollrisiko.svg>
+![](images/sollrisiko.svg)
 
 
 ## 3.4 Anforderungskatalog
@@ -563,7 +558,7 @@ Abhängigkeiten und Beziehungen dar.“\footcite{usecasediagramm}
 Das Anwendungsfalldiagramm für das borg gui ist in der Abbildung: (6)
 zu sehen.
 
-<file:images/use_case.svg>
+![](images/use_case.svg)
 
 
 ### 3.5.2 Use Cases Detailbeschreibung
@@ -894,7 +889,7 @@ Windows und OS X können die Applikationen schnell etwas fremd wirken.
 Dies ist gut bei der Applikation Meld [meld] zu sehen, wenn man eine
 Datei auswählen möchte, Abbildung (13).
 
-<file:images/meld.png>
+![](images/meld.png)
 Die Gtk Dokumentation empfiehlt [gtk_setup], dass man unter Microsoft
 Windows das Programm MSYS2 installiert, um Gtk einzurichten. Zum
 Programmieren an sich braucht es nicht zwingend weitere Tools aus
@@ -1201,7 +1196,7 @@ Python3 und Qt geschrieben. Dieses läuft ohne jegliche Probleme und
 Anpassung auf Windows, Linux und OS X. Wie in den Screenshots in
 Abbildung:(14) zu sehen ist.
 
-<file:images/hello_world.png>
+![](images/hello_world.png)
 
 
 ## 5.2 Benutzerinterface
@@ -1220,7 +1215,7 @@ als Vorlage genommen. Insbesondere die einfache und direkte Art ein
 Backup eines spezifischen Pfades zu machen ist sehr gelungen. Da sie
 es dem User so einfach wie möglich macht ein Backup zu erstellen.
 
-<file:images/bit_main.png>
+![](images/bit_main.png)
 
 
 ### 5.2.2 Erste Umsetzung
@@ -1236,7 +1231,7 @@ nutzen. Mit diesem lassen sich die Oberflächen in einer grafischen
 Oberfläche designen und auch gleich starten. Damit ist direkt zu sehen
 wie sich die Oberflächen auf dem System verhalten.
 
-<file:images/qt_designer.png>
+![](images/qt_designer.png)
 Mit der ersten gui Version wurden die ersten Basisziele der
 Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(17), befinden
 sich wie auch bei „Back in Time“ in der einen Hälfte eine Liste der
@@ -1257,7 +1252,7 @@ Icon Theme unter der MIT Lizenz, welches die Icons als svg Dateien
 bereitstellt. Dadurch können die Icons frei skalieren und
 funktionieren auch auf Geräten mit einer hohen Auflösung.
 
-<file:images/borgqt_main_v1.png>
+![](images/borgqt_main_v1.png)
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den
 „General“ Tab, Abbildung:(18), dieser zeigt allgemeine Optionen an. Im
@@ -1266,18 +1261,18 @@ Dateien auswählen, die er sichern will. Der dritte Tab „Exclude“,
 Abbildung:(20), gibt dem User die Möglichkeit einzelne Ordner oder
 Dateien von den Backups auszuschliessen.
 
-<file:images/borgqt_settings_general_v1.png>
+![](images/borgqt_settings_general_v1.png)
 
-<file:images/borgqt_settings_include_v1.png>
+![](images/borgqt_settings_include_v1.png)
 
-<file:images/borgqt_settings_exclude_v1.png>
+![](images/borgqt_settings_exclude_v1.png)
 
 Das „Progress“ Dialogfenster, Abbildung:(21), zeigt dem User einen
 Fortschrittsbalken und einen „Cancel“ Button zum Abbrechen der Aktion
 an. Das Fenster ist generisch gehalten, damit es von verschiedenen
 Tasks gleichermassen genutzt werden kann.
 
-<file:images/borgqt_progress_v1.png>
+![](images/borgqt_progress_v1.png)
 
 
 ## 5.3 Einstellungen
@@ -1383,7 +1378,7 @@ Ziel Nr. 21 über die Umgebungsvariable `HOME` zusammengesetzt
 
 Programmlisting 4 Methode zum Suchen der Konfigurationsdatei
 
-<file:images/borgqt_missing_config.png>
+![](images/borgqt_missing_config.png)
 
 
 ### 5.3.2 Frontend
@@ -1571,7 +1566,7 @@ Weiteren wurde ein Dateibaum, in Abbildung:(23) grün umrahmt,
 eingefügt. Dieser gibt den Pfad des angewählten Objektes and die
 `create_backup` Methode weiter.
 
-<file:images/borgqt_file_tree.png>
+![](images/borgqt_file_tree.png)
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit
 Ladebalken angezeigt, Abbildung:(24). Dieser dient hauptsächlich dazu
@@ -1596,7 +1591,7 @@ Zählen länger als das eigentliche Sichern dauert. Aus diesem Grund
 wurde der Fortschrittsbalken mit Prozentanzeige durch einen sich
 wiederholenden Ladebalken ersetzt.
 
-<file:images/borgqt_progress_v2.png>
+![](images/borgqt_progress_v2.png)
 
 Wurde das Archiv erfolgreich erstellt, wird die Liste mit den Archiven
 sowie die Repository Statistik aktualisiert. Beide Elemente sind in
@@ -1626,7 +1621,7 @@ Dialog angezeigt wird, über welchen er vor einer Datensicherung zuerst
 die gemounteten Archive aushängen kann. Anschliessend startet die
 Datensicherung, wie wenn kein Archiv gemountet gewesen wäre.
 
-<file:images/borgqt_archive_list.png>
+![](images/borgqt_archive_list.png)
 
 
 [Erste Umsetzung] siehe Abschnitt 5.2.2
@@ -1645,7 +1640,7 @@ Wird der „Restore“ Knopf gedrückt ohne das ein Archiv angewählt wurde,
 erscheint folgende Fehlermeldung, Abbildung:(26), um den Benutzer
 darauf hinzuweisen, das er dies noch tun sollte.
 
-<file:images/borgqt_no_archive_selected.png>
+![](images/borgqt_no_archive_selected.png)
 
 Für die Wiederherstellung einer Datensicherung, selektiert der User
 das gewünschte Archiv. Als zweiten Schritt startet er den Prozess mit
@@ -1659,7 +1654,7 @@ erfolgreichen Wiederherstellung öffnet die Applikation den Zielort in
 einem Dateimanager, damit der User gleich mit den Dateien
 weiterarbeiten kann.
 
-<file:images/borgqt_not_writeable.png>
+![](images/borgqt_not_writeable.png)
 
 Gibt es, während dem Wiederherstellen, einen Fehler gibt die Anwendung
 den entsprechenden Fehler aus und löscht zusätzlich noch den zu Beginn
@@ -1710,7 +1705,7 @@ Archiv gelöscht mit „No“ wird der Vorgang abgebrochen. Nach der
 Löschung werden die Archivliste und die Repository Statistik
 aktualisiert, um den neuen Zustand wiederzugeben.
 
-<file:images/borgqt_yes_no.png>
+![](images/borgqt_yes_no.png)
 
 
 ## 5.9 Automatische Backups
@@ -1783,7 +1778,7 @@ ermöglichen, damit der Benutzer etwa folgenden Zeitplan erstellen
 könnte „Montag, Mittwoch, Freitag stündliche Backups.“ (`Monday,
 Wednesday, Friday *-*-* *:00:00`).
 
-<file:images/borgqt_settings_schedule.png>
+![](images/borgqt_settings_schedule.png)
 
 Das Erstellen der eigentlichen Systemd Konfiguration passiert in
 Borg-Qt in der `Config` Klasse zum gleichen Zeitpunkt, wie die
@@ -1854,9 +1849,9 @@ In den „Include“ sowie „Exclude“ Optionen wurden einige Buttons neu
 beschriftet und zwei Labels hinzugefügt, nun wird klarer auf ihre
 Funktion hingewiesen, Abbildungen:(30) und (31).
 
-<file:images/borgqt_settings_include_v2.png>
+![](images/borgqt_settings_include_v2.png)
 
-<file:images/borgqt_settings_exclude_v2.png>
+![](images/borgqt_settings_exclude_v2.png)
 
 Um die Funktionen der Applikation zur erklären wurde ein Hilfe
 Fenster, Abbildung:(32), eingebaut. Dieses wird dem Benutzer beim
@@ -1867,7 +1862,7 @@ das Fenster beim nächsten Start nicht mehr angezeigt bekommen möchte.
 Über den Button „Help“ kann das Fenster jederzeit unabhängig der
 Einstellungen wieder angezeigt werden.
 
-<file:images/borgqt_help.png>
+![](images/borgqt_help.png)
 
 Mit Fertigstellung der Anpassungen wurde die Realisierung erfolgreich
 abgeschlossen und die Entwicklung neuer Funktionen für den Zeitrahmen
@@ -1956,7 +1951,7 @@ Diplomarbeit implementiert werden. Dadurch konnte auch das Risiko Nr.
 Somit hat die neue Ist-Situation, Abbildung:(33), eine bessere
 Risikobewertung als das geplante [Soll-Risiko].
 
-<file:images/ist_risiko_neu.svg>
+![](images/ist_risiko_neu.svg)
 
 
 [Risiko-Analyse] siehe Abschnitt 3.3
@@ -2090,26 +2085,6 @@ mitzuarbeiten.
 Die Applikation wird aber auf jeden Fall vom Projektleiter produktiv
 eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu
 sichern.
-
-
-# 7 Anhang
-
-## 7.1 Ressourcen
-
-## 7.2 Kosten
-
-## 7.3 Zeitaufwand
-
-## 7.4 Testfälle
-
-## 7.7 Meeting Protokolle
-
-
-Die Meeting Protokolle sind in der Datei [03_Meeting_Protokolle.svg]
-zu finden.
-
-
-[03_Meeting_Protokolle.svg] <file:03_Meeting_Protokolle.svg>
 
 
 ## References {.page_break_before}
