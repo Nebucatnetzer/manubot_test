@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/10727f79d30831ee230b58985902ff8b5268d65d/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c255d8818155d2504ddf091a03b595bb70663427/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@10727f7](https://github.com/Nebucatnetzer/manubot_test/tree/10727f79d30831ee230b58985902ff8b5268d65d)
+from [Nebucatnetzer/manubot_test@c255d88](https://github.com/Nebucatnetzer/manubot_test/tree/c255d8818155d2504ddf091a03b595bb70663427)
 on December 17, 2019.
 </em></small>
 
@@ -409,7 +409,7 @@ Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
 Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in der
 Abbildung:(2) zu sehen.
 
-![](images/swot_analyse.svg)
+![](images/swot_analyse.svg){width="90%"}
 
 ## 3.2 Umweltanalyse
 
@@ -1087,7 +1087,7 @@ Icon Theme unter der MIT Lizenz, welches die Icons als svg Dateien
 bereitstellt. Dadurch können die Icons frei skalieren und funktionieren auch
 auf Geräten mit einer hohen Auflösung.
 
-![](images/borgqt_main_v1.png)
+![](images/borgqt_main_v1.png){width="90%"}
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den „General“ Tab,
 Abbildung:(18), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
