@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8293774e698048e1a17bf33a3b87c363ec459ce9/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@7aba247](https://github.com/Nebucatnetzer/manubot_test/tree/7aba2479036c7731564ff51ec31836191e92725d)
+from [Nebucatnetzer/manubot_test@8293774](https://github.com/Nebucatnetzer/manubot_test/tree/8293774e698048e1a17bf33a3b87c363ec459ce9)
 on December 17, 2019.
 </em></small>
 
@@ -269,7 +269,7 @@ Bugs von borg welche während der Dauer der Diplomarbeit vom Studenten
 entdeckt werden, wird dieser dem Projekt melden, jedoch nicht selber
 beheben.
 
-<file:images/kontextdiagramm.pdf>
+<file:images/kontextdiagramm.svg>
 
 
 ## 2.5 Projektmethode
@@ -351,7 +351,7 @@ den Text Editor Emacs, geschrieben. Die Syntax von Org-mode erinnert
 an Markdown. Org-mode bietet einem eine Vielzahl an Hilfen, inklusive
 dem Erstellen von Tabellen und Spreadsheet Funktionen. Für die finale
 Version des Dokuments kann Org-mode die ursprünglich Textdatei über
-LaTeX in eine PDF Datei exportieren.
+LaTeX in eine.SVG Datei exportieren.
 
 LaTeX [latex] ist eine Software, welche einem die Benutzung des
 Textsatzsystems TeXs vereinfacht. LaTeX wurde gegenüber einem „What
@@ -471,7 +471,7 @@ Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
 Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in
 der Abbildung:(2) zu sehen.
 
-<file:images/swot_analyse.pdf>
+<file:images/swot_analyse.svg>
 
 
 ## 3.2 Umweltanalyse
@@ -497,7 +497,7 @@ dem Laufenden gehalten. Nach Ende der Diplomarbeit soll das Projekt
 für interessierte Entwickler jedoch offen sein. Der Quellcode wird
 bereits während der Arbeit öffentlich zur Verfügung gestellt.
 
-<file:images/stakeholder_diagramm.pdf>
+<file:images/stakeholder_diagramm.svg>
 
 
 ## 3.3 Risiko-Analyse
@@ -524,9 +524,9 @@ verringern. Da automatische Hintergrundbackups jedoch ein Kann-Ziel
 sind wir in dieser Analyse nicht davon ausgegangen, dass man das
 Risiko Nr. 5 im Rahmen dieser Arbeit reduzieren kann.
 
-<file:images/istrisiko.pdf>
+<file:images/istrisiko.svg>
 
-<file:images/sollrisiko.pdf>
+<file:images/sollrisiko.svg>
 
 
 ## 3.4 Anforderungskatalog
@@ -563,7 +563,7 @@ Abhängigkeiten und Beziehungen dar.“\footcite{usecasediagramm}
 Das Anwendungsfalldiagramm für das borg gui ist in der Abbildung: (6)
 zu sehen.
 
-<file:images/use_case.pdf>
+<file:images/use_case.svg>
 
 
 ### 3.5.2 Use Cases Detailbeschreibung
@@ -1074,9 +1074,9 @@ Projektleiters.
 1. Du möchtest deine Dateien sichern. Erstelle dazu eine
     Datensicherung des Ordners `/home/testuser/Downloads`.
 2. Du hast aus Versehen die Datei
-    `/home/testuser/Downloads/Example.pdf` gelöscht. Stelle die Datei
+    `/home/testuser/Downloads/Example.svg` gelöscht. Stelle die Datei
     wieder her. Am Ende soll sie unter
-    `/home/testuser/Documents/Example.pdf` zu finden sein.
+    `/home/testuser/Documents/Example.svg` zu finden sein.
 3. Stelle ein beliebiges Archiv wieder her. Der Zielpfad ist
     `/home/testuser/Documents/`.
 4. Lösche ein Archiv deiner Wahl.
@@ -1956,7 +1956,7 @@ Diplomarbeit implementiert werden. Dadurch konnte auch das Risiko Nr.
 Somit hat die neue Ist-Situation, Abbildung:(33), eine bessere
 Risikobewertung als das geplante [Soll-Risiko].
 
-<file:images/ist_risiko_neu.pdf>
+<file:images/ist_risiko_neu.svg>
 
 
 [Risiko-Analyse] siehe Abschnitt 3.3
@@ -2105,11 +2105,11 @@ sichern.
 ## 7.7 Meeting Protokolle
 
 
-Die Meeting Protokolle sind in der Datei [03_Meeting_Protokolle.pdf]
+Die Meeting Protokolle sind in der Datei [03_Meeting_Protokolle.svg]
 zu finden.
 
 
-[03_Meeting_Protokolle.pdf] <file:03_Meeting_Protokolle.pdf>
+[03_Meeting_Protokolle.svg] <file:03_Meeting_Protokolle.svg>
 
 
 ## References {.page_break_before}
