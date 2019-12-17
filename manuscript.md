@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/14235b00585b5a9b7977d70e75c6e0874eee8545/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/7aba2479036c7731564ff51ec31836191e92725d/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@14235b0](https://github.com/Nebucatnetzer/manubot_test/tree/14235b00585b5a9b7977d70e75c6e0874eee8545)
+from [Nebucatnetzer/manubot_test@7aba247](https://github.com/Nebucatnetzer/manubot_test/tree/7aba2479036c7731564ff51ec31836191e92725d)
 on December 17, 2019.
 </em></small>
 
@@ -269,7 +269,7 @@ Bugs von borg welche während der Dauer der Diplomarbeit vom Studenten
 entdeckt werden, wird dieser dem Projekt melden, jedoch nicht selber
 beheben.
 
-<file:pictures/kontextdiagramm.pdf>
+<file:images/kontextdiagramm.pdf>
 
 
 ## 2.5 Projektmethode
@@ -471,7 +471,7 @@ Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
 Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in
 der Abbildung:(2) zu sehen.
 
-<file:pictures/swot_analyse.pdf>
+<file:images/swot_analyse.pdf>
 
 
 ## 3.2 Umweltanalyse
@@ -497,7 +497,7 @@ dem Laufenden gehalten. Nach Ende der Diplomarbeit soll das Projekt
 für interessierte Entwickler jedoch offen sein. Der Quellcode wird
 bereits während der Arbeit öffentlich zur Verfügung gestellt.
 
-<file:pictures/stakeholder_diagramm.pdf>
+<file:images/stakeholder_diagramm.pdf>
 
 
 ## 3.3 Risiko-Analyse
@@ -524,9 +524,9 @@ verringern. Da automatische Hintergrundbackups jedoch ein Kann-Ziel
 sind wir in dieser Analyse nicht davon ausgegangen, dass man das
 Risiko Nr. 5 im Rahmen dieser Arbeit reduzieren kann.
 
-<file:pictures/istrisiko.pdf>
+<file:images/istrisiko.pdf>
 
-<file:pictures/sollrisiko.pdf>
+<file:images/sollrisiko.pdf>
 
 
 ## 3.4 Anforderungskatalog
@@ -563,7 +563,7 @@ Abhängigkeiten und Beziehungen dar.“\footcite{usecasediagramm}
 Das Anwendungsfalldiagramm für das borg gui ist in der Abbildung: (6)
 zu sehen.
 
-<file:pictures/use_case.pdf>
+<file:images/use_case.pdf>
 
 
 ### 3.5.2 Use Cases Detailbeschreibung
@@ -894,7 +894,7 @@ Windows und OS X können die Applikationen schnell etwas fremd wirken.
 Dies ist gut bei der Applikation Meld [meld] zu sehen, wenn man eine
 Datei auswählen möchte, Abbildung (13).
 
-<file:pictures/meld.png>
+<file:images/meld.png>
 Die Gtk Dokumentation empfiehlt [gtk_setup], dass man unter Microsoft
 Windows das Programm MSYS2 installiert, um Gtk einzurichten. Zum
 Programmieren an sich braucht es nicht zwingend weitere Tools aus
@@ -1080,7 +1080,7 @@ Projektleiters.
 3. Stelle ein beliebiges Archiv wieder her. Der Zielpfad ist
     `/home/testuser/Documents/`.
 4. Lösche ein Archiv deiner Wahl.
-5. Du möchtest, dass der Ordner `/home/testuser/Pictures/` nicht mehr
+5. Du möchtest, dass der Ordner `/home/testuser/Images/` nicht mehr
     gesichert wird. Konfiguriere die Applikation entsprechend.
 
 
@@ -1201,7 +1201,7 @@ Python3 und Qt geschrieben. Dieses läuft ohne jegliche Probleme und
 Anpassung auf Windows, Linux und OS X. Wie in den Screenshots in
 Abbildung:(14) zu sehen ist.
 
-<file:pictures/hello_world.png>
+<file:images/hello_world.png>
 
 
 ## 5.2 Benutzerinterface
@@ -1220,7 +1220,7 @@ als Vorlage genommen. Insbesondere die einfache und direkte Art ein
 Backup eines spezifischen Pfades zu machen ist sehr gelungen. Da sie
 es dem User so einfach wie möglich macht ein Backup zu erstellen.
 
-<file:pictures/bit_main.png>
+<file:images/bit_main.png>
 
 
 ### 5.2.2 Erste Umsetzung
@@ -1236,7 +1236,7 @@ nutzen. Mit diesem lassen sich die Oberflächen in einer grafischen
 Oberfläche designen und auch gleich starten. Damit ist direkt zu sehen
 wie sich die Oberflächen auf dem System verhalten.
 
-<file:pictures/qt_designer.png>
+<file:images/qt_designer.png>
 Mit der ersten gui Version wurden die ersten Basisziele der
 Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(17), befinden
 sich wie auch bei „Back in Time“ in der einen Hälfte eine Liste der
@@ -1257,7 +1257,7 @@ Icon Theme unter der MIT Lizenz, welches die Icons als svg Dateien
 bereitstellt. Dadurch können die Icons frei skalieren und
 funktionieren auch auf Geräten mit einer hohen Auflösung.
 
-<file:pictures/borgqt_main_v1.png>
+<file:images/borgqt_main_v1.png>
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den
 „General“ Tab, Abbildung:(18), dieser zeigt allgemeine Optionen an. Im
@@ -1266,18 +1266,18 @@ Dateien auswählen, die er sichern will. Der dritte Tab „Exclude“,
 Abbildung:(20), gibt dem User die Möglichkeit einzelne Ordner oder
 Dateien von den Backups auszuschliessen.
 
-<file:pictures/borgqt_settings_general_v1.png>
+<file:images/borgqt_settings_general_v1.png>
 
-<file:pictures/borgqt_settings_include_v1.png>
+<file:images/borgqt_settings_include_v1.png>
 
-<file:pictures/borgqt_settings_exclude_v1.png>
+<file:images/borgqt_settings_exclude_v1.png>
 
 Das „Progress“ Dialogfenster, Abbildung:(21), zeigt dem User einen
 Fortschrittsbalken und einen „Cancel“ Button zum Abbrechen der Aktion
 an. Das Fenster ist generisch gehalten, damit es von verschiedenen
 Tasks gleichermassen genutzt werden kann.
 
-<file:pictures/borgqt_progress_v1.png>
+<file:images/borgqt_progress_v1.png>
 
 
 ## 5.3 Einstellungen
@@ -1383,7 +1383,7 @@ Ziel Nr. 21 über die Umgebungsvariable `HOME` zusammengesetzt
 
 Programmlisting 4 Methode zum Suchen der Konfigurationsdatei
 
-<file:pictures/borgqt_missing_config.png>
+<file:images/borgqt_missing_config.png>
 
 
 ### 5.3.2 Frontend
@@ -1571,7 +1571,7 @@ Weiteren wurde ein Dateibaum, in Abbildung:(23) grün umrahmt,
 eingefügt. Dieser gibt den Pfad des angewählten Objektes and die
 `create_backup` Methode weiter.
 
-<file:pictures/borgqt_file_tree.png>
+<file:images/borgqt_file_tree.png>
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit
 Ladebalken angezeigt, Abbildung:(24). Dieser dient hauptsächlich dazu
@@ -1596,7 +1596,7 @@ Zählen länger als das eigentliche Sichern dauert. Aus diesem Grund
 wurde der Fortschrittsbalken mit Prozentanzeige durch einen sich
 wiederholenden Ladebalken ersetzt.
 
-<file:pictures/borgqt_progress_v2.png>
+<file:images/borgqt_progress_v2.png>
 
 Wurde das Archiv erfolgreich erstellt, wird die Liste mit den Archiven
 sowie die Repository Statistik aktualisiert. Beide Elemente sind in
@@ -1626,7 +1626,7 @@ Dialog angezeigt wird, über welchen er vor einer Datensicherung zuerst
 die gemounteten Archive aushängen kann. Anschliessend startet die
 Datensicherung, wie wenn kein Archiv gemountet gewesen wäre.
 
-<file:pictures/borgqt_archive_list.png>
+<file:images/borgqt_archive_list.png>
 
 
 [Erste Umsetzung] siehe Abschnitt 5.2.2
@@ -1645,7 +1645,7 @@ Wird der „Restore“ Knopf gedrückt ohne das ein Archiv angewählt wurde,
 erscheint folgende Fehlermeldung, Abbildung:(26), um den Benutzer
 darauf hinzuweisen, das er dies noch tun sollte.
 
-<file:pictures/borgqt_no_archive_selected.png>
+<file:images/borgqt_no_archive_selected.png>
 
 Für die Wiederherstellung einer Datensicherung, selektiert der User
 das gewünschte Archiv. Als zweiten Schritt startet er den Prozess mit
@@ -1659,7 +1659,7 @@ erfolgreichen Wiederherstellung öffnet die Applikation den Zielort in
 einem Dateimanager, damit der User gleich mit den Dateien
 weiterarbeiten kann.
 
-<file:pictures/borgqt_not_writeable.png>
+<file:images/borgqt_not_writeable.png>
 
 Gibt es, während dem Wiederherstellen, einen Fehler gibt die Anwendung
 den entsprechenden Fehler aus und löscht zusätzlich noch den zu Beginn
@@ -1710,7 +1710,7 @@ Archiv gelöscht mit „No“ wird der Vorgang abgebrochen. Nach der
 Löschung werden die Archivliste und die Repository Statistik
 aktualisiert, um den neuen Zustand wiederzugeben.
 
-<file:pictures/borgqt_yes_no.png>
+<file:images/borgqt_yes_no.png>
 
 
 ## 5.9 Automatische Backups
@@ -1783,7 +1783,7 @@ ermöglichen, damit der Benutzer etwa folgenden Zeitplan erstellen
 könnte „Montag, Mittwoch, Freitag stündliche Backups.“ (`Monday,
 Wednesday, Friday *-*-* *:00:00`).
 
-<file:pictures/borgqt_settings_schedule.png>
+<file:images/borgqt_settings_schedule.png>
 
 Das Erstellen der eigentlichen Systemd Konfiguration passiert in
 Borg-Qt in der `Config` Klasse zum gleichen Zeitpunkt, wie die
@@ -1854,9 +1854,9 @@ In den „Include“ sowie „Exclude“ Optionen wurden einige Buttons neu
 beschriftet und zwei Labels hinzugefügt, nun wird klarer auf ihre
 Funktion hingewiesen, Abbildungen:(30) und (31).
 
-<file:pictures/borgqt_settings_include_v2.png>
+<file:images/borgqt_settings_include_v2.png>
 
-<file:pictures/borgqt_settings_exclude_v2.png>
+<file:images/borgqt_settings_exclude_v2.png>
 
 Um die Funktionen der Applikation zur erklären wurde ein Hilfe
 Fenster, Abbildung:(32), eingebaut. Dieses wird dem Benutzer beim
@@ -1867,7 +1867,7 @@ das Fenster beim nächsten Start nicht mehr angezeigt bekommen möchte.
 Über den Button „Help“ kann das Fenster jederzeit unabhängig der
 Einstellungen wieder angezeigt werden.
 
-<file:pictures/borgqt_help.png>
+<file:images/borgqt_help.png>
 
 Mit Fertigstellung der Anpassungen wurde die Realisierung erfolgreich
 abgeschlossen und die Entwicklung neuer Funktionen für den Zeitrahmen
@@ -1956,7 +1956,7 @@ Diplomarbeit implementiert werden. Dadurch konnte auch das Risiko Nr.
 Somit hat die neue Ist-Situation, Abbildung:(33), eine bessere
 Risikobewertung als das geplante [Soll-Risiko].
 
-<file:pictures/ist_risiko_neu.pdf>
+<file:images/ist_risiko_neu.pdf>
 
 
 [Risiko-Analyse] siehe Abschnitt 3.3
