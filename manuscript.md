@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@d048e35](https://github.com/Nebucatnetzer/manubot_test/tree/d048e354c96be82c6193b987ee5d48a69fdb6f8e)
+from [Nebucatnetzer/manubot_test@da9963a](https://github.com/Nebucatnetzer/manubot_test/tree/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248)
 on December 22, 2019.
 </em></small>
 
@@ -226,8 +226,8 @@ ist und daher in naher Zukunft zu implementieren ist. Ein Ziel mit einer tiefen
 Bewertung sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
-| Ziel-Nr. | Zielsetzung | Muss | Wunsch\\ (1-5, 5=sehr wichtig) |
-|---|---|---|---|
+| Ziel-Nr. | Zielsetzung | Muss | Wunsch <br> (1-5, 5=sehr wichtig) |
+|:---|---|:---|:---|
 | 1. | Die Anwendung setzt auf cross-plattform (Linux, Windows, OS X) fähige Technologien. | x |  |
 | 2. | Die Anwendung steht unter der gpl v3 der Öffentlichkeit zur Verfügung. | x |  |
 | 3. | Der User kann mit weniger als 3 Klicks ein Backup ausführen. | x |  |

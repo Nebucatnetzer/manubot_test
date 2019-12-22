@@ -11,7 +11,7 @@
     "author-meta": [
       "Andreas Zweili"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2019-12-22\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-22\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Andreas Zweili\" />\n<meta name=\"citation_author_orcid\" content=\"-\" />\n<link rel=\"canonical\" href=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta property=\"og:url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta property=\"twitter:url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2019-12-22\" />\n<meta name=\"citation_publication_date\" content=\"2019-12-22\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Andreas Zweili\" />\n<meta name=\"citation_author_orcid\" content=\"-\" />\n<link rel=\"canonical\" href=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta property=\"og:url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta property=\"twitter:url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Nebucatnetzer.github.io/manubot_test/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
     "date": "December 22, 2019",
@@ -29,21 +29,21 @@
       "repo_slug": "Nebucatnetzer/manubot_test",
       "repo_owner": "Nebucatnetzer",
       "repo_name": "manubot_test",
-      "commit": "d048e354c96be82c6193b987ee5d48a69fdb6f8e",
-      "triggering_commit": "d048e354c96be82c6193b987ee5d48a69fdb6f8e",
-      "build_url": "https://travis-ci.com/Nebucatnetzer/manubot_test/builds/142047216",
-      "job_url": "https://travis-ci.com/Nebucatnetzer/manubot_test/jobs/269621805"
+      "commit": "da9963ab50ff9caa65ad860e94ed5fbcf6fa4248",
+      "triggering_commit": "da9963ab50ff9caa65ad860e94ed5fbcf6fa4248",
+      "build_url": "https://travis-ci.com/Nebucatnetzer/manubot_test/builds/142047703",
+      "job_url": "https://travis-ci.com/Nebucatnetzer/manubot_test/jobs/269623008"
     },
     "html_url": "https://Nebucatnetzer.github.io/manubot_test/",
     "pdf_url": "https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf",
-    "html_url_versioned": "https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/",
-    "pdf_url_versioned": "https://Nebucatnetzer.github.io/manubot_test/v/d048e354c96be82c6193b987ee5d48a69fdb6f8e/manuscript.pdf",
+    "html_url_versioned": "https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/",
+    "pdf_url_versioned": "https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/manuscript.pdf",
     "manuscript_stats": {
       "reference_counts": {
         "url": 44,
         "total": 44
       },
-      "word_count": 17738
+      "word_count": 17739
     }
   }
 }
