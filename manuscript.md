@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@13c0566](https://github.com/Nebucatnetzer/manubot_test/tree/13c0566cb32e6e921998ed2e874c054d971e4d31)
+from [Nebucatnetzer/manubot_test@730d56e](https://github.com/Nebucatnetzer/manubot_test/tree/730d56e69480e4a740651e2958796848f7a31d16)
 on December 22, 2019.
 </em></small>
 
@@ -309,10 +309,10 @@ semantische Versionierung [@13UfgtMhu] verwendet werden. Dabei ist
 eine Versionsnummer immer nach diesem Schema aufgebaut, MAJOR.MINOR.PATCH. Bei
 Änderungen wird die:
 
-1. MAJOR Version erhöht, wenn man inkompatible Änderungen an der API macht.
-2. MINOR Version erhöht, wenn man Funktionalität hinzufügt, die
+**1.** MAJOR Version erhöht, wenn man inkompatible Änderungen an der API macht.
+**2.** MINOR Version erhöht, wenn man Funktionalität hinzufügt, die
     abwärtskompatibel ist.
-3. PATCH Version erhöht, wenn man abwärtskompatibel Bug-Fixes hinzufügt. Eine
+**3.** PATCH Version erhöht, wenn man abwärtskompatibel Bug-Fixes hinzufügt. Eine
     Versionsnummer würde dann so aussehen Version 1.2.3.
 
 Auf jeden Fall sollte, sofern möglich, immer nur lauffähiger Code im Master
