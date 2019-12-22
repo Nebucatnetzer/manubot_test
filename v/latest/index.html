@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/990bf03d6ca03c6d14e49ff3afcb833882a70fab">Nebucatnetzer/manubot_test@990bf03</a> on December 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294">Nebucatnetzer/manubot_test@8fa55ed</a> on December 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -1703,8 +1703,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Für Python gibt es ein paar IDE welchen den Programmierer bei seiner Arbeit unterstützen können. Keine davon ist allerdings ein Muss, um Python programmieren zu können. Im einfachsten Fall wäre dies mit Notepad möglich. Ein Editor mit etwas fortgeschritteneren Features wäre jedoch empfehlenswert.</p>
 <p>Python unterstützt mehrere Programmierungsparadigmen wie etwa objektorientiert, funktionale oder prozedurale Paradigmen. Bei der Entwicklung von Python wurde sehr grossen Wert auf die Lesbarkeit der Sprache gelegt. Dies mit dem Hintergedanken das eine Programmiersprache viel häufiger gelesen als effektiv geschrieben wird <span class="citation" data-cites="MmuEtWF6">[<a href="#ref-MmuEtWF6" role="doc-biblioref">28</a>]</span>.</p>
 <p>Um ein Python Programm zu starten, braucht es eigentlich kein grosses Setup. Solange die Abhängigkeiten vorhanden sind, kann man ein Skript mit einem einfachen Befehl, Code Snippet:(#code-example) starten.</p>
+<div id="code-example">
 <pre class="shell"><code>python3 example.py</code></pre>
-<p>{#code-example}</p>
+</div>
 <p>Da Python schon eine etwas bekanntere Sprache ist, ist der Lernfaktor der Sprache selber nicht mehr so hoch. Allerdings gibt es noch viele interessante Konzepte, die man im Zusammenhang mit der Sprache lernen kann. Wie etwa zum Beispiel multiple Vererbung von Klassen.</p>
 <p>BorgBackup selber wurde in Python geschrieben. Daher ist davon auszugehen, dass Python innerhalb dieser Community eine sehr hohe Verbreitung geniesst.</p>
 <p>Python ist eine dynamisch typisierte und interpretierte Sprache. Dies bedeutet, dass man bei Variablen nicht explizit den Typ angeben muss und die Programme zur Laufzeit für den Computer übersetzt werden. Interpretierte Sprachen haben den Vorteil, dass man mit ihnen in der Regel sehr schnell und unkompliziert entwickeln kann, dies jedoch zulasten der Performance.</p>
@@ -2340,107 +2341,113 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h4 id="backend-1">Backend</h4>
 <p>Zum Erstellen und Auslesen der Konfigurationsdatei wurde das Python Standard Modul <code>configparser</code> <span class="citation" data-cites="EdMlwJHH">[<a href="#ref-EdMlwJHH" role="doc-biblioref">40</a>]</span> verwendet. Dieses macht es einem sehr einfach eine Datei im „INI“ Stil zu erstellen und parsen.</p>
 <p>„INI“ Stil bedeutet dabei das die Einstellungen in „Key/Value“ Paaren gespeichert werden. Somit kann man einfach auf den benötigten Wert zugreifen, in dem man seinen Schlüssel angibt. Ein Beispiel ist im Code Snippet:(#code-init) zu sehen.</p>
-<pre><code> # docs/borg_qt.conf.example
- [borgqt]
- includes = [
+<div id="code-init">
+<pre><code># docs/borg_qt.conf.example
+[borgqt]
+includes = [
         &quot;/home/username/&quot;,
-         &quot;/home/otheruser/Downloads&quot;
+        &quot;/home/otheruser/Downloads&quot;
     ]
- repository_path = /tmp/test-borgqt
- password = foo
- prefix = muster</code></pre>
-<p>{#code-init}</p>
+repository_path = /tmp/test-borgqt
+password = foo
+prefix = muster</code></pre>
+</div>
 <p>Das Auslesen und Schreiben der Konfigurationsdatei liess sicher relativ einfach realisieren. Die grösste Herausforderung dabei war, dass <code>Configparser</code> keinen Support für eine Liste von Werten hat. Die wurde insbesondere für <code>include</code> und <code>exclude</code> Pfade benötigt. Also für die Pfade, welche gesichert werden oder von einem Backup ausgeschlossen werden sollen.</p>
 <p>Abhilfe schaffte hier ein Stackexchange Post <span class="citation" data-cites="fa82c0xs">[<a href="#ref-fa82c0xs" role="doc-biblioref">41</a>]</span>. Dieser schlug vor, dass man die Liste im JSON Format speichern soll. Da <code>Configparser</code> alle Werte im Format „String“ zurückgibt, können dann die JSON Listen sehr einfach von einem JSON Parser umgewandelt werden. Im Projekt wurde dies dann unter anderem als Methode der <code>Config</code> Klasse, Code Snippet:(#code-config), implementiert. Somit muss man jeweils nur die <code>_return_list_option()</code> Methode mit der benötigten Option als Argument aufrufen und bekommt als Resultat eine funktionierende Python Liste zurück.</p>
 <p>Beim Schreiben der Konfigurationsdatei macht man dann einfach das Umgekehrte. Man konvertiert eine Python Liste in einen JSON String.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a> <span class="co"># borg_qt/config.py</span></span>
+<div id="code-config">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># borg_qt/config.py</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
-<span id="cb3-3"><a href="#cb3-3"></a> <span class="kw">def</span> _return_list_option(<span class="va">self</span>, option):</span>
-<span id="cb3-4"><a href="#cb3-4"></a>     <span class="co">&quot;&quot;&quot;Reads the provided option from the configparser object and returns</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="co">     it as a list.&quot;&quot;&quot;</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a>     <span class="cf">if</span> option <span class="kw">in</span> <span class="va">self</span>.config[`borgqt`]:</span>
-<span id="cb3-7"><a href="#cb3-7"></a>         <span class="cf">return</span> json.loads(<span class="va">self</span>.config[`borgqt`][option])</span>
-<span id="cb3-8"><a href="#cb3-8"></a>     <span class="cf">else</span>:</span>
-<span id="cb3-9"><a href="#cb3-9"></a>         <span class="cf">return</span> []</span></code></pre></div>
-<p>{#code-config}</p>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="kw">def</span> _return_list_option(<span class="va">self</span>, option):</span>
+<span id="cb3-4"><a href="#cb3-4"></a>    <span class="co">&quot;&quot;&quot;Reads the provided option from the configparser object and returns</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co">    it as a list.&quot;&quot;&quot;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a>    <span class="cf">if</span> option <span class="kw">in</span> <span class="va">self</span>.config[`borgqt`]:</span>
+<span id="cb3-7"><a href="#cb3-7"></a>        <span class="cf">return</span> json.loads(<span class="va">self</span>.config[`borgqt`][option])</span>
+<span id="cb3-8"><a href="#cb3-8"></a>    <span class="cf">else</span>:</span>
+<span id="cb3-9"><a href="#cb3-9"></a>        <span class="cf">return</span> []</span></code></pre></div>
+</div>
 <p>Die Datei wird jeweils beim Start der Applikation gelesen und angewendet. Somit weiss die Applikation bereits nach dem Start wo das Repository liegen sollte und wie die Login Daten dafür sind. Dies geschieht mittels der Methode <code>_get_path</code>, Codesnippet:(#code-get-path). Es gibt dabei zwei mögliche Pfade, wo die Konfigurationsdatei liegen könnte. Befindet sich die Datei nicht am vorgegeben Pfad <code>~/.config/borg_qt/borg_qt.conf</code> oder direkt „neben“ dem Binary, gibt die Applikation eine entsprechende Meldung, Abbildung:(??), aus. Der Hauptpfad unter <code>~/.config/borg_qt/borg_qt.conf</code> wird dabei gemäss dem Ziel Nr. 21 über die Umgebungsvariable <code>HOME</code> zusammengesetzt</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a> <span class="co"># borg_qt/config.py</span></span>
+<div id="code-get-path">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># borg_qt/config.py</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a></span>
-<span id="cb4-3"><a href="#cb4-3"></a> <span class="kw">def</span> _get_path(<span class="va">self</span>):</span>
-<span id="cb4-4"><a href="#cb4-4"></a>     <span class="co">&quot;&quot;&quot;searches for the configuration file and returns its full path.&quot;&quot;&quot;</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a>     home <span class="op">=</span> os.environ[`HOME`]</span>
-<span id="cb4-6"><a href="#cb4-6"></a>     dir_path <span class="op">=</span> os.path.dirname(os.path.realpath(<span class="va">__file__</span>))</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="kw">def</span> _get_path(<span class="va">self</span>):</span>
+<span id="cb4-4"><a href="#cb4-4"></a>    <span class="co">&quot;&quot;&quot;searches for the configuration file and returns its full path.&quot;&quot;&quot;</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>    home <span class="op">=</span> os.environ[`HOME`]</span>
+<span id="cb4-6"><a href="#cb4-6"></a>    dir_path <span class="op">=</span> os.path.dirname(os.path.realpath(<span class="va">__file__</span>))</span>
 <span id="cb4-7"><a href="#cb4-7"></a></span>
-<span id="cb4-8"><a href="#cb4-8"></a>     <span class="cf">if</span> os.path.exists(os.path.join(home, `.config<span class="op">/</span>borg_qt<span class="op">/</span>borg_qt.conf`)):</span>
-<span id="cb4-9"><a href="#cb4-9"></a>         <span class="cf">return</span> os.path.join(home, `.config<span class="op">/</span>borg_qt<span class="op">/</span>borg_qt.conf`)</span>
-<span id="cb4-10"><a href="#cb4-10"></a>     <span class="cf">elif</span> os.path.exists(os.path.join(dir_path, `borg_qt.conf`)):</span>
-<span id="cb4-11"><a href="#cb4-11"></a>         <span class="cf">return</span> os.path.join(dir_path, `borg_qt.conf`)</span>
-<span id="cb4-12"><a href="#cb4-12"></a>     <span class="cf">else</span>:</span>
-<span id="cb4-13"><a href="#cb4-13"></a>         <span class="cf">raise</span> BorgException(<span class="st">&quot;Configuration file not found!&quot;</span>)</span></code></pre></div>
-<p>{#code-get-path}</p>
+<span id="cb4-8"><a href="#cb4-8"></a>    <span class="cf">if</span> os.path.exists(os.path.join(home, `.config<span class="op">/</span>borg_qt<span class="op">/</span>borg_qt.conf`)):</span>
+<span id="cb4-9"><a href="#cb4-9"></a>        <span class="cf">return</span> os.path.join(home, `.config<span class="op">/</span>borg_qt<span class="op">/</span>borg_qt.conf`)</span>
+<span id="cb4-10"><a href="#cb4-10"></a>    <span class="cf">elif</span> os.path.exists(os.path.join(dir_path, `borg_qt.conf`)):</span>
+<span id="cb4-11"><a href="#cb4-11"></a>        <span class="cf">return</span> os.path.join(dir_path, `borg_qt.conf`)</span>
+<span id="cb4-12"><a href="#cb4-12"></a>    <span class="cf">else</span>:</span>
+<span id="cb4-13"><a href="#cb4-13"></a>        <span class="cf">raise</span> BorgException(<span class="st">&quot;Configuration file not found!&quot;</span>)</span></code></pre></div>
+</div>
 <figure>
 <img src="images/borgqt_missing_config.png" class="@fig:missing-config" alt="" /><figcaption>Screenshot der Borg-Qt Fehlermeldung bei fehlender Konfigurationsda- tei.</figcaption>
 </figure>
 <h4 id="frontend-1">Frontend</h4>
 <p>Zur Vereinfachung der Bedienbarkeit wurde die Applikation, um eine grafische Konfigurationsmöglichkeit erweitert. Diese stellt dabei hauptsächlich die Werte aus der Konfigurationsdatei grafisch dar und übergibt allenfalls geänderte Werte ans Backend, welches die Konfiguration, dann wieder in der Datei speichert.</p>
 <p>Qt kennt keinen Mechanismus zum Auslesen aller Elemente aus einem sogenannten <code>QListWidget</code>, einem GUI Element, welches Listen darstellt. Die Elemente müssen somit zuerst in einer Zwischenliste gespeichert werden, bevor sie zurück in das <code>Configparser</code> Objekt geschrieben. Im Code sieht dies dann wie in Codesnippet:(#code-config-list) aus. Dabei wird jedes Element einzeln aus dem <code>QListWidget</code> geholt und in die Zwischenliste geschoben. Im zweiten Teil wird die Liste dann wieder zu einem JSON String konvertiert und im <code>Configparser</code> Objekt gespeichert. Die Option <code>indent=4</code> dient dabei der Lesbarkeit, damit nicht der ganze JSON String auf ein Zeile in der Konfigurationsdatei gespeichert wird, sondern jedes Listenelement seine eigene Zeile erhält.</p>
-<p>{#code-config-list}</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a> <span class="co"># borg_qt/config.py</span></span>
+<div id="code-config-list">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># borg_qt/config.py</span></span>
 <span id="cb5-2"><a href="#cb5-2"></a></span>
-<span id="cb5-3"><a href="#cb5-3"></a> <span class="co"># Workaraound to get all items of a QListWidget as a list</span></span>
-<span id="cb5-4"><a href="#cb5-4"></a> includes <span class="op">=</span> []</span>
-<span id="cb5-5"><a href="#cb5-5"></a> <span class="cf">for</span> index <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.list_include.count()):</span>
-<span id="cb5-6"><a href="#cb5-6"></a>     includes.append(<span class="va">self</span>.list_include.item(index).text())</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="co"># Workaraound to get all items of a QListWidget as a list</span></span>
+<span id="cb5-4"><a href="#cb5-4"></a>includes <span class="op">=</span> []</span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="cf">for</span> index <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.list_include.count()):</span>
+<span id="cb5-6"><a href="#cb5-6"></a>    includes.append(<span class="va">self</span>.list_include.item(index).text())</span>
 <span id="cb5-7"><a href="#cb5-7"></a></span>
-<span id="cb5-8"><a href="#cb5-8"></a> <span class="co"># Configparser doesn`t know about list therefore we store them as JSON</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a> <span class="co"># strings</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a> <span class="va">self</span>.config[`borgqt`][`includes`] <span class="op">=</span> json.dumps(includes,</span>
-<span id="cb5-11"><a href="#cb5-11"></a>                                                indent<span class="op">=</span><span class="dv">4</span>,</span>
-<span id="cb5-12"><a href="#cb5-12"></a>                                                sort_keys<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<span id="cb5-8"><a href="#cb5-8"></a><span class="co"># Configparser doesn`t know about list therefore we store them as JSON</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a><span class="co"># strings</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a><span class="va">self</span>.config[`borgqt`][`includes`] <span class="op">=</span> json.dumps(includes,</span>
+<span id="cb5-11"><a href="#cb5-11"></a>                                               indent<span class="op">=</span><span class="dv">4</span>,</span>
+<span id="cb5-12"><a href="#cb5-12"></a>                                               sort_keys<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
 <h3 id="borg-interface">Borg Interface</h3>
 <p>Zuerst erschien es sinnvoll die Kommunikation zwischen BorgBackup und Borg-Qt über einfache Funktionen laufen zu lassen. Dieser Ansatz hatte allerdings zwei Probleme. Zum einen wurde es relativ umständlich Informationen zu verarbeiten und weiterzugeben, zum anderen führte es zu dem unschönen Nebeneffekt, dass das GUI eingefroren ist. Eine Recherche ergab, dass Threads hier Abhilfe schaffen könnten.</p>
 <p>Python liefert für Threads das Modul <code>threading.Thread</code> <span class="citation" data-cites="1B2w4mlEN">[<a href="#ref-1B2w4mlEN" role="doc-biblioref">42</a>]</span>, mit. In der Praxis lies sich der Fortschrittsdialog und der Thread jedoch nicht so verknüpfen das sich der Dialog schliesst, wenn das Backup durchgelaufen ist und der Thread wieder entfernt wird. Aus diesem Grund wurde dann ein erfolgreicher Test mit dem PyQt Modul <code>QThread</code> <span class="citation" data-cites="PyQ7veZ4">[<a href="#ref-PyQ7veZ4" role="doc-biblioref">43</a>]</span> gemacht. Nach Beendigung des Backups wird der Fortschrittsdialog automatisch geschlossen. Auch das Stoppen des Threads mit einem Klick auf den „Cancel“ Button funktioniert einwandfrei.</p>
 <p>Damit BorgBackup aus der Anwendung angesteuert werden kann wird das Python Modul <code>subprocess</code> <span class="citation" data-cites="ahUvp3pr">[<a href="#ref-ahUvp3pr" role="doc-biblioref">44</a>]</span> verwendet. Dieses erlaubt einem neue Prozesse zu erstellen, welche man oftmals benötigt um etwa, wie im Fall von Borg-Qt, externe Applikationen zu starten, zu steuern und ihre Ausgabewerte auszulesen. Das effektive Kommando wird dann aus dem Property <code>self.command</code> gelesen.</p>
 <p>Damit BorgBackup die Ausgabe im JSON Format ausgibt, muss man man noch die Parameter <code>--log-json</code> und <code>--json</code> mitgeben. Der erste Parameter ändert hauptsächlich das Format von Errormeldungen und der zweite formatiert dann die finale Ausgabe. Die Ausgaben werden jeweils an Variablen weitergegeben (<code>json_output</code> und <code>json_error</code>) welche im weiteren Code verarbeitet werden.</p>
 <p>Insbesondere <code>json_error</code> ist für den weiteren Programmablauf von grosser Wichtigkeit. Wenn BorgBackup ein Problem feststellt, wird die Error Meldung von BorgBackup an <code>json_error</code> weitergegeben. Mittels der Methode im Codesnippet:(#code-json-err), wird die Variabel ausgewertet und im Falle eines Fehlers wirft der Code eine Exception, welche im Hauptprogramm abgefangen wird. Dabei wird eine Fehlermeldung in einem separaten Fenster ausgegeben. Die Methode wurde dabei auf der Klasse <code>BorgQtThread</code> umgesetzt und steht somit allen Funktionen zur Verfügung. Die Fehlermeldung bei einer fehlenden Konfigurationsdatei, Abbildung:(??), funktioniert nach dem gleichen Prinzip und konnte somit zum grössten Teil wiederverwendet werden. Der restliche JSON Output kann dann einfach mit dem <code>json</code> Modul geparst werden. Somit werden dem User, gemäss Ziel Nr. 14, direkt die Fehlermeldungen von BorgBackup angezeigt und es muss nur an gewissen Stellen noch applikationsspezifisches Exception Handling betrieben werden.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a> <span class="co"># borg_qt/borg_interface.py</span></span>
+<div id="code-json-err">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># borg_qt/borg_interface.py</span></span>
 <span id="cb6-2"><a href="#cb6-2"></a></span>
-<span id="cb6-3"><a href="#cb6-3"></a> <span class="kw">def</span> process_json_error(<span class="va">self</span>, json_err):</span>
-<span id="cb6-4"><a href="#cb6-4"></a>     <span class="cf">if</span> json_err:</span>
-<span id="cb6-5"><a href="#cb6-5"></a>         error_list <span class="op">=</span> json_err.split(`<span class="op">\</span>n`)</span>
-<span id="cb6-6"><a href="#cb6-6"></a>         <span class="cf">if</span> <span class="st">&quot;borg.locking&quot;</span> <span class="kw">in</span> error_list[<span class="dv">0</span>]:</span>
-<span id="cb6-7"><a href="#cb6-7"></a>             <span class="cf">pass</span></span>
-<span id="cb6-8"><a href="#cb6-8"></a>         <span class="cf">else</span>:</span>
-<span id="cb6-9"><a href="#cb6-9"></a>             err <span class="op">=</span> json.loads(error_list[<span class="dv">0</span>])</span>
-<span id="cb6-10"><a href="#cb6-10"></a>             <span class="cf">raise</span> BorgException(err[`message`])</span></code></pre></div>
-<p>{#code-json-err}</p>
+<span id="cb6-3"><a href="#cb6-3"></a><span class="kw">def</span> process_json_error(<span class="va">self</span>, json_err):</span>
+<span id="cb6-4"><a href="#cb6-4"></a>    <span class="cf">if</span> json_err:</span>
+<span id="cb6-5"><a href="#cb6-5"></a>        error_list <span class="op">=</span> json_err.split(`<span class="op">\</span>n`)</span>
+<span id="cb6-6"><a href="#cb6-6"></a>        <span class="cf">if</span> <span class="st">&quot;borg.locking&quot;</span> <span class="kw">in</span> error_list[<span class="dv">0</span>]:</span>
+<span id="cb6-7"><a href="#cb6-7"></a>            <span class="cf">pass</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a>        <span class="cf">else</span>:</span>
+<span id="cb6-9"><a href="#cb6-9"></a>            err <span class="op">=</span> json.loads(error_list[<span class="dv">0</span>])</span>
+<span id="cb6-10"><a href="#cb6-10"></a>            <span class="cf">raise</span> BorgException(err[`message`])</span></code></pre></div>
+</div>
 <p>Die ganze Funktionalität wurde dann in der Klasse <code>BorgQtThread</code> zusammengefasst. Somit kann für jede Funktion von BorgBackup eine einzelne Klasse geschrieben werden, welche dann von <code>BorgQtThread</code> die Funktionen erbt. Die Funktionsklassen müssen dann jeweils nur die Methode <code>self.create_command(self)</code> implementieren, welche das Property <code>self.command</code> erstellt und die einfachen Funktionen von BorgBackup sollten direkt funktionieren.</p>
 <h3 id="backup">Backup</h3>
 <p>Daten zu sichern ist die primäre Funktion von Borg-Qt. Deshalb soll das Erstellen eines Backups so schnell und unkompliziert wie möglich vonstattengehen.</p>
 <h4 id="backend-2">Backend</h4>
 <p>Um Backups erstellen zu können, wurde die Klasse <code>BackupThread</code> erstellt, welche von <code>BorgQtThread</code> erbt. Die Klasse <code>BackupThread</code> nimmt beim instantiieren 3 Argumente auf: <code>includes</code>, <code>excludes</code>, <code>prefix</code>. Wobei <code>excludes</code> und <code>prefix</code> beide optional sind. Im Hauptcode werden diese Argumente aus der Konfigurationsdatei ausgelesen und übergeben. Die Includes werden im Falle eines Backups im Hintergrund aus der Konfigurationsdatei gelesen. Wenn es der User manuell ausführt, wird der im Frontend ausgewählte Pfad mitgegeben.</p>
 <p>Die „Excludes“ haben lange nicht funktioniert. Der Grund dafür waren zusätzliche Anführungszeichen um die Exclude Pfade. Diese wurden aus Versehen hinzugefügt, da BorgBackup normalerweise auf der Kommandozeile ausgeführt wird und die Anführungszeichen dort notwendig sind, um allfällige Leer- oder Sonderzeichen abzufangen. Es wurde davon ausgegangen, dass das <code>subprocess</code> Modul ähnlich funktioniert wie die Kommandozeile. Da man an das Modul direkt einen String übergibt, sind die zusätzlichen Anführungszeichen nicht notwendig und führen sogar dazu, dass die Pfade gar nicht funktionieren. Somit werden die „Excludes“ mittels der Methode <code>_process_excludes</code> mit dem entsprechenden Parameter gepaart und als gesamte Liste an das finale Kommando angehängt. Die „Includes“ funktionieren auf die gleiche Weise, benötigen jedoch keine zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(#code-create).</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a> <span class="co"># borg_qt/borg_interface.py</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a> <span class="co"># Funktion zum Verarbeiten der &quot;Excludes&quot;</span></span>
-<span id="cb7-3"><a href="#cb7-3"></a> <span class="kw">def</span> _process_excludes(<span class="va">self</span>, excludes):</span>
-<span id="cb7-4"><a href="#cb7-4"></a>     processed_items <span class="op">=</span> []</span>
-<span id="cb7-5"><a href="#cb7-5"></a>     <span class="cf">if</span> excludes:</span>
-<span id="cb7-6"><a href="#cb7-6"></a>         <span class="cf">for</span> item <span class="kw">in</span> excludes:</span>
-<span id="cb7-7"><a href="#cb7-7"></a>             processed_items.extend([`<span class="op">-</span>e`, item])</span>
-<span id="cb7-8"><a href="#cb7-8"></a>         <span class="cf">return</span> processed_items</span>
-<span id="cb7-9"><a href="#cb7-9"></a>     <span class="cf">else</span>:</span>
-<span id="cb7-10"><a href="#cb7-10"></a>         <span class="cf">return</span> processed_items</span>
+<div id="code-create">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># borg_qt/borg_interface.py</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="co"># Funktion zum Verarbeiten der &quot;Excludes&quot;</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="kw">def</span> _process_excludes(<span class="va">self</span>, excludes):</span>
+<span id="cb7-4"><a href="#cb7-4"></a>    processed_items <span class="op">=</span> []</span>
+<span id="cb7-5"><a href="#cb7-5"></a>    <span class="cf">if</span> excludes:</span>
+<span id="cb7-6"><a href="#cb7-6"></a>        <span class="cf">for</span> item <span class="kw">in</span> excludes:</span>
+<span id="cb7-7"><a href="#cb7-7"></a>            processed_items.extend([`<span class="op">-</span>e`, item])</span>
+<span id="cb7-8"><a href="#cb7-8"></a>        <span class="cf">return</span> processed_items</span>
+<span id="cb7-9"><a href="#cb7-9"></a>    <span class="cf">else</span>:</span>
+<span id="cb7-10"><a href="#cb7-10"></a>        <span class="cf">return</span> processed_items</span>
 <span id="cb7-11"><a href="#cb7-11"></a></span>
-<span id="cb7-12"><a href="#cb7-12"></a> <span class="co"># Methode zum Erstellen des BorgBackup Kommandos.</span></span>
-<span id="cb7-13"><a href="#cb7-13"></a> <span class="kw">def</span> create_command(<span class="va">self</span>):</span>
-<span id="cb7-14"><a href="#cb7-14"></a>     <span class="va">self</span>.command <span class="op">=</span> [`borg`, `create`, `<span class="op">--</span>log<span class="op">-</span>json`, `<span class="op">--</span>json`,</span>
-<span id="cb7-15"><a href="#cb7-15"></a>                     (`::`</span>
-<span id="cb7-16"><a href="#cb7-16"></a>                         <span class="op">+</span> <span class="va">self</span>.prefix</span>
-<span id="cb7-17"><a href="#cb7-17"></a>                         <span class="op">+</span> `{now:<span class="op">%</span>Y<span class="op">-%</span>m<span class="op">-%</span>d_<span class="op">%</span>H:<span class="op">%</span>M:<span class="op">%</span>S<span class="st">&quot;`)]</span></span>
-<span id="cb7-18"><a href="#cb7-18"></a><span class="st">     self.command.extend(self.includes)</span></span>
-<span id="cb7-19"><a href="#cb7-19"></a><span class="st">     if self.excludes:</span></span>
-<span id="cb7-20"><a href="#cb7-20"></a><span class="st">         self.command.extend(self.excludes)</span></span></code></pre></div>
-<p>{#code-create}</p>
+<span id="cb7-12"><a href="#cb7-12"></a><span class="co"># Methode zum Erstellen des BorgBackup Kommandos.</span></span>
+<span id="cb7-13"><a href="#cb7-13"></a><span class="kw">def</span> create_command(<span class="va">self</span>):</span>
+<span id="cb7-14"><a href="#cb7-14"></a>    <span class="va">self</span>.command <span class="op">=</span> [`borg`, `create`, `<span class="op">--</span>log<span class="op">-</span>json`, `<span class="op">--</span>json`,</span>
+<span id="cb7-15"><a href="#cb7-15"></a>                    (`::`</span>
+<span id="cb7-16"><a href="#cb7-16"></a>                        <span class="op">+</span> <span class="va">self</span>.prefix</span>
+<span id="cb7-17"><a href="#cb7-17"></a>                        <span class="op">+</span> `{now:<span class="op">%</span>Y<span class="op">-%</span>m<span class="op">-%</span>d_<span class="op">%</span>H:<span class="op">%</span>M:<span class="op">%</span>S<span class="st">&quot;`)]</span></span>
+<span id="cb7-18"><a href="#cb7-18"></a><span class="st">    self.command.extend(self.includes)</span></span>
+<span id="cb7-19"><a href="#cb7-19"></a><span class="st">    if self.excludes:</span></span>
+<span id="cb7-20"><a href="#cb7-20"></a><span class="st">        self.command.extend(self.excludes)</span></span></code></pre></div>
+</div>
 <h4 id="frontend-2">Frontend</h4>
 <p>Damit die Backups im Frontend funktionieren, musste zum einen der „Backup“ Knopf mit der Methode <code>create_backup</code> verknüpft werden. Des Weiteren wurde ein Dateibaum, in Abbildung:(<a href="#fig:file-tree">22</a>) grün umrahmt, eingefügt. Dieser gibt den Pfad des angewählten Objektes and die <code>create_backup</code> Methode weiter.</p>
 <div id="fig:file-tree" class="fignos">
@@ -2507,25 +2514,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Das Erstellen der eigentlichen Systemd Konfiguration passiert in Borg-Qt in der <code>Config</code> Klasse zum gleichen Zeitpunkt, wie die eigentliche Konfigurationsdatei geschrieben wird. Zum Schreiben und de-/aktivieren des Systemd Services, respektive Timers wurde eine Klasse <code>SystemdFile</code> erstellt. Somit könnte die Funktion auch einfach in einem anderen Projekt verwendet werden.</p>
 <p>Systemd benötigt zum Starten der Anwendung den absoluten Pfad in der Service Datei. Da davon ausgegangen werden kann, das Borg-Qt im <code>PATH</code> des Systems abgelegt wird, wurde das Unix Tool <code>which</code> verwendet, um den exakten Speicherort zu erhalten. Mittels des Befehls <code>which borg-qt</code> erhält man den absoluten Speicherort der Datei. Zusammen mit den Daten aus den Einstellungen wird diese Information in einem <code>Configparser</code> Objekt gespeichert, welches dann mithilfe der <code>SystemdFile</code> Klasse in eine <code>borg_qt.service</code>, Codesnippet:(#code-service), respektive <code>borg_qt.timer</code>, Codesnippet:(#code-timer), Datei, im Systemd Pfad <code>/home/username/.config/systemd/user/</code> geschrieben und aktiviert wird.</p>
 <p>Eine Option in der Datei <code>borg_qt.timer</code>, die noch erwähnenswert ist, ist <code>Persistent = true</code>. Ist <code>Persistent</code> auf <code>true</code> gesetzt, holt Systemd den Tasks nach sollte er eine Ausführung verpasst haben. Dies ist insbesondere dann hilfreich, wenn etwa der Zeitplan auf <code>daily</code> oder <code>weekly</code> gesetzt wurde. Sollte also etwa jeden Mittwoch ein Backup gemacht werden aber der Computer lief an diesem Tag nicht, startet Systemd Borg-Qt, sobald der Computer das nächste Mal eingeschaltet wird kommt.</p>
-<pre><code> #~/.config/systemd/user/borg_qt.service
- [Unit]
- Description = Runs Borg-Qt once in the backround to take a backup according to the configuration.
+<div id="code-service">
+<pre><code>#~/.config/systemd/user/borg_qt.service
+[Unit]
+Description = Runs Borg-Qt once in the backround to take a backup according to the configuration.
 
- [Service]
- Type = oneshot
- ExecStart = /home/andreas/bin/borg_qt -B</code></pre>
-<p>{#code-service}</p>
-<pre><code> #~/.config/systemd/user/borg_qt.timer
- [Unit]
- Description = Starts the borg_qt.service according to the configured schedule.
+[Service]
+Type = oneshot
+ExecStart = /home/andreas/bin/borg_qt -B</code></pre>
+</div>
+<div id="code-timer">
+<pre><code>#~/.config/systemd/user/borg_qt.timer
+[Unit]
+Description = Starts the borg_qt.service according to the configured schedule.
 
- [Timer]
- OnCalendar = hourly
- Persistent = true
+[Timer]
+OnCalendar = hourly
+Persistent = true
 
- [Install]
- WantedBy = timers.target</code></pre>
-<p>{#code-timer}</p>
+[Install]
+WantedBy = timers.target</code></pre>
+</div>
 <h3 id="gui-anpassungen-nach-usability-studie">GUI Anpassungen nach Usability-Studie</h3>
 <p>Im Rahmen der durchgeführten <a href="#usability-studie">Usability-Studie</a> machten die User folgenden Feststellungen:</p>
 <ul>
@@ -2556,11 +2565,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Für die finale Veröffentlichung wird Borg-Qt als ein sogenanntes ausführbares „Binary“ zur Verfügung gestellt. Man kennt diese auf Windows Systemen etwa als die Dateien mit der Endung <code>.exe</code>. Beim Binary handelt es sich um ein selbst entpackendes Dateiarchiv. Sämtliche benötigten Python Module und sonstige Dateien wie etwa die Icons oder GUI Definitionsdateien sind darin enthalten.</p>
 <p>Diese Art der Auslieferung hat den Vorteil, dass der User das Programm nicht speziell installieren muss oder dafür irgendwelche zusätzlichen Dinge installieren muss. Der Nachteil ist jedoch, dass ein solches Binary nur auf dem jeweiligen Betriebssystem erstellt und ausgeführt werden kann. Das heisst, dass man unter Linux etwa keine Binaries für Mac erstellen kann oder umgekehrt.</p>
 <p>Das Binary wird mit dem Programm „PyInstaller“<span class="citation" data-cites="C2Jz1HGm">[<a href="#ref-C2Jz1HGm" role="doc-biblioref">49</a>]</span> erstellt. PyInstaller wird auf der Kommandozeile mit Angabe der Hauptdatei des Codes ausgeführt. Der Befehl dafür ist relativ einfach, Codesnippet:(#code-install). Pfade zusätzlicher Dateien wie etwa Icons müssen mit angegeben werden. PyInstaller kann diese sonst nicht in das Binary einbinden. Der gezeigte Code wurde dabei in ein Makefile implementiert. Somit kann man in der obersten Ebene des Repository einfach den Befehl <code>make</code> ausführen und das Binary wird im Ordner <code>dist</code> erstellt.</p>
-<pre><code> pyinstaller --hidden-import=PyQt5.sip \
-     --add-data=borg_qt/static/icons:static/icons \
-     --add-data=borg_qt/static/UI:static/UI \
-     -F borg_qt/borg_qt.py; \</code></pre>
-<p>{#code-install}</p>
+<div id="code-install">
+<pre><code>pyinstaller --hidden-import=PyQt5.sip \
+    --add-data=borg_qt/static/icons:static/icons \
+    --add-data=borg_qt/static/UI:static/UI \
+    -F borg_qt/borg_qt.py; \</code></pre>
+</div>
 <p>Auf Github wird jeweils ein Release erstellt und dazu die passenden Binaries hochgeladen. Github packt dabei den Source Code beim Erstellen des Releases in ein Zip Archiv. Somit steht der exakte Source Code zu jedem Binary direkt zu Verfügung. Dies um den Regeln der GPL zu folgen sowie um Benutzern die Möglichkeit zu geben den Code vor einer Nutzung zu überprüfen und als sicher zu befinden.</p>
 <h3 id="kontrollieren-der-testfälle">Kontrollieren der Testfälle</h3>
 <p>Am 25.02.2019 würden gemäss dem Zeitplan die Testfälle durchgegangen. Bis auf die Testfälle TC-18 und TC-24 konnten alle Testfälle erfolgreich durchgeführt werden. TC-18 und TC-24 konnten deshalb nicht durchgeführt werden, da diese Funktionen noch nicht implementiert wurden. TC-18 ist zwar technisch bereits möglich wurde im GUI jedoch noch nicht umgesetzt. Die Resultate wurden in der Tabelle:(<a href="#tbl:testcases">28</a>) erfasst.</p>
