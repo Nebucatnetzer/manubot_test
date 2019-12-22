@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/6a4f88cda4db82e0b245d1c8c2f068d4fbe369ad/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/6a4f88cda4db82e0b245d1c8c2f068d4fbe369ad/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/6a4f88cda4db82e0b245d1c8c2f068d4fbe369ad/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/6a4f88cda4db82e0b245d1c8c2f068d4fbe369ad/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@b5a5b58](https://github.com/Nebucatnetzer/manubot_test/tree/b5a5b5869aeba5192ae508a2035b3b805e406e0b)
+from [Nebucatnetzer/manubot_test@6a4f88c](https://github.com/Nebucatnetzer/manubot_test/tree/6a4f88cda4db82e0b245d1c8c2f068d4fbe369ad)
 on December 22, 2019.
 </em></small>
 
@@ -1351,11 +1351,11 @@ und nicht die des Projektleiters.
 Table: Usability-Studie Probanden
 {#tbl:probanden}
 
-|Grünb <div id="green"></div> | Die Aufgabe war sehr einfach. |  |  |  |
-| Gelb <div id="yellow"></div>| Die Aufgabe war etwas herausfordernd. |  |  |  |
-| Orange <div id="orange"></div> | Die Aufgabe war schwierig. |  |  |  |
-| Rot <div id="red"></div> | Die Aufgabe war sehr schwierig. |  |  |  |
-| Schwarz <div id="black"></div> | Die Aufgabe war unlösbar. |  |  |  |
+|Grünb {#green} | Die Aufgabe war sehr einfach. |  |  |  |
+| Gelb {#yellow}| Die Aufgabe war etwas herausfordernd. |  |  |  |
+| Orange {#orange} | Die Aufgabe war schwierig. |  |  |  |
+| Rot {#red} | Die Aufgabe war sehr schwierig. |  |  |  |
+| Schwarz {#black} | Die Aufgabe war unlösbar. |  |  |  |
 
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
@@ -1377,11 +1377,11 @@ Table: Usability-Studie Bewertungsraster
 
 | Test | Proband 1 | Proband 2 | Proband 3 | Proband 4 | Probandin 5 |
 |---|---|---|---|---|---|
-| 1. | <div id="green"> </div> | <div id="green"> </div> | <div id="yellow"> </div> | <div id="green"> </div> | <div id="green"> </div> |
-| 2. | <div id="yellow"> </div> | <div id="yellow"> </div> | <div id="orange"> </div> | <div id="orange"> </div> | <div id="orange"> </div> |
-| 3. | <div id="green"> </div> | <div id="yellow"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> |
-| 4. | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> |
-| 5. | <div id="green"> </div> | <div id="yellow"> </div> | <div id="orange"> </div> | <div id="yellow"> </div> | <div id="yellow"> </div> |
+| 1. | {#green} | {#green} | {#yellow} | {#green} | {#green} |
+| 2. | {#yellow} | {#yellow} | {#orange} | {#orange} | {#orange} |
+| 3. | {#green} | {#yellow} | {#green} | {#green} | {#green} |
+| 4. | {#green} | {#green} | {#green} | {#green} | {#green} |
+| 5. | {#green} | {#yellow} | {#orange} | {#yellow} | {#yellow} |
 
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
