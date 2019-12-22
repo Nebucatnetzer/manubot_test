@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/85fb323c167d6d9d307e187939c1cefb5d04cbb0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/85fb323c167d6d9d307e187939c1cefb5d04cbb0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/85fb323c167d6d9d307e187939c1cefb5d04cbb0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/85fb323c167d6d9d307e187939c1cefb5d04cbb0/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@92bdc0b](https://github.com/Nebucatnetzer/manubot_test/tree/92bdc0b20fc01516e155cf135b03723ef7ed57a1)
+from [Nebucatnetzer/manubot_test@85fb323](https://github.com/Nebucatnetzer/manubot_test/tree/85fb323c167d6d9d307e187939c1cefb5d04cbb0)
 on December 22, 2019.
 </em></small>
 
@@ -308,6 +308,7 @@ vorgesehen. Sollten sie zukünftig einmal verwendet werden, soll eine
 semantische Versionierung [@13UfgtMhu] verwendet werden. Dabei ist
 eine Versionsnummer immer nach diesem Schema aufgebaut, MAJOR.MINOR.PATCH. Bei
 Änderungen wird die:
+
 1. MAJOR Version erhöht, wenn man inkompatible Änderungen an der API macht.
 2. MINOR Version erhöht, wenn man Funktionalität hinzufügt, die
     abwärtskompatibel ist.
