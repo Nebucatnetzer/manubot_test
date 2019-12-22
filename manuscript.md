@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/990bf03d6ca03c6d14e49ff3afcb833882a70fab/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@b1e630a](https://github.com/Nebucatnetzer/manubot_test/tree/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6)
+from [Nebucatnetzer/manubot_test@990bf03](https://github.com/Nebucatnetzer/manubot_test/tree/990bf03d6ca03c6d14e49ff3afcb833882a70fab)
 on December 22, 2019.
 </em></small>
 
@@ -586,7 +586,7 @@ Das Anwendungsfalldiagramm für das BorgBackup GUI ist in der Abbildung:(@fig:us
 
 ![Anwendungsfalldiagramm](images/use_case.svg){#fig:usecase width="90%"}
 
-#### Cases Detailbeschreibung
+#### Use Cases Detailbeschreibung
 
 Use Cases werden in der Regel mithilfe einer sogenannten Use Case Schablone im
 Detail beschrieben, damit klar ist, wie der Ablauf jeweils genau aussieht. Die
@@ -600,7 +600,7 @@ erweitert um den Ablauf verständlicher zu machen.
 Ein Aktivitätsdiagramm ist dabei ein hilfreiches UML Diagramm zum Erweitern von
 Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 
-###### Use Case 1.0 Backup erstellen
+##### Use Case 1.0 Backup erstellen
 
 | Identifier + Name | 1.0 Backup erstellen |
 |:---|:---|
@@ -627,7 +627,7 @@ Table: Use Case 1.0 Backup erstellen
 
 ![Aktivitätsdiagramm zum Erstellen eines Backups](images/activity_backup.svg){#fig:backup width="90%"}
 
-###### Use Case 2.0 Backup löschen
+##### Use Case 2.0 Backup löschen
 
 | Identifier + Name | 2.0 Backup löschen |
 |:---|:---|
@@ -656,7 +656,7 @@ Table: Use Case 2.0 Backup löschen
 
 ![Aktivitätsdiagramm zum Löschen eines Backups](images/activity_delete.svg){#fig:delete width="90%"}
 
-###### Use Case 3.0 Backup wiederherstellen
+##### Use Case 3.0 Backup wiederherstellen
 
 | Identifier + Name | 3.0 Backup wiederherstellen |
 |:---|:---|
@@ -686,7 +686,7 @@ Table: Use Case 3.0 Backup wiederherstellen
 
 ![Use Case 3.0 Backup wiederherstellen](images/activity_restore.svg){#fig:restore width="90%"}
 
-###### Use Case 4.0 Einzelne Datei wiederherstellen
+##### Use Case 4.0 Einzelne Datei wiederherstellen
 
 | Identifier + Name | 4.0 Einzelne Datei wiederherstellen |
 |:---|:---|
@@ -713,7 +713,7 @@ Table: Use Case 4.0 Einzelne Datei wiederherstellen
 
 ![Aktivitätsdiagramm für das spezifische Wiederherstellen einer Datei](images/activity_mount.svg){#fig:mount width="90%"}
 
-###### Use Case 4.1 Backup mounten
+##### Use Case 4.1 Backup mounten
 
 | Identifier + Name | 4.1 Backup mounten |
 |:---|:---|
@@ -740,7 +740,7 @@ Table: Use Case 4.0 Einzelne Datei wiederherstellen
 Table: Use Case 4.1 Backup mounten
 {#tbl:mount}
 
-###### Use Case 5.0 Konfiguration ändern
+##### Use Case 5.0 Konfiguration ändern
 
 | Identifier + Name | 5.0 Konfiguration ändern |
 |:---|:---|
@@ -771,7 +771,7 @@ Table: Use Case 5.0 Konfiguration ändern
 
 ![Aktivitätsdiagramm zum Ändern von Einstellungen](images/activity_settings.svg){#fig:settings width="90%"}
 
-###### Use Case 6.0 automatische Backups aktivieren
+##### Use Case 6.0 automatische Backups aktivieren
 
 | Identifier + Name | 6.0 automatische Backups aktivieren |
 |:---|:---|
@@ -869,7 +869,7 @@ Für die Backend Programmierung bieten sich die folgende drei Sprachen an: [C#](
 [C++](#c++) und [Python](#python). Dies vor allem, weil alle drei
 Allrounder Sprachen sind und sich gut für Desktop Applikationen eignen.
 
-###### C\#
+##### C\#
 
 C# ist eine von Microsoft entwickelte Programmiersprache, welche viele
 Frameworks zur Verfügung stellt. Insbesondere aufgrund der grossen
@@ -940,7 +940,7 @@ Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 Table: C# Bewertungstabelle
 {#tbl:csharp}
 
-###### C++
+##### C++
 
 C++ ist eine stark typisierte und kompilierte Programmiersprache. Sie ist seit
 1998 Teil des ISO Standards [@WzoMxt1q].
@@ -999,7 +999,7 @@ ungeeignet.
 Table: C++ Bewertungstabelle
 {#tbl:cplusplus}
 
-###### Python
+##### Python
 
 Der Python Interpreter ist für eine Vielzahl an Betriebssystemen erhältlich,
 inklusive Windows, OS X und Linux. Nahezu jedes Desktop Linux System kommt mit
@@ -1079,7 +1079,7 @@ Verbreitung in der Community und Geschwindigkeit der Entwicklung
 ausgeschlossen. In beiden Fällen wäre nicht mal eine ungenaue Schätzung
 wirklich möglich.
 
-###### Qt
+##### Qt
 
 Qt [@rudIQ4z5], „cute“ ausgesprochen, ist ein
 Framework zum Entwickeln von grafischen Oberflächen, welche auf verschiedenen
@@ -1126,7 +1126,7 @@ gross.
 Table: Qt Bewertungstabelle
 {#tbl:qt}
 
-###### Gtk
+##### Gtk
 
 Gtk ist sowohl für Linux wie auch für Windows und OS X erhältlich. Gtk hat als
 Projekt der Gnome Foundation seine Wurzeln jedoch ganz klar in der Linux Welt.
@@ -1178,7 +1178,7 @@ Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 Table: Gtk Bewertungstabelle
 {#tbl:gtk}
 
-###### Electron
+##### Electron
 
 Electron ist ein cross-plattform Framework zum Entwickeln von GUI, welches
 dabei jedoch auf Technologien aus der Webentwicklung benutzt. Entwickelt wird
@@ -1383,13 +1383,13 @@ Table: Usability-Studie Bewertungsraster
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
 
-###### Proband 1
+##### Proband 1
 
 Der Proband fand die Aufgaben grundsätzlich einfach zu lösen. Dass die „Mount“
 Funktion zum Wiederherstellen einzelner Dateien gedacht war, hat er nicht
 erkannt.
 
-###### Proband 2
+##### Proband 2
 
 Der Proband kam mit den Aufgaben insgesamt gut klar. Bei der ersten Aufgabe
 hätte er sich eine Meldung gewünscht, wenn das Backup erfolgreich durchgelaufen
@@ -1397,7 +1397,7 @@ ist. Wie Proband 1 hat auch er die „Mount“ Funktion nicht genutzt zum
 Wiederherstellen einer einzelnen Datei. Text Hinweise wurden nur bedingt
 wahrgenommen.
 
-###### Proband 3
+##### Proband 3
 
 Proband 3 kam mit der Anwendung an sich gut klar. Die Aufgabe Zwei fand er über
 alles gesehen auch am schwierigsten, da er mit der Materie nahezu nicht
@@ -1411,7 +1411,7 @@ Während des Tests ist in der Anwendung noch ein Bug aufgetaucht, welcher unter
 gewissen Umständen Probleme beim Erstellen von Archiven machte. Die
 detaillierte Lösung dafür ist im Kapitel 5 beschrieben.
 
-###### Proband 4
+##### Proband 4
 
 Bei Proband 4 war die grösste Hürde, dass das Interface nur in Englisch
 verfügbar war. Bei Aufgabe Zwei hatte er sich nach eigenen Angaben etwas
@@ -1419,7 +1419,7 @@ verloren gefühlt und hätte sich auch ein Kontextmenü auf dem Rechtsklick
 gewünscht. Mit etwas Hilfe bei der Übersetzung waren die restlichen Aufgaben
 jedoch gut zu meistern.
 
-###### Probandin 5
+##### Probandin 5
 
 Probandin 5 mit der Anwendung insgesamt sehr gut klar und hat auch als Einzige
 die Tooltips auf den Buttons entdeckt und dann genutzt. Aufgabe 2 war jedoch
