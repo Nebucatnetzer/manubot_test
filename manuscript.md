@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/877b384930cee0a3cbbc1f51ca3ee779033a4ef8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/877b384930cee0a3cbbc1f51ca3ee779033a4ef8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/877b384930cee0a3cbbc1f51ca3ee779033a4ef8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/877b384930cee0a3cbbc1f51ca3ee779033a4ef8/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@8fa55ed](https://github.com/Nebucatnetzer/manubot_test/tree/8fa55ed5416a70bb02f72a7a1a5090dec6d0e294)
+from [Nebucatnetzer/manubot_test@877b384](https://github.com/Nebucatnetzer/manubot_test/tree/877b384930cee0a3cbbc1f51ca3ee779033a4ef8)
 on December 22, 2019.
 </em></small>
 
@@ -1031,7 +1031,7 @@ geschrieben wird [@MmuEtWF6].
 
 Um ein Python Programm zu starten, braucht es eigentlich kein grosses Setup.
 Solange die Abhängigkeiten vorhanden sind, kann man ein Skript mit einem
-einfachen Befehl, Code Snippet:(#code-example) starten.
+einfachen Befehl, Code Snippet:([#code-example]) starten.
 
 ::: {#code-example}
 ``` shell
