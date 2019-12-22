@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@854dfc7](https://github.com/Nebucatnetzer/manubot_test/tree/854dfc7be4505be030f63a5565f68b964e50bf93)
+from [Nebucatnetzer/manubot_test@92bdc0b](https://github.com/Nebucatnetzer/manubot_test/tree/92bdc0b20fc01516e155cf135b03723ef7ed57a1)
 on December 22, 2019.
 </em></small>
 
@@ -1288,6 +1288,7 @@ Entwickler nur `make init` ausführen und hat eine funktionsfähige Testumgebung
 Um Backups über SSH testen zu können, wird eine virtuelle Maschine mit Ubuntu
 18.04 verwendet. Die Konfiguration der virtuellen Maschine sieht dabei wie
 folgt aus:
+
 * 2 CPU Kerne
 * 1024 MB RAM
 * IP: 10.7.89.117
