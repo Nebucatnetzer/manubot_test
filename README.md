@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Nebucatnetzer/manubot_test/tree/gh-pages) branch hosts the contents of this directory at https://Nebucatnetzer.github.io/manubot_test/.
-The permalink for this webpage version is https://Nebucatnetzer.github.io/manubot_test/v/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd/.
+The permalink for this webpage version is https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://Nebucatnetzer.github.io/manubot_test/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`9f3c49b1d482d17ab608ff68e3bc0e0b879103dd`](https://github.com/Nebucatnetzer/manubot_test/commit/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd).
+[`03f60d634a5c062555d850474f472153345804b0`](https://github.com/Nebucatnetzer/manubot_test/commit/03f60d634a5c062555d850474f472153345804b0).
