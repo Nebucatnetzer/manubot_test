@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c7920e8393766e4839390934244e73fa2eee5df3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c7920e8393766e4839390934244e73fa2eee5df3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c7920e8393766e4839390934244e73fa2eee5df3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c7920e8393766e4839390934244e73fa2eee5df3/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@03f60d6](https://github.com/Nebucatnetzer/manubot_test/tree/03f60d634a5c062555d850474f472153345804b0)
+from [Nebucatnetzer/manubot_test@c7920e8](https://github.com/Nebucatnetzer/manubot_test/tree/c7920e8393766e4839390934244e73fa2eee5df3)
 on December 22, 2019.
 </em></small>
 
@@ -533,7 +533,7 @@ Table: Risikobewertung Wahrscheinlichkeit
 
 | Bewertung | Beschreibung: Auswirkung (A) |
 |:---|:---|
-| 1 = gering <!-- $bgcolor="#ffb300" --> | Geringe Auswirkungen auf Nützlichkeit |
+| 1 = gering | Geringe Auswirkungen auf Nützlichkeit |
 | 2 = mittel | Mittlere Auswirkung auf die Nützlichkeit |
 | 3 = hoch | Hohe Auswirkung auf die Nützlichkeit |
 
