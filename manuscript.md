@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b607e1499aeb1e180f0afac58d3b4f8ddcd03ccd/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b607e1499aeb1e180f0afac58d3b4f8ddcd03ccd/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b607e1499aeb1e180f0afac58d3b4f8ddcd03ccd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b607e1499aeb1e180f0afac58d3b4f8ddcd03ccd/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/13c0566cb32e6e921998ed2e874c054d971e4d31/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@b607e14](https://github.com/Nebucatnetzer/manubot_test/tree/b607e1499aeb1e180f0afac58d3b4f8ddcd03ccd)
+from [Nebucatnetzer/manubot_test@13c0566](https://github.com/Nebucatnetzer/manubot_test/tree/13c0566cb32e6e921998ed2e874c054d971e4d31)
 on December 22, 2019.
 </em></small>
 
@@ -282,7 +282,7 @@ Community im Bezug auf die Entwicklung entgegengenommen.
 Bugs von BorgBackup welche während der Dauer der Diplomarbeit vom Studenten entdeckt
 werden, wird dieser dem Projekt melden, jedoch nicht selber beheben.
 
-![Kontextdiagramm des BorgBackup GUI](images/kontextdiagramm.svg){#fig:context}
+![Kontextdiagramm des BorgBackup GUI](images/kontextdiagramm.svg){#fig:context width="90%"}
 
 ## 2.5 Projektmethode
 
@@ -350,7 +350,7 @@ Diese Dokumentation wurde in Org-mode [@x9VfZ6iz], einer
 Erweiterung für den Text Editor Emacs, geschrieben. Die Syntax von Org-mode
 erinnert an Markdown. Org-mode bietet einem eine Vielzahl an Hilfen, inklusive
 dem Erstellen von Tabellen und Spreadsheet Funktionen. Für die finale Version
-des Dokuments kann Org-mode die ursprünglich Textdatei über LaTeX in eine.SVG
+des Dokuments kann Org-mode die ursprünglich Textdatei über LaTeX in eine .SVG
 Datei exportieren.
 
 LaTeX [@tBhBqE0j] ist eine Software, welche einem die
@@ -484,7 +484,7 @@ Diplomarbeit soll das Projekt für interessierte Entwickler jedoch offen sein.
 Der Quellcode wird bereits während der Arbeit öffentlich zur Verfügung
 gestellt.
 
-![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder}
+![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="90%"}
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
 |:---|:---|:---|:---|:---|
@@ -552,9 +552,11 @@ Table: Risikobewertung Auswirkung
 Table: Risikobeschreibung
 {#tbl:risikobeschreibung}
 
-![Grafische Darstellung der Ist-Risikoanalyse](images/istrisiko.svg){#fig:currentrisk}
+![Grafische Darstellung der
+Ist-Risikoanalyse](images/istrisiko.svg){#fig:currentrisk width="90%"}
 
-![Grafische Darstellung der Soll-Risikoanalyse](images/sollrisiko.svg){#fig:targetrisk}
+![Grafische Darstellung der
+Soll-Risikoanalyse](images/sollrisiko.svg){#fig:targetrisk width="90%"}
 
 ## 3.4 Anforderungskatalog
 
@@ -582,7 +584,7 @@ dar.“[@4mo6lP04]
 
 Das Anwendungsfalldiagramm für das BorgBackup GUI ist in der Abbildung:(@fig:usecase) zu sehen.
 
-![Anwendungsfalldiagramm](images/use_case.svg){#fig:usecase}
+![Anwendungsfalldiagramm](images/use_case.svg){#fig:usecase width="90%"}
 
 ### 3.5.2 Use Cases Detailbeschreibung
 
@@ -623,7 +625,7 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 Table: Use Case 1.0 Backup erstellen
 {#tbl:backup}
 
-![Aktivitätsdiagramm zum Erstellen eines Backups](images/activity_backup.svg){#fig:backup}
+![Aktivitätsdiagramm zum Erstellen eines Backups](images/activity_backup.svg){#fig:backup width="90%"}
 
 #### 3.5.2.2 Use Case 2.0 Backup löschen
 
@@ -652,7 +654,7 @@ Table: Use Case 1.0 Backup erstellen
 Table: Use Case 2.0 Backup löschen
 {#tbl:delete}
 
-![Aktivitätsdiagramm zum Löschen eines Backups](images/activity_delete.svg){#fig:delete}
+![Aktivitätsdiagramm zum Löschen eines Backups](images/activity_delete.svg){#fig:delete width="90%"}
 
 #### 3.5.2.3 Use Case 3.0 Backup wiederherstellen
 
@@ -682,7 +684,7 @@ Table: Use Case 2.0 Backup löschen
 Table: Use Case 3.0 Backup wiederherstellen
 {#tbl:restore}
 
-![Use Case 3.0 Backup wiederherstellen](images/activity_restore.svg){#fig:restore}
+![Use Case 3.0 Backup wiederherstellen](images/activity_restore.svg){#fig:restore width="90%"}
 
 #### 3.5.2.4 Use Case 4.0 Einzelne Datei wiederherstellen
 
@@ -709,7 +711,7 @@ Table: Use Case 3.0 Backup wiederherstellen
 Table: Use Case 4.0 Einzelne Datei wiederherstellen
 {#tbl:restore-file}
 
-![Aktivitätsdiagramm für das spezifische Wiederherstellen einer Datei](images/activity_mount.svg){#fig:mount}
+![Aktivitätsdiagramm für das spezifische Wiederherstellen einer Datei](images/activity_mount.svg){#fig:mount width="90%"}
 
 #### 3.5.2.5 Use Case 4.1 Backup mounten
 
@@ -767,7 +769,7 @@ Table: Use Case 4.1 Backup mounten
 Table: Use Case 5.0 Konfiguration ändern
 {#tbl:settings}
 
-![Aktivitätsdiagramm zum Ändern von Einstellungen](images/activity_settings.svg){#fig:settings}
+![Aktivitätsdiagramm zum Ändern von Einstellungen](images/activity_settings.svg){#fig:settings width="90%"}
 
 #### 3.5.2.7. Use Case 6.0 automatische Backups aktivieren
 
@@ -795,7 +797,7 @@ Table: Use Case 5.0 Konfiguration ändern
 Table: Use Case 6.0 automatische Backups aktivieren
 {#tbl:automatic}
 
-![Aktivitätsdiagramm zum Aktivieren von automatischen Backups](images/activity_automatic.svg){#fig:automatic}
+![Aktivitätsdiagramm zum Aktivieren von automatischen Backups](images/activity_automatic.svg){#fig:automatic width="90%"}
 
 ## 3.6 Benötigte Funktionalität von BorgBackup
 
@@ -2183,8 +2185,8 @@ Dadurch konnte auch das Risiko Nr. 5 (Der Benutzer vergisst Backups zu machen)
 erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(@fig:target-risk-new),
 eine bessere Risikobewertung als das geplante Soll-Risiko, Abbildung:(@fig:planned-risk-grey).
 
-![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey}
-![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new}
+![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey width="90%"}
+![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new width="90%"}
 
 ## 6.2 Projektmanagement
 
