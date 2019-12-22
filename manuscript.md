@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/25f2bad9ee8e4ee4298f8c139d7fb0dac39221ea/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/5c85ccd159da7acfacc5c01caae7d212a185a52c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/25f2bad9ee8e4ee4298f8c139d7fb0dac39221ea/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/5c85ccd159da7acfacc5c01caae7d212a185a52c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/25f2bad9ee8e4ee4298f8c139d7fb0dac39221ea/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/5c85ccd159da7acfacc5c01caae7d212a185a52c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/25f2bad9ee8e4ee4298f8c139d7fb0dac39221ea/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/5c85ccd159da7acfacc5c01caae7d212a185a52c/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@25f2bad](https://github.com/Nebucatnetzer/manubot_test/tree/25f2bad9ee8e4ee4298f8c139d7fb0dac39221ea)
+from [Nebucatnetzer/manubot_test@5c85ccd](https://github.com/Nebucatnetzer/manubot_test/tree/5c85ccd159da7acfacc5c01caae7d212a185a52c)
 on December 22, 2019.
 </em></small>
 
@@ -454,7 +454,7 @@ Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
 Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in der
 Abbildung:(2) zu sehen.
 
-![](images/swot_analyse.svg){width="90%""
+![](images/swot_analyse.svg){width="90%"}
 
 ## 3.2 Umweltanalyse
 
@@ -1433,7 +1433,7 @@ diesem lassen sich die Oberflächen in einer grafischen Oberfläche designen und
 auch gleich starten. Damit ist direkt zu sehen wie sich die Oberflächen auf dem
 System verhalten.
 
-![](images/qt_designer.png){width="90%""
+![](images/qt_designer.png){width="90%"}
 
 Mit der ersten GUI Version wurden die ersten
 Basisziele der Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(17),
@@ -1455,7 +1455,7 @@ Icon Theme unter der MIT Lizenz, welches die Icons als SVG Dateien
 bereitstellt. Dadurch können die Icons frei skalieren und funktionieren auch
 auf Geräten mit einer hohen Auflösung.
 
-![](images/borgqt_main_v1.png){width="90%""
+![](images/borgqt_main_v1.png){width="90%"}
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den „General“ Tab,
 Abbildung:(18), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
