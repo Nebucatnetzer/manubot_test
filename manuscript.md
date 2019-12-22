@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/3f192c1750bacd40c917d70a363a79e4f2c30fc7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3f192c1750bacd40c917d70a363a79e4f2c30fc7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3f192c1750bacd40c917d70a363a79e4f2c30fc7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/3f192c1750bacd40c917d70a363a79e4f2c30fc7/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@f6718fc](https://github.com/Nebucatnetzer/manubot_test/tree/f6718fceba4f7b182e3a1a433981e32a2b72bb7d)
+from [Nebucatnetzer/manubot_test@3f192c1](https://github.com/Nebucatnetzer/manubot_test/tree/3f192c1750bacd40c917d70a363a79e4f2c30fc7)
 on December 22, 2019.
 </em></small>
 
@@ -553,10 +553,10 @@ Table: Risikobeschreibung
 {#tbl:risikobeschreibung}
 
 ![Grafische Darstellung der
-Ist-Risikoanalyse](images/istrisiko.svg){#fig:currentrisk width="90%"}
+Ist-Risikoanalyse](images/istrisiko.svg){#fig:currentrisk width="9cm"}
 
 ![Grafische Darstellung der
-Soll-Risikoanalyse](images/sollrisiko.svg){#fig:targetrisk width="90%"}
+Soll-Risikoanalyse](images/sollrisiko.svg){#fig:targetrisk width="9cm"}
 
 ## 3.4 Anforderungskatalog
 
@@ -806,7 +806,7 @@ Use Cases umsetzen zu können, werden diese hier in Beziehung zur jeweiligen
 Funktion des GUI aufgelistet:
 
 * Für das Erstellen von Archiven `borg create` [@aOjcjuFL].
-* Für das Anzeigen der Archiven `borg list` [@Jy9J8yh4].
+* Für das Anzeigen der Archiven `borg list` [@UnUYoKlx].
 * Für das Wiederherstellen der Archive `borg extract` [@TfKFZXxY].
 * Für das Löschen der Archive `borg delete` [@ks2O2RFV].
 * Zum Mounten der Archive `borg mount` [@JKnXXa50].
@@ -2185,8 +2185,8 @@ Dadurch konnte auch das Risiko Nr. 5 (Der Benutzer vergisst Backups zu machen)
 erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(@fig:target-risk-new),
 eine bessere Risikobewertung als das geplante Soll-Risiko, Abbildung:(@fig:planned-risk-grey).
 
-![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey width="90%"}
-![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new width="90%"}
+![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey width="7.2cm"}
+![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new width="7.2cm"}
 
 ## 6.2 Projektmanagement
 
