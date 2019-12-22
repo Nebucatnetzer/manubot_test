@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/730d56e69480e4a740651e2958796848f7a31d16/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/730d56e69480e4a740651e2958796848f7a31d16">Nebucatnetzer/manubot_test@730d56e</a> on December 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/f6718fceba4f7b182e3a1a433981e32a2b72bb7d/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/f6718fceba4f7b182e3a1a433981e32a2b72bb7d">Nebucatnetzer/manubot_test@f6718fc</a> on December 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -381,7 +381,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 id="versionskontrolle">2.6.1 Versionskontrolle</h3>
 <p>Die komplette Dokumentation, der Quellcode der Applikation sowie jegliche zusätzlichen Dokumente, wie etwa die Zeitplanung, werden mittels der Software Git versioniert. Thematisch zusammengehörende Änderungen werden in einem Commit zusammengefasst. Somit ist jederzeit nachvollziehbar, was wann geändert hat. Ein Commit sollte dabei gemäss dem Artikel von Chris Beams „How to write a Git Commit Message“ <span class="citation" data-cites="F4k6GPqB">[<a href="#ref-F4k6GPqB" role="doc-biblioref">5</a>]</span> und in englischer Sprache geschrieben sein.</p>
 <p>Versionsnummern sind für die Applikation zum jetzigen Zeitpunkt noch nicht vorgesehen. Sollten sie zukünftig einmal verwendet werden, soll eine semantische Versionierung <span class="citation" data-cites="13UfgtMhu">[<a href="#ref-13UfgtMhu" role="doc-biblioref">6</a>]</span> verwendet werden. Dabei ist eine Versionsnummer immer nach diesem Schema aufgebaut, MAJOR.MINOR.PATCH. Bei Änderungen wird die:</p>
-<p><strong>1.</strong> MAJOR Version erhöht, wenn man inkompatible Änderungen an der API macht. <strong>2.</strong> MINOR Version erhöht, wenn man Funktionalität hinzufügt, die abwärtskompatibel ist. <strong>3.</strong> PATCH Version erhöht, wenn man abwärtskompatibel Bug-Fixes hinzufügt. Eine Versionsnummer würde dann so aussehen Version 1.2.3.</p>
+<ol type="1">
+<li>MAJOR Version erhöht, wenn man inkompatible Änderungen an der API macht.</li>
+<li>MINOR Version erhöht, wenn man Funktionalität hinzufügt, die abwärtskompatibel ist.</li>
+<li>PATCH Version erhöht, wenn man abwärtskompatibel Bug-Fixes hinzufügt. Eine Versionsnummer würde dann so aussehen Version 1.2.3.</li>
+</ol>
 <p>Auf jeden Fall sollte, sofern möglich, immer nur lauffähiger Code im Master Branch eingecheckt sein, damit der Master Branch immer eine funktionierende Software repräsentiert. Dies gilt auch für das Repository der Dokumentation. Der Master Branch der Dokumentation sollte maximal mit zwei Befehlen <code>make clean</code> und <code>make</code> „kompilierbar“ sein.</p>
 <p>Als Software für die Versionskontrolle wurde Git <span class="citation" data-cites="148KOwZIN">[<a href="#ref-148KOwZIN" role="doc-biblioref">7</a>]</span> aus den folgenden Gründen ausgewählt:</p>
 <ul>
