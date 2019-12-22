@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/03f60d634a5c062555d850474f472153345804b0/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@9f3c49b](https://github.com/Nebucatnetzer/manubot_test/tree/9f3c49b1d482d17ab608ff68e3bc0e0b879103dd)
+from [Nebucatnetzer/manubot_test@03f60d6](https://github.com/Nebucatnetzer/manubot_test/tree/03f60d634a5c062555d850474f472153345804b0)
 on December 22, 2019.
 </em></small>
 
@@ -227,7 +227,7 @@ Bewertung sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
 | Ziel-Nr. | Zielsetzung | Muss | Wunsch <br> (1-5, 5=sehr wichtig) |
-|:---|---|:---|:---|
+|:---|:---|:---|:---|
 | 1. | Die Anwendung setzt auf cross-plattform (Linux, Windows, OS X) fähige Technologien. | x |  |
 | 2. | Die Anwendung steht unter der gpl v3 der Öffentlichkeit zur Verfügung. | x |  |
 | 3. | Der User kann mit weniger als 3 Klicks ein Backup ausführen. | x |  |
@@ -437,7 +437,7 @@ Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits vorher
 vermieden werden.
 
 | Beschreibung | Massnahmen |
-|---|---|
+|:---|:---|
 | Ein grösseres Problem in der Programmierung blockiert den Fortschritt. | Immer nur eine Sache auf einmal in der Code-Basis ändern, alle Fehler beheben und erst dann zur nächsten Aufgabe weitergehen. |
 | Viel Arbeit an der Arbeitsstelle, dabei bleibt weniger Zeit für die Diplomarbeit. | Auf der Arbeit Freitage eingeben um die Last etwas zu verteilen. Projektplanung machen. |
 | Know-How zur Umsetzung ist nicht vollständig vorhanden. | Gute Informationsbeschaffung im Internet, Büchern, etc. |
@@ -486,7 +486,7 @@ gestellt.
 ![](images/stakeholder_diagramm.svg)
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. | borg Community | gering | Eine Applikation, die den Umfang von borg abdeckt | mittel |
 |  |  |  | Open-Source | hoch |
 |  |  |  | Mitspracherecht bei der Entwicklung | niedrig |
@@ -523,7 +523,7 @@ Analyse nicht davon ausgegangen, dass man das Risiko Nr. 5 im Rahmen dieser
 Arbeit reduzieren kann.
 
 | Bewertung | Beschreibung: Wahrscheinlichkeit (W) |
-|---|---|
+|:---|:---|
 | 1 = gering | Unwahrscheinlich, <20% |
 | 2 = mittel | Mässig wahrscheinlich, 20-50% |
 | 3 = hoch | Hohe Wahrscheinlichkeit > 50% |
@@ -532,7 +532,7 @@ Table: Risikobewertung Wahrscheinlichkeit
 {#tbl:risikobewertung-wahrscheinlichkeit}
 
 | Bewertung | Beschreibung: Auswirkung (A) |
-|---|---|
+|:---|:---|
 | 1 = gering <!-- $bgcolor="#ffb300" --> | Geringe Auswirkungen auf Nützlichkeit |
 | 2 = mittel | Mittlere Auswirkung auf die Nützlichkeit |
 | 3 = hoch | Hohe Auswirkung auf die Nützlichkeit |
@@ -541,7 +541,7 @@ Table: Risikobewertung Auswirkung
 {#tbl:risikobewertung-auswirkung}
 
 | Nr. | Beschreibung |
-|---|---|
+|:---|:---|
 | 1. | Der Benutzer hat noch nie die Kommandozeile verwendet und scheitert bereits an der Installation von BorgBackup. |
 | 2. | Der Benutzer verwendet keine Verschlüsselung und verliert seine Harddisk. |
 | 3. | Der Benutzer speichert die Backups auf der internen statt der externen Harddisk. |
@@ -600,7 +600,7 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 #### 3.5.2.1. Use Case 1.0 Backup erstellen
 
 | Identifier + Name | 1.0 Backup erstellen |
-|---|---|
+|:---|:---|
 | Description | Das Erstellen einer Datensicherung durch borg anstossen. |
 | Actors | Benutzer |
 | Status | Freigegeben |
@@ -625,7 +625,7 @@ Table: Use Case 1.0 Backup erstellen
 #### 3.5.2.2. Use Case 2.0 Backup löschen
 
 | Identifier + Name | 2.0 Backup löschen |
-|---|---|
+|:---|:---|
 | Description | Ein zuvor erstelltes Backup wird gelöscht. |
 | Actors | Benutzer |
 | Status | Freigegeben |
@@ -652,7 +652,7 @@ Table: Use Case 2.0 Backup löschen
 #### 3.5.2.3. Use Case 3.0 Backup wiederherstellen
 
 | Identifier + Name | 3.0 Backup wiederherstellen |
-|---|---|
+|:---|:---|
 | Description | Alle Dateien eines Backups wiederherstellen. |
 | Actors | User |
 | Status | Freigegeben |
@@ -680,7 +680,7 @@ Table: Use Case 3.0 Backup wiederherstellen
 #### 3.5.2.4. Use Case 4.0 Einzelne Datei wiederherstellen
 
 | Identifier + Name | 4.0 Einzelne Datei wiederherstellen |
-|---|---|
+|:---|:---|
 | Description | Das spezifische Wiederherstellen von einer oder mehreren Dateien. |
 | Actors | User |
 | Status | Freigegeben |
@@ -705,7 +705,7 @@ Table: Use Case 4.0 Einzelne Datei wiederherstellen
 #### 3.5.2.5. Use Case 4.1 Backup mounten
 
 | Identifier + Name | 4.1 Backup mounten |
-|---|---|
+|:---|:---|
 | Description | Ein Backup wird als fuse gemountet. |
 | Actors | Borg GUI, borg |
 | Status | Freigegeben |
@@ -732,7 +732,7 @@ Table: Use Case 4.1 Backup mounten
 #### 3.5.2.6. Use Case 5.0 Konfiguration ändern
 
 | Identifier + Name | 5.0 Konfiguration ändern |
-|---|---|
+|:---|:---|
 | Description | Das Verändern und Speichern der Konfiguration der Applikation. |
 | Actors | User |
 | Status | Freigegeben |
@@ -761,7 +761,7 @@ Table: Use Case 5.0 Konfiguration ändern
 #### 3.5.2.7. Use Case 6.0 automatische Backups aktivieren
 
 | Identifier + Name | 6.0 automatische Backups aktivieren |
-|---|---|
+|:---|:---|
 | Description | Ein Systemdienst wird hinterlegt zum Ausführen automatischer Backups. |
 | Actors | User |
 | Status | Freigegeben |
@@ -833,7 +833,7 @@ Mussziele erhalten dabei eine Gewichtung von 10 und Wunschziele eine Gewichtung
 entsprechend der Bewertung in der Tabelle Projektziele (1).
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 10 | 100 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 10 | 50 |
@@ -916,7 +916,7 @@ führt dazu das C# nicht gerade die schnellste Sprache zum Programmieren ist.
 Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 8 | 80 |
 | 2. Freie Software | 5 | 10 | 8 | 40 |
 | 3. Vorkenntnisse | 5 | 10 | 6 | 30 |
@@ -975,7 +975,7 @@ Code kompilieren muss. In einem Projekt mit dieser begrenzten Zeitspanne eher
 ungeeignet.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- -ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 8 | 80 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 0 | 0 |
@@ -1046,7 +1046,7 @@ den Vorteil, dass man mit ihnen in der Regel sehr schnell und unkompliziert
 entwickeln kann, dies jedoch zulasten der Performance.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- -ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 8 | 8 | 80 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 5 | 25 |
@@ -1112,7 +1112,7 @@ Da noch sehr wenig Kenntnisse vorhanden sind, ist der Lernfaktor entsprechend
 gross.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 10 | 100 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 2 | 10 |
@@ -1164,7 +1164,7 @@ von einfach.
 Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 10 | 100 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 0 | 0 |
@@ -1215,7 +1215,7 @@ diesem Rahmen bereits ein paar Webapplikationen erstellt hat, wäre der
 Lernfaktor bei Electron wohl nicht so gross wie etwa bei Qt oder Gtk.
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1. Cross Plattform nutzbar | 10 | 10 | 10 | 100 |
 | 2. Freie Software | 5 | 10 | 10 | 50 |
 | 3. Vorkenntnisse | 5 | 10 | 5 | 25 |
@@ -1236,7 +1236,7 @@ Variantenbewertungen, wurde entschieden für das Backend der Applikation auf
 Python zu setzen und fürs Frontend Qt zu benutzen.
 
 | Variante | Erreichte Punktzahl |
-|---|---|
+|:---|:---|
 | Backend |  |
 | C# | 279 |
 | C++ | 271 |
@@ -1341,7 +1341,7 @@ Angaben in der Tabelle:(22) sind jedoch die Selbsteinschätzung der Probanden
 und nicht die des Projektleiters.
 
 | Nr. | Geschlecht | Alter | Englischkenntnisse | Computerkenntnisse |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | 1 | Männlich | 30 | Sehr gut | Sehr gut |
 | 2 | Männlich | 26 | Gut | Sehr gut |
 | 3 | Männlich | 26 | Gut | Mittel |
@@ -2208,7 +2208,7 @@ Ziel-Nr. in der Tabelle:(1). In der Spalte Bemerkung wird noch kurz ausgeführt,
 in welcher Form das Ziel bewiesen wurde.
 
 | Ziel-Nr. | Muss | Bewertung | Bemerkung |
-|---|---|---|---|
+|:---|:---|:---|:---|
 | 1. | x | Erfüllt | Wurde in der Sektion: Cross-plattform Kompatibilität mit einem Proof of Concept bewiesen. |
 | 2. | x | Erfüllt | Die Lizenz der Anwendung ist unter diesem Link im öffentlichen Repository von Borg-Qt einsehbar: https://github.com/borg-qt/borg-qt/blob/master/LICENSE |
 | 3. | x | Erfüllt | Wurde mit TC-04 bewiesen. |
@@ -2366,7 +2366,7 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu sichern.
 ## 7.1 Ressourcen
 
 | Ressource | geschätzte Anzahl | effekt. Anzahl | Begründung |
-|---|---|---|---|
+|:---|:---|:---|:---|
 | Projektleiter/Mitarbeiter | 1 | 1 | keine Abweichung |
 | Diplombetreuer | 1 | 1 | keine Abweichung |
 | Testuser | 5 | 5 | keine Abweichung |
@@ -2380,7 +2380,7 @@ Table: Projektressourcen
 ## 7.2 Kosten
 
 | Name | geschätzter Aufwand in h | geschätzte Kosten in CHF | effektiver Aufwand in h | effektive Kosten in CHF |
-|---|---|---|---|---|
+|:---|:---|:---|:---|:---|
 | Initialisierung | 22 | 1320 | 20.3 | 1218. |
 | Analyse | 47 | 2820 | 41.6 | 2496. |
 | Konzept | 34 | 2040 | 35.1 | 2106. |
@@ -2398,7 +2398,7 @@ Table: Kostenrechnung
 ## 7.3 Zeitaufwand
 
 | Aufgabe | Gesch. Aufwand in h | Effekt. Aufwand in h | Begründung |
-|---|---|---|---|
+|:---|:---|:---|:---|
 | Initialisierung | 22 | 20.3 | Das bescheiben der Ziele hat weniger Zeit in Anspruch genommen als geplant. |
 | Analyse | 47 | 41.6 | Da Diagramme aus alten Arbeiten übernommen werden konnten, konnte etwas Zeit eingespart werden. |
 | Konzept | 34 | 35.1 | Die Testfälle erstellen hat etwas mehr Zeit in Anspruch genommen als geplant. |
@@ -2416,7 +2416,7 @@ Table: Zeitcontrolling
 ## 7.4 Testfälle
 
 | ID | Objective | Precondition | Steps | Testdata | Expected Result | Postcondition | Result |
-|---|---|---|---|---|---|---|---|
+|:---|:---|:---|:---|:---|:---|:---|:---|
 | TC-01 | Anwendung starten | Lokales Repository initialisiert.\newline Lokale Konfigurationsdatei erstellt. | 1. Anwendung starten. | - | Die Anwendung startet ohne Fehlermeldung und zeigt eine leere Backup Liste an. | Die Anwendung wird angezeigt. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-02 | Anwendung starten | Lokale Konfigurationsdatei erstellt. | 1. Anwendung starten. | - | Die Anwendung wirft eine Fehlermeldung das sie das lokale Repository nicht finden kann. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-03 | Anwendung starten | - | 1. Anwendung starten. | - | Die wirft eine Fehlermeldung das sie die Konfigurationsdatei nicht finden kann. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
