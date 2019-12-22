@@ -1,4 +1,5 @@
 manuscript_citekey	detagged_citekey	standard_citekey	short_citekey
+url:http://meldmerge.org	url:http://meldmerge.org	url:http://meldmerge.org	I3bSM8kr
 url:https://borgbackup.readthedocs.io/en/stable/usage/create.html	url:https://borgbackup.readthedocs.io/en/stable/usage/create.html	url:https://borgbackup.readthedocs.io/en/stable/usage/create.html	aOjcjuFL
 url:https://borgbackup.readthedocs.io/en/stable/usage/delete.html	url:https://borgbackup.readthedocs.io/en/stable/usage/delete.html	url:https://borgbackup.readthedocs.io/en/stable/usage/delete.html	ks2O2RFV
 url:https://borgbackup.readthedocs.io/en/stable/usage/extract.html	url:https://borgbackup.readthedocs.io/en/stable/usage/extract.html	url:https://borgbackup.readthedocs.io/en/stable/usage/extract.html	TfKFZXxY
@@ -18,6 +19,7 @@ url:https://en.wikipedia.org/wiki/Systemd	url:https://en.wikipedia.org/wiki/Syst
 url:https://feathericons.com	url:https://feathericons.com	url:https://feathericons.com	rWrPaHr8
 url:https://git-scm.com/	url:https://git-scm.com/	url:https://git-scm.com/	148KOwZIN
 url:https://github.com/bit-team/backintime	url:https://github.com/bit-team/backintime	url:https://github.com/bit-team/backintime	U2ov53d3
+url:https://github.com/borgbackup/borg/issues/768	url:https://github.com/borgbackup/borg/issues/768	url:https://github.com/borgbackup/borg/issues/768	6LhuS78I
 url:https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT	url:https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT	url:https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT	aHuYMNo9
 url:https://github.com/dotnet/roslyn/blob/master/License.txt	url:https://github.com/dotnet/roslyn/blob/master/License.txt	url:https://github.com/dotnet/roslyn/blob/master/License.txt	V3du0hlZ
 url:https://github.com/electron/electron/blob/master/LICENSE	url:https://github.com/electron/electron/blob/master/LICENSE	url:https://github.com/electron/electron/blob/master/LICENSE	13IGGiaSE
@@ -28,6 +30,8 @@ url:https://opensource.org/licenses/BSD-3-Clause	url:https://opensource.org/lice
 url:https://orgmode.org/	url:https://orgmode.org/	url:https://orgmode.org/	x9VfZ6iz
 url:https://practicaltypography.com	url:https://practicaltypography.com	url:https://practicaltypography.com	YTQxX4eF
 url:https://semver.org	url:https://semver.org	url:https://semver.org	13UfgtMhu
+url:https://stackoverflow.com/a/14822210/7723859	url:https://stackoverflow.com/a/14822210/7723859	url:https://stackoverflow.com/a/14822210/7723859	1FMRL8454
+url:https://stackoverflow.com/questions/335695/lists-in-configparser/9735884#9735884	url:https://stackoverflow.com/questions/335695/lists-in-configparser/9735884#9735884	url:https://stackoverflow.com/questions/335695/lists-in-configparser/9735884#9735884	fa82c0xs
 url:https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html	url:https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html	url:https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html	7jYaon8r
 url:https://www.apache.org/licenses/LICENSE-2.0	url:https://www.apache.org/licenses/LICENSE-2.0	url:https://www.apache.org/licenses/LICENSE-2.0	86fO8B8o
 url:https://www.borgbackup.org/	url:https://www.borgbackup.org/	url:https://www.borgbackup.org/	HDrQgtPu

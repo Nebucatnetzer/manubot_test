@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@a0f3c11](https://github.com/Nebucatnetzer/manubot_test/tree/a0f3c11b76564af2cf33c9eda0109b7965220007)
+from [Nebucatnetzer/manubot_test@8385360](https://github.com/Nebucatnetzer/manubot_test/tree/83853606acb50f7ab624c77984e8663907790284)
 on December 22, 2019.
 </em></small>
 
@@ -201,7 +201,7 @@ entwickeln.
 
 Als Nebenziel soll mit dieser Arbeit auch die Verbreitung von freier Software
 gefördert werden. Dies wird insbesondere dadurch erreicht, dass die Software
-selbst unter der gpl Version 3 [gplv3] veröffentlicht wird. Wenn möglich soll
+selbst unter der GPL Version 3 veröffentlicht wird. Wenn möglich soll
 während der Entwicklung auch hauptsächlich freie Software verwendet werden, um
 aufzuzeigen das ein solches Projekte nicht zwingend von proprietärer Software
 abhängig ist. Die gesamte Arbeit wird zudem zu jedem Zeitpunkt öffentlich
@@ -268,7 +268,7 @@ Table: Projektziele
 
 Die Anwendung beschränkt sich darauf Funktionen von BorgBackup grafisch darzustellen
 oder nützlich zu erweitern, soweit dies über die API möglich ist. Wie in
-Abbildung:(1) zu sehen ist, werden die Aktionen effektiv immer vom BorgBackup Binary
+Abbildung:(@fig:context) zu sehen ist, werden die Aktionen effektiv immer vom BorgBackup Binary
 ausgeführt und nicht von der grafischen Oberfläche. Eine Erweiterung von BorgBackup
 ist nicht vorgesehen. Dies aus dem Grund das Backups, Deduplikation und
 Verschlüsselung sowie deren korrekte Implementation komplexe Themen sind und
@@ -282,7 +282,7 @@ Community im Bezug auf die Entwicklung entgegengenommen.
 Bugs von BorgBackup welche während der Dauer der Diplomarbeit vom Studenten entdeckt
 werden, wird dieser dem Projekt melden, jedoch nicht selber beheben.
 
-![](images/kontextdiagramm.svg)
+![Kontextdiagramm des Borg GUI](images/kontextdiagramm.svg){#fig:context}
 
 ## 2.5 Projektmethode
 
@@ -403,14 +403,14 @@ werden.
 ### 2.8.1 Zeitaufwand
 
 Um den geschätzten Zeitaufwand mit dem effektiv geleisteten Aufwand zu
-vergleichen wurde die Tabelle:(28) erstellt. Darin werden die beiden Aufwände
+vergleichen wurde die Tabelle:(@tbl:time-controlling) erstellt. Darin werden die beiden Aufwände
 einander gegenübergestellt und grössere Abweichungen begründet. Die Nummer vor
 jeder Aufgabe in der Tabelle korreliert dabei mit den Aufgabennummern im
 Ganttchart.
 
 ### 2.8.2 Ressourcen
 
-In der Tabelle:(26) wurden die für die Arbeit benötigten Materialen erfasst. Da
+In der Tabelle:(@tbl:projectressources) wurden die für die Arbeit benötigten Materialen erfasst. Da
 es sich beim Projekt um ein reines Software Projekt handelt ist der Material
 Aufwand entsprechend gering. Im Abschluss des Projektes werden die geplanten
 Ressourcen den effektiv verwendeten gegenübergestellt.
@@ -419,7 +419,7 @@ Ressourcen den effektiv verwendeten gegenübergestellt.
 
 Werden die internen Lohnkosten des Projektleiters auf ca. 60 CHF pro Stunde
 geschätzt (dies entspricht in etwa dem doppelten reelen Stundenlohn des
-Projektleiters), ergeben sich gemäss der Berechnung in der Tabelle:(27),
+Projektleiters), ergeben sich gemäss der Berechnung in der Tabelle:(@tbl:costs),
 theoretische Kosten von 19080 CHF für die Umsetzung dieser Arbeit. Die Kosten
 für die Entwicklung werden im Projekt jedoch nicht berücksichtigt. Somit sind
 diese nur ein rein theoretischer Faktor.
@@ -432,7 +432,7 @@ gegenüber, sollten sie eintreffen.
 
 ### 2.9.1 Risikobeschreibung
 
-In der Tabelle: (6) sind die Risiken des Projektes gemeinsam mit ihren
+In der Tabelle: (@tbl:risikobeschreibung) sind die Risiken des Projektes gemeinsam mit ihren
 Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits vorher
 vermieden werden.
 
@@ -457,10 +457,10 @@ Die SWOT-Analyse ist eine Methode die Stärken, Schwächen, Chancen und Gefahren
 zu erkennen, indem eine 4-Felder-Matrix ausgefüllt wird.
 
 Grundlage einer guten SWOT Analyse ist eine klare Zieldefinition und
-Fragestellung.. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in der
-Abbildung:(2) zu sehen.
+Fragestellung. Die ausgefüllte SWOT-Analyse für dieses Projekt ist in der
+Abbildung:(@fig:swot) zu sehen.
 
-![](images/swot_analyse.svg){width="90%"}
+![SWOT Analyse des Projektes](images/swot_analyse.svg){#fig:swot width="90%"}
 
 ## 3.2 Umweltanalyse
 
@@ -469,9 +469,9 @@ und Einflüsse auf das Projekt durch interne und externe soziale Umwelt zu
 betrachten und zu bewerten. Auf Grundlage der Analyseergebnisse werden
 erforderliche Massnahmen zur Gestaltung der Umweltbeziehungen abgeleitet. Die
 Gestaltung der Projektumweltbeziehungen ist eine Projektmanagementaufgabe. In
-der Tabelle:(3) wurden die Anforderungen und Wünsche mit Einschätzung der
+der Tabelle:(@tbl:umweltanalyse) wurden die Anforderungen und Wünsche mit Einschätzung der
 Wahrscheinlichkeit und der Einflussnahme aufgenommen. Zusätzlich ist die
-Beziehung der Stakeholder zum Projekt noch in der Abbildung:(3) grafisch
+Beziehung der Stakeholder zum Projekt noch in der Abbildung:(@fig:stakeholder) grafisch
 dargestellt.
 
 Da das Projekt so ausgelegt ist, dass der Projektleiter es in Eigenarbeit
@@ -483,7 +483,7 @@ Diplomarbeit soll das Projekt für interessierte Entwickler jedoch offen sein.
 Der Quellcode wird bereits während der Arbeit öffentlich zur Verfügung
 gestellt.
 
-![](images/stakeholder_diagramm.svg)
+![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder}
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
 |:---|:---|:---|:---|:---|
@@ -501,20 +501,20 @@ gestellt.
 Table: Umweltanalyse
 {#tbl:umweltanalyse}
 
-## 3.3 Risiko-Analyse
+## 3.3 Risiko-Analyse {#risk-analysis}
 
 Bei der Risiko-Analyse wird von einem durchschnittlichen Benutzer ausgegangen,
 der zur Zeit noch keine Backups macht und beginnen möchte BorgBackup zu nutzen, um
 auf einer externen Harddisk seine Backups zu speichern.
 
 Es wird eine Ist/Soll Analyse gemacht. Jedes Risiko wurde entsprechend der
-Tabelle: (4) nach der Wahrscheinlichkeit des Eintreffens bewertet und
-entsprechend der Tabelle: (5) nach seiner Auswirkung im Bezug auf die
+Tabelle:(@tbl:risikobewertung-wahrscheinlichkeit) nach der Wahrscheinlichkeit des Eintreffens bewertet und
+entsprechend der Tabelle:(@tbl:risikobewertung-auswirkung) nach seiner Auswirkung im Bezug auf die
 Nützlichkeit der gemachten Backups.
 
-In der Tabelle: (6) sind dabei die Risiken für das Szenario aufgelistet und
-nummeriert. In der Abbildung:(4) ist die Bewertung des Ist-Risikos grafisch
-dargestellt und in der Abbildung:(5) ist das Soll-Risiko, welches mit dieser
+In der Tabelle:(@tbl:risikobeschreibung) sind dabei die Risiken für das Szenario aufgelistet und
+nummeriert. In der Abbildung:(@fig:currentrisk) ist die Bewertung des Ist-Risikos grafisch
+dargestellt und in der Abbildung:(@fig:targetrisk) ist das Soll-Risiko, welches mit dieser
 Arbeit angestrebt wird, ebenfalls grafisch dargestellt.
 
 Es sollte im Rahmen der Arbeit möglich sein die meisten Risiken zu verringern.
@@ -551,9 +551,9 @@ Table: Risikobewertung Auswirkung
 Table: Risikobeschreibung
 {#tbl:risikobeschreibung}
 
-![](images/istrisiko.svg)
+![Grafische Darstellung der Ist-Risikoanalyse](images/istrisiko.svg){#fig:currentrisk}
 
-![](images/sollrisiko.svg)
+![Grafische Darstellung der Soll-Risikoanalyse](images/sollrisiko.svg){#fig:targetrisk}
 
 ## 3.4 Anforderungskatalog
 
@@ -579,9 +579,9 @@ des Verhaltens von Software- und anderen Systemen. Es stellt Anwendungsfälle
 und Akteure mit ihren jeweiligen Abhängigkeiten und Beziehungen
 dar.“[@4mo6lP04]
 
-Das Anwendungsfalldiagramm für das BorgBackup GUI ist in der Abbildung: (6) zu sehen.
+Das Anwendungsfalldiagramm für das BorgBackup GUI ist in der Abbildung:(@fig:usecase) zu sehen.
 
-![](images/use_case.svg)
+![Anwendungsfalldiagramm](images/use_case.svg){#fig:usecase}
 
 ### 3.5.2 Use Cases Detailbeschreibung
 
@@ -589,15 +589,15 @@ Use Cases werden in der Regel mithilfe einer sogenannten Use Case Schablone im
 Detail beschrieben, damit klar ist, wie der Ablauf jeweils genau aussieht. Die
 in diesem Projekt verwendete Schablone wurde von Alistair Cockburn definiert.
 
-Die nachfolgend aufgeführten Use Cases, Tabellen:(7, 8, 9, 10, 11, 12, 13)
-wurden dem Anwendungsfalldiagramm, Abbildung:(6), entnommen und zusätzlich noch
-um jeweils ein Aktivitätsdiagramm, Abbildungen: (7, 8, 9, 10, 11, 12),
+Die nachfolgend aufgeführten Use Cases, Tabellen:(@tbl:backup, @tbl:delete, @tbl:restore, @tbl:restore-file, @tbl:mount, @tbl:settings, @tbl:automatic)
+wurden dem Anwendungsfalldiagramm, Abbildung:(@fig:usecase), entnommen und zusätzlich noch
+um jeweils ein Aktivitätsdiagramm, Abbildungen: (@fig:backup, @fig:delete, @fig:restore, @fig:mount, @fig:settings, @fig:automatic),
 erweitert um den Ablauf verständlicher zu machen.
 
 Ein Aktivitätsdiagramm ist dabei ein hilfreiches UML Diagramm zum Erweitern von
 Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 
-#### 3.5.2.1. Use Case 1.0 Backup erstellen
+#### 3.5.2.1 Use Case 1.0 Backup erstellen
 
 | Identifier + Name | 1.0 Backup erstellen |
 |:---|:---|
@@ -620,9 +620,11 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | Date | 30.12.2018 |
 
 Table: Use Case 1.0 Backup erstellen
-{#tbl:create-backup}
+{#tbl:backup}
 
-#### 3.5.2.2. Use Case 2.0 Backup löschen
+![Aktivitätsdiagramm zum Erstellen eines Backups](images/activity_backup.svg){#fig:backup}
+
+#### 3.5.2.2 Use Case 2.0 Backup löschen
 
 | Identifier + Name | 2.0 Backup löschen |
 |:---|:---|
@@ -647,9 +649,11 @@ Table: Use Case 1.0 Backup erstellen
 | Date | 30.12.2018 |
 
 Table: Use Case 2.0 Backup löschen
-{#tbl:delete-backup}
+{#tbl:delete}
 
-#### 3.5.2.3. Use Case 3.0 Backup wiederherstellen
+![Aktivitätsdiagramm zum Löschen eines Backups](images/activity_delete.svg){#fig:delete}
+
+#### 3.5.2.3 Use Case 3.0 Backup wiederherstellen
 
 | Identifier + Name | 3.0 Backup wiederherstellen |
 |:---|:---|
@@ -675,9 +679,11 @@ Table: Use Case 2.0 Backup löschen
 | Date | 30.12.2018 |
 
 Table: Use Case 3.0 Backup wiederherstellen
-{#tbl:restore-backup}
+{#tbl:restore}
 
-#### 3.5.2.4. Use Case 4.0 Einzelne Datei wiederherstellen
+![Use Case 3.0 Backup wiederherstellen](images/activity_restore.svg){#fig:restore}
+
+#### 3.5.2.4 Use Case 4.0 Einzelne Datei wiederherstellen
 
 | Identifier + Name | 4.0 Einzelne Datei wiederherstellen |
 |:---|:---|
@@ -700,9 +706,11 @@ Table: Use Case 3.0 Backup wiederherstellen
 | Date | 30.12.2018 |
 
 Table: Use Case 4.0 Einzelne Datei wiederherstellen
-{#tbl:restore-single-file}
+{#tbl:restore-file}
 
-#### 3.5.2.5. Use Case 4.1 Backup mounten
+![Aktivitätsdiagramm für das spezifische Wiederherstellen einer Datei](images/activity_mount.svg){#fig:mount}
+
+#### 3.5.2.5 Use Case 4.1 Backup mounten
 
 | Identifier + Name | 4.1 Backup mounten |
 |:---|:---|
@@ -727,9 +735,9 @@ Table: Use Case 4.0 Einzelne Datei wiederherstellen
 | Date | 30.12.2018 |
 
 Table: Use Case 4.1 Backup mounten
-{#tbl:mount-backup}
+{#tbl:mount}
 
-#### 3.5.2.6. Use Case 5.0 Konfiguration ändern
+#### 3.5.2.6 Use Case 5.0 Konfiguration ändern
 
 | Identifier + Name | 5.0 Konfiguration ändern |
 |:---|:---|
@@ -756,7 +764,9 @@ Table: Use Case 4.1 Backup mounten
 | Date | 30.12.2018 |
 
 Table: Use Case 5.0 Konfiguration ändern
-{#tbl:change-config}
+{#tbl:settings}
+
+![Aktivitätsdiagramm zum Ändern von Einstellungen](images/activity_settings.svg){#fig:settings}
 
 #### 3.5.2.7. Use Case 6.0 automatische Backups aktivieren
 
@@ -784,6 +794,8 @@ Table: Use Case 5.0 Konfiguration ändern
 Table: Use Case 6.0 automatische Backups aktivieren
 {#tbl:automatic-backup}
 
+![Aktivitätsdiagramm zum Aktivieren von automatischen Backups](images/activity_automatic.svg){#fig:automatic}
+
 ## 3.6 Benötigte Funktionalität von BorgBackup
 
 Damit nachvollziehbar ist welche Funktionen von BorgBackup verwendet wurden um die
@@ -797,9 +809,7 @@ Funktion des GUI aufgelistet:
 * Zum Unmounten der Archive `borg umount` [@JKnXXa50].
 * Zum anzeigen der Repository Statistik ~borg info~[@Jy9J8yh4].
 
-Die detaillierte Implementation wird in der Sektion [Realisierung] beschrieben.
-
-[Realisierung] siehe Abschnitt 5
+Die detaillierte Implementation wird in der Sektion [Realisierung](#realisierung) beschrieben.
 
 # 4 Konzept{.page_break_before}
 
@@ -818,11 +828,11 @@ diesen im Anschluss zur Nutzung wieder beenden müssten.
 Mit der Idee aus der „Einleitung zu den Varianten“ wurde dann eine Tabelle, mit
 Anforderungen an die Technologien, erstellt. Die Bewertungspunkte setzen sich
 einerseits aus Projektzielen anderseits aus für das Projekt sinnvollen Punkten
-zusammen. Dadurch ergeben sich dann die Bewertungen, welche in der Tabelle:(14)
+zusammen. Dadurch ergeben sich dann die Bewertungen, welche in der Tabelle:(@tbl:example-table)
 aufgenommen wurden. Die möglichen Varianten wurden danach bewertet. Die
 effektive Berechnung des Resultats wird nach folgender Formel durchgeführt.
 
-\begin{equation" G * EP = KE \end{equation"
+\begin{equation" G * EP = KE \end{equation}
 
 Also die Gewichtung(/G/) multipliziert mit der erreichten Punktzahl(/EP/)
 ergibt das Kriteriumsergebnis(/KE/). Für das Endresultat wird dann die Summe
@@ -830,7 +840,7 @@ ergibt das Kriteriumsergebnis(/KE/). Für das Endresultat wird dann die Summe
 Projekt ausgewählt.
 
 Mussziele erhalten dabei eine Gewichtung von 10 und Wunschziele eine Gewichtung
-entsprechend der Bewertung in der Tabelle Projektziele (1).
+entsprechend der Bewertung in der Tabelle Projektziele:(@tbl:projektziele).
 
 | Kriterium | Gewichtung | max. Punktzahl | erreichte Punktzahl | Kriteriums- ergebnis |
 |:---|:---|:---|:---|:---|
@@ -851,17 +861,11 @@ Table: Muster Bewertungstabelle
 
 ### 4.1.2 Backend
 
-Für die Backend Programmierung bieten sich die folgende drei Sprachen an: [C#],
-[C++] und [Python]. Dies vor allem, weil alle drei Allrounder Sprachen sind und
-sich gut für Desktop Applikationen eignen.
+Für die Backend Programmierung bieten sich die folgende drei Sprachen an: [C#](#csharp),
+[C++](#cplusplus) und [Python](#python). Dies vor allem, weil alle drei
+Allrounder Sprachen sind und sich gut für Desktop Applikationen eignen.
 
-[C#] siehe Abschnitt 4.1.2.1
-
-[C++] siehe Abschnitt 4.1.2.2
-
-[Python] siehe Abschnitt 4.1.2.3
-
-#### 4.1.2.1 C\#
+#### 4.1.2.1 C\# {#csharp}
 
 C# ist eine von Microsoft entwickelte Programmiersprache, welche viele
 Frameworks zur Verfügung stellt. Insbesondere aufgrund der grossen
@@ -932,7 +936,7 @@ Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 Table: C# Bewertungstabelle
 {#tbl:csharp}
 
-#### 4.1.2.2 C++
+#### 4.1.2.2 C++ {#cplusplus}
 
 C++ ist eine stark typisierte und kompilierte Programmiersprache. Sie ist seit
 1998 Teil des ISO Standards [@WzoMxt1q].
@@ -991,7 +995,7 @@ ungeeignet.
 Table: C++ Bewertungstabelle
 {#tbl:cplusplus}
 
-#### 4.1.2.3 Python
+#### 4.1.2.3 Python {#python}
 
 Der Python Interpreter ist für eine Vielzahl an Betriebssystemen erhältlich,
 inklusive Windows, OS X und Linux. Nahezu jedes Desktop Linux System kommt mit
@@ -1023,13 +1027,11 @@ geschrieben wird [@MmuEtWF6].
 
 Um ein Python Programm zu starten, braucht es eigentlich kein grosses Setup.
 Solange die Abhängigkeiten vorhanden sind, kann man ein Skript mit einem
-einfachen Befehl, Code Snippet (1) starten.
+einfachen Befehl, Code Snippet:(#code-example) starten.
 
-``` shell
+``` shell {#code-example}
 python3 example.py
 ```
-
-Programmlisting 1 Minimal Python Setup
 
 Da Python schon eine etwas bekanntere Sprache ist, ist der Lernfaktor der
 Sprache selber nicht mehr so hoch. Allerdings gibt es noch viele interessante
@@ -1064,7 +1066,7 @@ Table: Python Bewertungstabelle
 
 ### 4.1.3 Frontend
 
-Fürs Frontend sind folgende Projekte interessant: [Qt], [Gtk] und [Electron].
+Fürs Frontend sind folgende Projekte interessant: [Qt](#qt), [Gtk](#gtk) und [Electron](#electron).
 Alle drei sind cross-plattform fähige GUI Frameworks und nicht von einer
 spezifischen Sprache abhängig. Da nahezu keine Erfahrung mit den aufgeführten
 Frameworks vorhanden ist, werden bei den Frontend Frameworks die Punkte der
@@ -1072,14 +1074,7 @@ Verbreitung in der Community und Geschwindigkeit der Entwicklung
 ausgeschlossen. In beiden Fällen wäre nicht mal eine ungenaue Schätzung
 wirklich möglich.
 
-
-[Qt] siehe Abschnitt 4.1.3.1
-
-[Gtk] siehe Abschnitt 4.1.3.2
-
-[Electron] siehe Abschnitt 4.1.3.3
-
-#### 4.1.3.1 Qt
+#### 4.1.3.1 Qt {#qt}
 
 Qt [@rudIQ4z5], „cute“ ausgesprochen, ist ein
 Framework zum Entwickeln von grafischen Oberflächen, welche auf verschiedenen
@@ -1126,7 +1121,7 @@ gross.
 Table: Qt Bewertungstabelle
 {#tbl:qt}
 
-#### 4.1.3.2 Gtk
+#### 4.1.3.2 Gtk {#gtk}
 
 Gtk ist sowohl für Linux wie auch für Windows und OS X erhältlich. Gtk hat als
 Projekt der Gnome Foundation seine Wurzeln jedoch ganz klar in der Linux Welt.
@@ -1140,10 +1135,10 @@ nur intensiv als User verwendet.
 
 Gtk integriert sich nur unter Linux wirklich gut ins System. Unter Windows und
 OS X können die Applikationen schnell etwas fremd wirken. Dies ist gut bei der
-Applikation Meld [meld] zu sehen, wenn man eine Datei auswählen möchte,
-Abbildung (13).
+Applikation Meld [@I3bSM8kr] zu sehen, wenn man eine Datei auswählen möchte,
+Abbildung:(@fig:meld).
 
-![](images/meld.png)
+![Screenshot der Applikation Meld unter Windows 10](images/meld.png){#fig:meld}
 
 Die Gtk Dokumentation empfiehlt
 [@kB8qUrdi], dass man unter Microsoft
@@ -1178,7 +1173,7 @@ Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 Table: Gtk Bewertungstabelle
 {#tbl:gtk}
 
-#### 4.1.3.3 Electron
+#### 4.1.3.3 Electron {#electron}
 
 Electron ist ein cross-plattform Framework zum Entwickeln von GUI, welches
 dabei jedoch auf Technologien aus der Webentwicklung benutzt. Entwickelt wird
@@ -1231,7 +1226,7 @@ Table: Electron Bewertungstabelle
 
 ### 4.1.4 Ergebnis
 
-Aufgrund der erreichten Punktzahl, Tabelle:(21), bei den vorhergehenden
+Aufgrund der erreichten Punktzahl, Tabelle:(@tbl:result), bei den vorhergehenden
 Variantenbewertungen, wurde entschieden für das Backend der Applikation auf
 Python zu setzen und fürs Frontend Qt zu benutzen.
 
@@ -1265,7 +1260,7 @@ Erfahrung in diesem Bereich zu erweitern um ein gutes Fundament für die Zukunft
 des Projektes zu bauen.
 
 Aufgrund der Unerfahrenheit im Bereich des automatisierten Testings wurden noch
-die Testfälle in der Tabelle:(29), erstellt. Diese werden final von Hand
+die Testfälle in der Tabelle:(@tbl:testcases), erstellt. Diese werden final von Hand
 überprüft. Somit kann vermieden werden, dass nicht funktionierende automatische
 Tests den Abschluss des Projektes verhindern. Da die Testfälle sich
 hauptsächlich an den Use Cases orientieren, gibt es ein paar Ziele die, dadurch
@@ -1302,18 +1297,13 @@ ermöglicht Passwort freie Logins.
 
 Die Testfälle werden während der Entwicklung kontinuierlich durchgeführt. Am
 Ende der Diplomarbeit wird das finale Ergebnis des jeweiligen Testfalles
-erfasst. Allfällige Besonderheiten werden im Kapitel [Realisierung]
+erfasst. Allfällige Besonderheiten werden im Kapitel [Realisierung](#realisierung)
 beschrieben.
-
-
-[Releases] siehe Abschnitt 5.11
-
-[Realisierung] siehe Abschnitt 5
 
 ## 4.4 Klassendiagramm
 
 Um die Abhängigkeiten zwischen den einzelnen Klassen der Anwendung aufzuzeigen,
-wurde ein Klassendiagramm, Abbildung:(34), erstellt. Das Klassendiagramm
+wurde ein Klassendiagramm, Abbildung:(@fig:classdiagramm), erstellt. Das Klassendiagramm
 basiert auf dem UML Standard. Im Diagramm wurden nicht alle „Properties“ und
 Methoden alles Klassen aufgezeichnet, sondern nur solche, die auf eine andere
 Klasse verweisen. Dadurch bleibt das Diagramm übersichtlicher. Die
@@ -1321,23 +1311,23 @@ Klassennamen, welche in fetter Schrift gehalten sind, wurden dabei vom
 Projektleiter erstellt. Die Klassennamen, welche kursiv sind, sind Klassen,
 welche entweder von Python oder Qt bereitgestellt werden.
 
-## 4.5 Usability-Studie
+## 4.5 Usability-Studie {#usability}
 
 Um Borg-Qt auf seine Nutzerfreundlichkeit zu testen, wird im Rahmen der
 Diplomarbeit noch eine kleine Usability-Studie gemacht. Bei einer solchen
-Studie erhalten die Probanden, Tabelle:(22), ein paar Aufgaben, Sektion 4.5.1,
+Studie erhalten die Probanden, Tabelle:(@tbl:probanden), ein paar Aufgaben [](#tasks),
 welche sie in einer begrenzten Zeit zu erledigen haben. Die Aufsichtsperson
 gibt ihnen dabei keinerlei Hilfestellungen. Die Probanden sollen die Aufgaben
 alleine mithilfe der Tipps und Hinweisen in der Anwendung lösen. Im Anschluss
 bewerten die Probanden dann die einzelnen Aufgaben nach ihrer Schwierigkeit,
-Tabelle:(23). Daraus lässt sich dann eine sogenannte Heatmap erstellen. Aus der
+Tabelle:(@tbl:usability). Daraus lässt sich dann eine sogenannte Heatmap erstellen. Aus der
 Heatmap kann man anschaulich herauslesen, welche Bereiche für die User noch zu
 kompliziert sind und Nacharbeit benötigen.
 
 Die Probanden wurden aus dem Umfeld des Projektleiters ausgewählt. Es wurde
 dabei versucht ein einigermassen breites Spektrum an Computerkenntnissen
 abzudecken. Da die Anwendung allen Erfahrungsstufen behilflich sein soll. Die
-Angaben in der Tabelle:(22) sind jedoch die Selbsteinschätzung der Probanden
+Angaben in der Tabelle:(@tbl:probanden) sind jedoch die Selbsteinschätzung der Probanden
 und nicht die des Projektleiters.
 
 | Nr. | Geschlecht | Alter | Englischkenntnisse | Computerkenntnisse |
@@ -1361,7 +1351,7 @@ Table: Usability-Studie Probanden
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
 
-### 4.5.1 Aufgaben
+### 4.5.1 Aufgaben {#tasks}
 
 1. Du möchtest deine Dateien sichern. Erstelle dazu eine Datensicherung des
     Ordners `/home/testuser/Downloads`.
@@ -1470,16 +1460,17 @@ umbenannt. Somit zeigen die Buttons dann auch direkt, dass sie Dateien
 respektive Ordner ein-/ausschliessen. Ein paar der Probanden hatten es zuerst
 über den „Remove“ Button versucht.
 
-# 5 Realisierung{.page_break_before}
+# 5 Realisierung{.page_break_before #realisierung}
 
 ## 5.1 Cross-plattform Kompatibilität
 
 Um sicherzugehen, dass die gewählten Technologien auch den Anforderungen
 entsprechen wurde ein kleines „Hello World“ Programm mit Python3 und Qt
 geschrieben. Dieses läuft ohne jegliche Probleme und Anpassung auf Windows,
-Linux und OS X. Wie in den Screenshots in Abbildung:(14) zu sehen ist.
+Linux und OS X. Wie in den Screenshots in Abbildung:(@fig:hellow-world) zu sehen ist.
 
-![](images/hello_world.png)
+![Python und Qt Applikation unter Windows (links), Linux (rechts) und
+OS X (unten)](images/hello_world.png){#fig:hello-world}
 
 ## 5.2 Benutzerinterface
 
@@ -1490,29 +1481,29 @@ Time“[@U2ov53d3] verglichen. „Back in Time“
 setzt auf Rsync zum Kopieren der Dateien. Dies erlaubt es „Back in Time“ auch
 schnelle Backups über SSH zu machen allerdings ohne Deduplikation.
 
-Das übersichtliche Userinterface in Abbildung:(15), wurde für Borg-Qt als
+Das übersichtliche Userinterface in Abbildung:(@fig:bit), wurde für Borg-Qt als
 Vorlage genommen. Insbesondere die einfache und direkte Art ein Backup eines
 spezifischen Pfades zu machen ist sehr gelungen. Da sie es dem User so einfach
 wie möglich macht ein Backup zu erstellen.
 
-![](images/bit_main.png)
+![Screenshot des Hauptfensters der Software „Back in Time“](images/bit_main.png){#fig:bit}
 
-### 5.2.2 Erste Umsetzung
+### 5.2.2 Erste Umsetzung {#first-implementation}
 
 Qt bietet einem mehrere Möglichkeiten zum Erstellen der grafischen Oberfläche.
 Zum einen kann die ganze Oberfläche programmatisch erstellt werden. Dies gibt
 dem Entwickler ein grosses Mass an Kontrolle, ist allerdings nicht sehr
 intuitiv.
 
-Die angenehmere Variante ist es den Qt Designer, Abbildung:(16), zu nutzen. Mit
+Die angenehmere Variante ist es den Qt Designer, Abbildung:(@fig:designer), zu nutzen. Mit
 diesem lassen sich die Oberflächen in einer grafischen Oberfläche designen und
 auch gleich starten. Damit ist direkt zu sehen wie sich die Oberflächen auf dem
 System verhalten.
 
-![](images/qt_designer.png){width="90%"}
+![Ein Screenshot der Applikation Qt Designer](images/qt_designer.png){#fig:designer width="90%"}
 
 Mit der ersten GUI Version wurden die ersten
-Basisziele der Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(17),
+Basisziele der Projektarbeit umgesetzt. Im Hauptfenster, Abbildung:(@fig:borgqt-main1),
 befinden sich wie auch bei „Back in Time“ in der einen Hälfte eine Liste der
 vorhandenen Archive und in der anderen Hälfte ein Dateimanager. Dieser dient
 zur Auswahl des zu sichernden Pfades. Im oberen Bereich findet sich die Toolbar
@@ -1531,26 +1522,27 @@ Icon Theme unter der MIT Lizenz, welches die Icons als SVG Dateien
 bereitstellt. Dadurch können die Icons frei skalieren und funktionieren auch
 auf Geräten mit einer hohen Auflösung.
 
-![](images/borgqt_main_v1.png){width="90%"}
+![Screenshot des Borg-Qt Hauptfensters Version
+1](images/borgqt_main_v1.png){#fig:borgqt-main1 width="90%"}
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den „General“ Tab,
-Abbildung:(18), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
-Abbildung:(19), kann der User die Ordner und Dateien auswählen, die er sichern
-will. Der dritte Tab „Exclude“, Abbildung:(20), gibt dem User die Möglichkeit
+Abbildung:(@fig:settings-general), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
+Abbildung:(@fig:settings-include), kann der User die Ordner und Dateien auswählen, die er sichern
+will. Der dritte Tab „Exclude“, Abbildung:(@fig:settings-exclude), gibt dem User die Möglichkeit
 einzelne Ordner oder Dateien von den Backups auszuschliessen.
 
-![](images/borgqt_settings_general_v1.png)
+![Screenshot der Borg-Qt „General“ Einstellungen Version 1](images/borgqt_settings_general_v1.png){#fig:settings-general}
 
-![](images/borgqt_settings_include_v1.png)
+![Screenshot der Borg-Qt „Include“ Einstellungen Version 1](images/borgqt_settings_include_v1.png){#fig:settings-include}
 
-![](images/borgqt_settings_exclude_v1.png)
+![Screenshot der Borg-Qt „Exclude“ Einstellungen Version 1](images/borgqt_settings_exclude_v1.png){#fig:settings-exclude}
 
-Das „Progress“ Dialogfenster, Abbildung:(21), zeigt dem User einen
+Das „Progress“ Dialogfenster, Abbildung:(@fig:progress), zeigt dem User einen
 Fortschrittsbalken und einen „Cancel“ Button zum Abbrechen der Aktion an. Das
 Fenster ist generisch gehalten, damit es von verschiedenen Tasks gleichermassen
 genutzt werden kann.
 
-![](images/borgqt_progress_v1.png)
+![Screenshot des Borg-Qt „Progress“ Dialogfensters Version 1](images/borgqt_progress_v1.png){#fig:progress}
 
 ## 5.3 Einstellungen
 
@@ -1571,10 +1563,10 @@ erstellen und parsen.
 
 „INI“ Stil bedeutet dabei das die Einstellungen in „Key/Value“ Paaren
 gespeichert werden. Somit kann man einfach auf den benötigten Wert zugreifen,
-in dem man seinen Schlüssel angibt. Ein Beispiel ist im Code Snippet: (2) zu
+in dem man seinen Schlüssel angibt. Ein Beispiel ist im Code Snippet:(#code-init) zu
 sehen.
 
-```
+``` {#code-init}
  # docs/borg_qt.conf.example
  [borgqt]
  includes = [
@@ -1586,19 +1578,17 @@ sehen.
  prefix = muster
 ```
 
-Programmlisting 2 Ein Beispiel einer INI Datei.
-
 Das Auslesen und Schreiben der Konfigurationsdatei liess sicher relativ einfach
 realisieren. Die grösste Herausforderung dabei war, dass `Configparser` keinen
 Support für eine Liste von Werten hat. Die wurde insbesondere für `include` und
 `exclude` Pfade benötigt. Also für die Pfade, welche gesichert werden oder von
 einem Backup ausgeschlossen werden sollen.
 
-Abhilfe schaffte hier ein Stackexchange Post [configlist]. Dieser schlug vor,
+Abhilfe schaffte hier ein Stackexchange Post [@fa82c0xs]. Dieser schlug vor,
 dass man die Liste im JSON Format speichern soll. Da `Configparser` alle Werte
 im Format „String“ zurückgibt, können dann die JSON Listen sehr einfach von
 einem JSON Parser umgewandelt werden. Im Projekt wurde dies dann unter anderem
-als Methode der `Config` Klasse, Code Snippet:(3), implementiert. Somit muss
+als Methode der `Config` Klasse, Code Snippet:(#code-config), implementiert. Somit muss
 man jeweils nur die `_return_list_option()` Methode mit der benötigten Option
 als Argument aufrufen und bekommt als Resultat eine funktionierende Python
 Liste zurück.
@@ -1606,7 +1596,7 @@ Liste zurück.
 Beim Schreiben der Konfigurationsdatei macht man dann einfach das Umgekehrte.
 Man konvertiert eine Python Liste in einen JSON String.
 
-``` python
+``` python {#code-config}
  # borg_qt/config.py
 
  def _return_list_option(self, option):
@@ -1618,19 +1608,17 @@ Man konvertiert eine Python Liste in einen JSON String.
          return []
 ```
 
-Programmlisting 3 Methode zum Parsen von JSON Listen in Konfigurationsdateien.
-
 Die Datei wird jeweils beim Start der Applikation gelesen und angewendet. Somit
 weiss die Applikation bereits nach dem Start wo das Repository liegen sollte
 und wie die Login Daten dafür sind. Dies geschieht mittels der Methode
-`_get_path`, Codesnippet:(4). Es gibt dabei zwei mögliche Pfade, wo die
+`_get_path`, Codesnippet:(#code-get-path). Es gibt dabei zwei mögliche Pfade, wo die
 Konfigurationsdatei liegen könnte. Befindet sich die Datei nicht am vorgegeben
 Pfad `~/.config/borg_qt/borg_qt.conf` oder direkt „neben“ dem Binary, gibt die
-Applikation eine entsprechende Meldung, Abbildung:(22), aus. Der Hauptpfad
+Applikation eine entsprechende Meldung, Abbildung:(@fig:missing-config), aus. Der Hauptpfad
 unter `~/.config/borg_qt/borg_qt.conf` wird dabei gemäss dem Ziel Nr. 21 über
 die Umgebungsvariable `HOME` zusammengesetzt
 
-``` python
+``` python {#code-get-path}
  # borg_qt/config.py
 
  def _get_path(self):
@@ -1646,9 +1634,8 @@ die Umgebungsvariable `HOME` zusammengesetzt
          raise BorgException("Configuration file not found!")
 ```
 
-Programmlisting 4 Methode zum Suchen der Konfigurationsdatei
-
-![](images/borgqt_missing_config.png)
+![Screenshot der Borg-Qt Fehlermeldung bei fehlender Konfigurationsda-
+tei.](images/borgqt_missing_config.png){@fig:missing-config}
 
 ### 5.3.2 Frontend
 
@@ -1662,14 +1649,14 @@ Qt kennt keinen Mechanismus zum Auslesen aller Elemente aus einem sogenannten
 `QListWidget`, einem GUI Element, welches Listen darstellt. Die Elemente müssen
 somit zuerst in einer Zwischenliste gespeichert werden, bevor sie zurück in das
 `Configparser` Objekt geschrieben. Im Code sieht dies dann wie in
-Codesnippet:(5) aus. Dabei wird jedes Element einzeln aus dem `QListWidget`
+Codesnippet:(#code-config-list) aus. Dabei wird jedes Element einzeln aus dem `QListWidget`
 geholt und in die Zwischenliste geschoben. Im zweiten Teil wird die Liste dann
 wieder zu einem JSON String konvertiert und im `Configparser` Objekt
 gespeichert. Die Option `indent=4` dient dabei der Lesbarkeit, damit nicht der
 ganze JSON String auf ein Zeile in der Konfigurationsdatei gespeichert wird,
 sondern jedes Listenelement seine eigene Zeile erhält.
 
-``` python
+``` python {#code-config-list}
  # borg_qt/config.py
 
  # Workaraound to get all items of a QListWidget as a list
@@ -1683,8 +1670,6 @@ sondern jedes Listenelement seine eigene Zeile erhält.
                                                 indent=4,
                                                 sort_keys=True)
 ```
-Programmlisting 5 Workaround zum Auslesen aller Elemente in
-QListWidgets.
 
 ## 5.4 Borg Interface
 
@@ -1720,19 +1705,19 @@ und `json_error`) welche im weiteren Code verarbeitet werden.
 
 Insbesondere `json_error` ist für den weiteren Programmablauf von grosser
 Wichtigkeit. Wenn BorgBackup ein Problem feststellt, wird die Error Meldung von BorgBackup
-an `json_error` weitergegeben. Mittels der Methode im Codesnippet:(6), wird die
+an `json_error` weitergegeben. Mittels der Methode im Codesnippet:(#code-json-err), wird die
 Variabel ausgewertet und im Falle eines Fehlers wirft der Code eine Exception,
 welche im Hauptprogramm abgefangen wird. Dabei wird eine Fehlermeldung in einem
 separaten Fenster ausgegeben. Die Methode wurde dabei auf der Klasse
 `BorgQtThread` umgesetzt und steht somit allen Funktionen zur Verfügung. Die
-Fehlermeldung bei einer fehlenden Konfigurationsdatei, Abbildung:(22),
+Fehlermeldung bei einer fehlenden Konfigurationsdatei, Abbildung:(@fig:missing-config),
 funktioniert nach dem gleichen Prinzip und konnte somit zum grössten Teil
 wiederverwendet werden. Der restliche JSON Output kann dann einfach mit dem
 `json` Modul geparst werden. Somit werden dem User, gemäss Ziel Nr. 14, direkt
 die Fehlermeldungen von BorgBackup angezeigt und es muss nur an gewissen Stellen noch
 applikationsspezifisches Exception Handling betrieben werden.
 
-``` python
+``` python {#code-json-err}
  # borg_qt/borg_interface.py
 
  def process_json_error(self, json_err):
@@ -1744,8 +1729,6 @@ applikationsspezifisches Exception Handling betrieben werden.
              err = json.loads(error_list[0])
              raise BorgException(err[`message`])
 ```
-
-Programmlisting 6 Auswertung der `json_err` Variabel.
 
 Die ganze Funktionalität wurde dann in der Klasse `BorgQtThread`
 zusammengefasst. Somit kann für jede Funktion von BorgBackup eine einzelne Klasse
@@ -1782,9 +1765,9 @@ und führen sogar dazu, dass die Pfade gar nicht funktionieren. Somit werden die
 „Excludes“ mittels der Methode `_process_excludes` mit dem entsprechenden
 Parameter gepaart und als gesamte Liste an das finale Kommando angehängt. Die
 „Includes“ funktionieren auf die gleiche Weise, benötigen jedoch keine
-zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(7).
+zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(#code-create).
 
-``` python
+``` python {#code-create}
  # borg_qt/borg_interface.py
  # Funktion zum Verarbeiten der "Excludes"
  def _process_excludes(self, excludes):
@@ -1807,23 +1790,22 @@ zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(7).
          self.command.extend(self.excludes)
 ```
 
-Programmlisting 7 Erstellen des „borg create“ Kommandos fürs erstellen von
-Backups.
-
 ### 5.5.2 Frontend
 
 Damit die Backups im Frontend funktionieren, musste zum einen der „Backup“
 Knopf mit der Methode `create_backup` verknüpft werden. Des Weiteren wurde ein
-Dateibaum, in Abbildung:(23) grün umrahmt, eingefügt. Dieser gibt den Pfad des
+Dateibaum, in Abbildung:(@fig:file-tree) grün umrahmt, eingefügt. Dieser gibt den Pfad des
 angewählten Objektes and die `create_backup` Methode weiter.
 
-![](images/borgqt_file_tree.png)
+![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree}
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit Ladebalken
-angezeigt, Abbildung:(24). Dieser dient hauptsächlich dazu dem User das Gefühl
+angezeigt, Abbildung:(@fig:progress). Dieser dient hauptsächlich dazu dem User das Gefühl
 zu geben, dass die Applikation noch am Arbeiten ist.
 
-Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung]
+![Screenshot des „Aktion in Ausführung“ Dialogs.](images/borgqt_progress_v2.png){#fig:progress}
+
+Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung](#first-implementation)
 noch etwas angepasst werden. BorgBackup gibt, während dem Erstellen eines Archivs
 keine Informationen zurück, welche es einem erlauben würden einen
 Fortschrittsbalken zu generieren, welcher den effektiven Fortschritt anzeigt.
@@ -1839,11 +1821,9 @@ soweit kommen, dass das Zählen länger als das eigentliche Sichern dauert. Aus
 diesem Grund wurde der Fortschrittsbalken mit Prozentanzeige durch einen sich
 wiederholenden Ladebalken ersetzt.
 
-![](images/borgqt_progress_v2.png)
-
 Wurde das Archiv erfolgreich erstellt, wird die Liste mit den Archiven sowie
 die Repository Statistik aktualisiert. Beide Elemente sind in der
-Abbildung:(25), grün respektive rot umrahmt. Für die beiden Funktionen wurde
+Abbildung:(@fig:archive-list), grün respektive rot umrahmt. Für die beiden Funktionen wurde
 jeweils eine eigene Klasse, `ListThread` und `InfoThread`, erstellt. Beide
 erben von `BorgQtThread`. In den Klassen wird wie bei `BackupThread` BorgBackup über
 einen `subprocess` aufgerufen, um die Archiv Liste respektive Statistik
@@ -1854,22 +1834,20 @@ Zahlen umgewandelt.
 Da BorgBackup die Repository Grössen in Bytes zurückgibt, sollten diese zur Anzeige
 noch in eine Menschen lesbarses Format umgerechnet werden. In Borg-Qt geschieht
 dies mit der Helferfunktion `convert_size`. Die Funktion wurde von
-Stackoverflow [sizeformat] übernommen.
+Stackoverflow [@1FMRL8454] übernommen.
 
 Beim Durchführen der Usability-Studie wurde noch ein Bug entdeckt welcher die
 Anwendung zum Abstürzen brachte. Der Bug, der entdeckt wurde, tritt immer dann
 auf, wenn ein Archiv gemountet ist während man ein Archiv erstellen möchte.
 Dies ist jedoch offenbar eine Funktion die von BorgBackup nicht unterstützt wird
-[borgmountissue]. BorgBackup kann mehrere Archive gleichzeitig mounten. Der User
+[@6LhuS78I]. BorgBackup kann mehrere Archive gleichzeitig mounten. Der User
 müsste jedoch jedes der Archive zuerst wieder unmounten bevor er eine neue
 Datensicherung erstellen kann. Das Problem wurde dadurch gelöst, dass dem User
 ein Dialog angezeigt wird, über welchen er vor einer Datensicherung zuerst die
 gemounteten Archive aushängen kann. Anschliessend startet die Datensicherung,
 wie wenn kein Archiv gemountet gewesen wäre.
 
-![](images/borgqt_archive_list.png)
-
-[Erste Umsetzung] siehe Abschnitt 5.2.2
+![Screenshot der aktualisierten Archivliste und Repository Statistik.](images/borgqt_archive_list.png){#fig:archive-list}
 
 ## 5.6 Restore
 
@@ -1879,10 +1857,11 @@ Kontrolle, dass ein Archiv angewählt wurde, bevor man die Wiederherstellung
 startet, das Erstellen des Zielpfades sowie das Aufräumen bei einem Fehler.
 
 Wird der „Restore“ Knopf gedrückt ohne das ein Archiv angewählt wurde,
-erscheint folgende Fehlermeldung, Abbildung:(26), um den Benutzer darauf
+erscheint folgende Fehlermeldung, Abbildung:(@fig:no-archive), um den Benutzer darauf
 hinzuweisen, das er dies noch tun sollte.
 
-![](images/borgqt_no_archive_selected.png)
+![Screenshot der Fehlermeldung eines fehlenden Archivs während einem
+Restore.](images/borgqt_no_archive_selected.png){#fig:no-archive}
 
 Für die Wiederherstellung einer Datensicherung, selektiert der User das
 gewünschte Archiv. Als zweiten Schritt startet er den Prozess mit Klick auf
@@ -1890,11 +1869,11 @@ gewünschte Archiv. Als zweiten Schritt startet er den Prozess mit Klick auf
 Zielort auszuwählen. Ist der Zielort festgelegt, erstellt Borg-Qt ein
 Subverzeichnis mit dem Namen des Archivs und beginnt mit der eigentlichen
 Wiederherstellung. Ist der Zielort für die Applikation nicht beschreibbar
-erscheint die Fehlermeldung, Abbildung:(27), und der Vorgang wird abgebrochen.
+erscheint die Fehlermeldung, Abbildung:(@fig:not-writeable), und der Vorgang wird abgebrochen.
 Nach der erfolgreichen Wiederherstellung öffnet die Applikation den Zielort in
 einem Dateimanager, damit der User gleich mit den Dateien weiterarbeiten kann.
 
-![](images/borgqt_not_writeable.png)
+![Screenshot der Fehlermeldung wenn der Zielort nicht beschreibbar ist.](images/borgqt_not_writeable.png){#fig:not-writeable}
 
 Gibt es, während dem Wiederherstellen, einen Fehler gibt die Anwendung den
 entsprechenden Fehler aus und löscht zusätzlich noch den zu Beginn erstellten
@@ -1933,12 +1912,12 @@ System wieder im gleichen Zustand wie vor dem Start der Applikation.
 
 Soll ein Archiv gelöscht werden wird, wie bei der „Restore“ und „Mount“
 Funktion, überprüft ob eines angewählt ist. Ist dies gegeben, zeigt die
-Applikation dem Benutzer einen Dialog, Abbildung:(28). Bestätigt er diesen mit
+Applikation dem Benutzer einen Dialog, Abbildung:(@fig:yes-or-no). Bestätigt er diesen mit
 „Yes“ wird der Vorgang fortgesetzt und das Archiv gelöscht mit „No“ wird der
 Vorgang abgebrochen. Nach der Löschung werden die Archivliste und die
 Repository Statistik aktualisiert, um den neuen Zustand wiederzugeben.
 
-![](images/borgqt_yes_no.png)
+![Screenshot des Yes/No Dialogs in der „Delete“ Funktion.](images/borgqt_yes_no.png){#fig:yes-or-no}
 
 ## 5.9 Automatische Backups
 
@@ -1994,7 +1973,7 @@ versteht eine Vielzahl an Datumsformaten
 [@H0CHfZwD]. In Borg-Qt
 wurden zwei Varianten in den Einstellungen umgesetzt. Eine, welche „Predefined
 Schedule“ genannt wurde und eine mit dem Namen „Custom Schedule“, zu sehen in,
-Abbildung:(29). Die Predefined Option wird dabei in die von Systemd
+Abbildung:(@fig:settings-schedule). Die Predefined Option wird dabei in die von Systemd
 unterstützten Formate „hourly, daily, weekly und monthly“ übersetzt.
 Entsprechend der gewählten Wiederholung wird automatisch ein Archiv erstellt.
 Mit der Custom Option kann der Benutzer sich den Zeitplan individueller
@@ -2005,7 +1984,7 @@ Wochentagen zu ermöglichen, damit der Benutzer etwa folgenden Zeitplan
 erstellen könnte „Montag, Mittwoch, Freitag stündliche Backups.“ (`Monday,
 Wednesday, Friday *-*-* *:00:00`).
 
-![](images/borgqt_settings_schedule.png)
+![Screenshot der „Schedule“ Einstellungen](images/borgqt_settings_schedule.png){#fig:settings-schedule}
 
 Das Erstellen der eigentlichen Systemd Konfiguration passiert in Borg-Qt in der
 `Config` Klasse zum gleichen Zeitpunkt, wie die eigentliche Konfigurationsdatei
@@ -2019,8 +1998,8 @@ abgelegt wird, wurde das Unix Tool `which` verwendet, um den exakten
 Speicherort zu erhalten. Mittels des Befehls `which borg-qt` erhält man den
 absoluten Speicherort der Datei. Zusammen mit den Daten aus den Einstellungen
 wird diese Information in einem `Configparser` Objekt gespeichert, welches dann
-mithilfe der `SystemdFile` Klasse in eine `borg_qt.service`, Codesnippet:(8),
-respektive `borg_qt.timer`, Codesnippet:(9), Datei, im Systemd Pfad
+mithilfe der `SystemdFile` Klasse in eine `borg_qt.service`, Codesnippet:(#code-service),
+respektive `borg_qt.timer`, Codesnippet:(#code-timer), Datei, im Systemd Pfad
 `/home/username/.config/systemd/user/` geschrieben und aktiviert wird.
 
 Eine Option in der Datei `borg_qt.timer`, die noch erwähnenswert ist, ist
@@ -2031,7 +2010,7 @@ Sollte also etwa jeden Mittwoch ein Backup gemacht werden aber der Computer
 lief an diesem Tag nicht, startet Systemd Borg-Qt, sobald der Computer das
 nächste Mal eingeschaltet wird kommt.
 
-```
+``` {#code-service}
  #~/.config/systemd/user/borg_qt.service
  [Unit]
  Description = Runs Borg-Qt once in the backround to take a backup according to the configuration.
@@ -2040,9 +2019,8 @@ nächste Mal eingeschaltet wird kommt.
  Type = oneshot
  ExecStart = /home/andreas/bin/borg_qt -B
 ```
-Programmlisting 8 Systemd Service Datei für Borg-Qt
 
-```
+``` {#code-timer}
  #~/.config/systemd/user/borg_qt.timer
  [Unit]
  Description = Starts the borg_qt.service according to the configured schedule.
@@ -2059,7 +2037,7 @@ Programmlisting 9 Systemd Timer Datei für Borg-Qt
 
 ## 5.10 GUI Anpassungen nach Usability-Studie
 
-Im Rahmen der durchgeführten [Usability-Studie] machten die User folgenden
+Im Rahmen der durchgeführten [Usability-Studie](#usability) machten die User folgenden
 Feststellungen:
 * „Include“ und „Exclude“ Funktionen sind unklar beschriftet.
 * Die Funktionen sind unklar.
@@ -2069,27 +2047,26 @@ Die Korrekturen wurden im Rahmen der Diplomarbeit angepasst.
 
 In den „Include“ sowie „Exclude“ Optionen wurden einige Buttons neu beschriftet
 und zwei Labels hinzugefügt, nun wird klarer auf ihre Funktion hingewiesen,
-Abbildungen:(30) und (31).
+Abbildungen:(@fig:settings-include-v2) und (@fig:settings-exclude-v2).
 
-![](images/borgqt_settings_include_v2.png)
+![Screenshot der Borg-Qt „Include“ Einstellungen Version
+2](images/borgqt_settings_include_v2.png){#fig:settings-include-v2}
 
-![](images/borgqt_settings_exclude_v2.png)
+![Screenshot der Borg-Qt „Exclude“ Einstellungen Version 2](images/borgqt_settings_exclude_v2.png){#fig:settings-exclude-v2}
 
 Um die Funktionen der Applikation zur erklären wurde ein Hilfe Fenster,
-Abbildung:(32), eingebaut. Dieses wird dem Benutzer beim Start der Applikation
+Abbildung:(@fig:help), eingebaut. Dieses wird dem Benutzer beim Start der Applikation
 angezeigt. Es gibt ihm einen kurzen Überblick welcher Button welche Aktion
 auslöst und welche Elemente welche Information anzeigen. Optional kann der
 Benutzer entscheiden, dass er das Fenster beim nächsten Start nicht mehr
 angezeigt bekommen möchte. Über den Button „Help“ kann das Fenster jederzeit
 unabhängig der Einstellungen wieder angezeigt werden.
 
-![](images/borgqt_help.png)
+![Screenshot des Borg-Qt Hilfe Fenster](images/borgqt_help.png){#fig:help}
 
 Mit Fertigstellung der Anpassungen wurde die Realisierung erfolgreich
 abgeschlossen und die Entwicklung neuer Funktionen für den Zeitrahmen der
 Diplomarbeit gestoppt.
-
-[Usability-Studie] siehe Abschnitt 4.5
 
 ## 5.11 Releases
 
@@ -2108,20 +2085,18 @@ man unter Linux etwa keine Binaries für Mac erstellen kann oder umgekehrt.
 Das Binary wird mit dem Programm
 „PyInstaller“[@C2Jz1HGm] erstellt. PyInstaller wird auf
 der Kommandozeile mit Angabe der Hauptdatei des Codes ausgeführt. Der Befehl
-dafür ist relativ einfach, Codesnippet:(10). Pfade zusätzlicher Dateien wie
+dafür ist relativ einfach, Codesnippet:(#code-install). Pfade zusätzlicher Dateien wie
 etwa Icons müssen mit angegeben werden. PyInstaller kann diese sonst nicht in
 das Binary einbinden. Der gezeigte Code wurde dabei in ein Makefile
 implementiert. Somit kann man in der obersten Ebene des Repository einfach den
 Befehl `make` ausführen und das Binary wird im Ordner `dist` erstellt.
 
-```
+``` {#code-install}
  pyinstaller --hidden-import=PyQt5.sip \
      --add-data=borg_qt/static/icons:static/icons \
      --add-data=borg_qt/static/UI:static/UI \
      -F borg_qt/borg_qt.py; \
 ```
-
-Programmlisting 10 Code zum Erstellen der finalen Binaries von Borg-Qt
 
 Auf Github wird jeweils ein Release erstellt und dazu die passenden Binaries
 hochgeladen. Github packt dabei den Source Code beim Erstellen des Releases in
@@ -2137,15 +2112,15 @@ die Testfälle TC-18 und TC-24 konnten alle Testfälle erfolgreich durchgeführt
 werden. TC-18 und TC-24 konnten deshalb nicht durchgeführt werden, da diese
 Funktionen noch nicht implementiert wurden. TC-18 ist zwar technisch bereits
 möglich wurde im GUI jedoch noch nicht umgesetzt. Die Resultate wurden in der
-Tabelle:(29) erfasst.
+Tabelle:(@tbl:testcases) erfasst.
 
 # 6 Ausblick/Fazit{.page_break_before}
 
 ## 6.1 Zielbewertung
 
-In der nachfolgenden Tabelle:(25) wurden die Ziele nach „Erfüllt“, „Nicht
+In der nachfolgenden Tabelle:(@tbl:result-project-targets) wurden die Ziele nach „Erfüllt“, „Nicht
 erfüllt“ oder „Teilweise erfüllt“ bewertet. Die Ziel-Nr. entspricht dabei der
-Ziel-Nr. in der Tabelle:(1). In der Spalte Bemerkung wird noch kurz ausgeführt,
+Ziel-Nr. in der Tabelle:(@tbl:projektziele). In der Spalte Bemerkung wird noch kurz ausgeführt,
 in welcher Form das Ziel bewiesen wurde.
 
 | Ziel-Nr. | Muss | Bewertung | Bemerkung |
@@ -2188,18 +2163,15 @@ Table: Bewertete Projektziele
 
 ### 6.1.1 Risikoanalyse der neuen Ist-Situation
 
-Das Ist-Riskio in der Sektion [Risiko-Analyse] könnte wie prognostiziert
+Das Ist-Riskio in der Sektion [Risiko-Analyse](#risk-analysis) könnte wie prognostiziert
 erhehblich gesenkt werden. Entgegen der ursprünglichen Annahme konnten die
 automatischen Backups doch noch während der Diplomarbeit implementiert werden.
 Dadurch konnte auch das Risiko Nr. 5 (Der Benutzer vergisst Backups zu machen)
-erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(33),
-eine bessere Risikobewertung als das geplante [Soll-Risiko].
+erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(@fig:target-risk-new),
+eine bessere Risikobewertung als das geplante Soll-Risiko, Abbildung:(@fig:planned-risk-grey).
 
-![](images/ist_risiko_neu.svg)
-
-[Risiko-Analyse] siehe Abschnitt 3.3
-
-[Soll-Risiko] See figure 5
+![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey}
+![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new}
 
 ## 6.2 Projektmanagement
 
@@ -2227,18 +2199,18 @@ Faden während der Entwicklung zu behalten waren sie sehr hilfreich.
 
 ### 6.2.1 Zeitaufwand
 
-Der Zeitaufwand ist wie in Tabelle:(28) zu sehen, leicht tiefer als geplant.
+Der Zeitaufwand ist wie in Tabelle:(@tbl:time-controlling) zu sehen, leicht tiefer als geplant.
 Dies ist vor allem auf die Zeitersparnisse bei der Realisierung zurückzuführen.
 
 ### 6.2.2 Ressourcen
 
-Die im Projekt eingesetzten Ressourcen entsprechen den in der Tabelle:(26)
+Die im Projekt eingesetzten Ressourcen entsprechen den in der Tabelle:(@tbl:projectressources)
 geplanten 1:1.
 
 ### 6.2.3 Kosten
 
 Da die geleisteten Stunden tiefer als geplant waren, sind auch die geschätzten
-Kosten tiefer. Wie in der Tabelle:(27) zu sehen würden sich die angenommenen,
+Kosten tiefer. Wie in der Tabelle:(@tbl:costs) zu sehen würden sich die angenommenen,
 internen Kosten für die Arbeit auf ca. 17302.20 CHF belaufen. Dies stellt eine
 Einsparung von 1777.8 CHF dar.
 
@@ -2389,7 +2361,7 @@ Table: Testfälle
 
 ## 7.5 Klassendiagramm{.page_break_before}
 
-![](images/class_diagramm.svg){height="20cm"}
+![Klassendiagramm der Borg-Qt Applikation](images/class_diagramm.svg){height="20cm" #fig:classdiagramm}
 
 
 ## References {.page_break_before}
