@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/854dfc7be4505be030f63a5565f68b964e50bf93">Nebucatnetzer/manubot_test@854dfc7</a> on December 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/92bdc0b20fc01516e155cf135b03723ef7ed57a1/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/92bdc0b20fc01516e155cf135b03723ef7ed57a1">Nebucatnetzer/manubot_test@92bdc0b</a> on December 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -2125,7 +2125,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Aufgrund der Unerfahrenheit im Bereich des automatisierten Testings wurden noch die Testfälle in der Tabelle:(<a href="#tbl:testcases">4</a>), erstellt. Diese werden final von Hand überprüft. Somit kann vermieden werden, dass nicht funktionierende automatische Tests den Abschluss des Projektes verhindern. Da die Testfälle sich hauptsächlich an den Use Cases orientieren, gibt es ein paar Ziele die, dadurch nicht getestet werden können. Zudem sind zurzeit nur ca. 20 der Ziele durch die Use Cases abgedeckt. Die weiteren Ziele lassen sich erst sinnvoll integrieren, wenn die Basis für das Programm geschaffen wurde. Somit werden diese Ziele erst im Anschluss zur Diplomarbeit umgesetzt.</p>
 <p>Getestet wird die Applikation jeweils auf dem Computer des Projektleiters. Auf diesem läuft die aktuelle Langzeitsupport Version (18.04) von Ubuntu <span class="citation" data-cites="mgdc6bIz">[<a href="#ref-mgdc6bIz" role="doc-biblioref">34</a>]</span> Linux, mit der GNOME Desktop Umgebung <span class="citation" data-cites="ANdMtja9">[<a href="#ref-ANdMtja9" role="doc-biblioref">35</a>]</span>, als Betriebssystem. Die Tests werden jeweils gegen eine von PyInstaller generierte Binärdatei ausgeführt. Der genaue Vorgang der Erstellung dieser Datei wird in der Sektion: [Releases] beschrieben. Somit werden die Tests immer gegen eine veröffentlichbare Version gemacht.</p>
 <p>Als Testdateien wird jeweils das Code Repository von Borg-Qt selber verwendet. Der Pfad des BorgBackup Repository für lokale Backups soll <code>/tmp/test-borgqt</code> sein, in den Testfällen „Lokales Repository“ genannt und das Passwort <code>foo</code>. Im Makefile des Repository wird dieses Setup definiert. Somit kann man als Entwickler nur <code>make init</code> ausführen und hat eine funktionsfähige Testumgebung.</p>
-<p>Um Backups über SSH testen zu können, wird eine virtuelle Maschine mit Ubuntu 18.04 verwendet. Die Konfiguration der virtuellen Maschine sieht dabei wie folgt aus: * 2 CPU Kerne * 1024 MB RAM * IP: 10.7.89.117 * Ein User <code>BorgBackup</code> mit Passwort <code>BorgBackup</code> * BorgBackup Repository unter <code>/home/BorgBackup/backup/diplom</code> mit Passwort <code>foo</code>, in den Testfällen „Server Repository“ genannt * Der SSH Key des Entwicklers wird in den User <code>BorgBackup</code> importiert. Dies ermöglicht Passwort freie Logins.</p>
+<p>Um Backups über SSH testen zu können, wird eine virtuelle Maschine mit Ubuntu 18.04 verwendet. Die Konfiguration der virtuellen Maschine sieht dabei wie folgt aus:</p>
+<ul>
+<li>2 CPU Kerne</li>
+<li>1024 MB RAM</li>
+<li>IP: 10.7.89.117</li>
+<li>Ein User <code>BorgBackup</code> mit Passwort <code>BorgBackup</code></li>
+<li>BorgBackup Repository unter <code>/home/BorgBackup/backup/diplom</code> mit Passwort <code>foo</code>, in den Testfällen „Server Repository“ genannt</li>
+<li>Der SSH Key des Entwicklers wird in den User <code>BorgBackup</code> importiert. Dies ermöglicht Passwort freie Logins.</li>
+</ul>
 <p>Die Testfälle werden während der Entwicklung kontinuierlich durchgeführt. Am Ende der Diplomarbeit wird das finale Ergebnis des jeweiligen Testfalles erfasst. Allfällige Besonderheiten werden im Kapitel <a href="#realisierung">Realisierung</a> beschrieben.</p>
 <h2 id="klassendiagramm">4.4 Klassendiagramm</h2>
 <p>Um die Abhängigkeiten zwischen den einzelnen Klassen der Anwendung aufzuzeigen, wurde ein Klassendiagramm, Abbildung:(<a href="#fig:classdiagramm">1</a>), erstellt. Das Klassendiagramm basiert auf dem UML Standard. Im Diagramm wurden nicht alle „Properties“ und Methoden alles Klassen aufgezeichnet, sondern nur solche, die auf eine andere Klasse verweisen. Dadurch bleibt das Diagramm übersichtlicher. Die Klassennamen, welche in fetter Schrift gehalten sind, wurden dabei vom Projektleiter erstellt. Die Klassennamen, welche kursiv sind, sind Klassen, welche entweder von Python oder Qt bereitgestellt werden.</p>
