@@ -12,21 +12,21 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Dokumentation Diplomarbeit" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Dokumentation Diplomarbeit" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Dokumentation Diplomarbeit" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Dokumentation Diplomarbeit" />
 
   <meta name="dc.date" content="2019-12-22" />
 
   <meta name="citation_publication_date" content="2019-12-22" />
 
-  <meta name="dc.language" content="en-US" />
+  <meta name="dc.language" content="de-CH" />
 
-  <meta name="citation_language" content="en-US" />
+  <meta name="citation_language" content="de-CH" />
 
   <meta name="dc.relation.ispartof" content="Manubot" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c280aeceae977aa0908f07f7d1f561c46382685e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c280aeceae977aa0908f07f7d1f561c46382685e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c280aeceae977aa0908f07f7d1f561c46382685e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -73,8 +73,8 @@ keywords:
 - markdown
 - publishing
 - manubot
-lang: en-US
-title: Manuscript Title
+lang: de-CH
+title: Dokumentation Diplomarbeit
 ...
 
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c280aeceae977aa0908f07f7d1f561c46382685e/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@da9963a](https://github.com/Nebucatnetzer/manubot_test/tree/da9963ab50ff9caa65ad860e94ed5fbcf6fa4248)
+from [Nebucatnetzer/manubot_test@c280aec](https://github.com/Nebucatnetzer/manubot_test/tree/c280aeceae977aa0908f07f7d1f561c46382685e)
 on December 22, 2019.
 </em></small>
 
