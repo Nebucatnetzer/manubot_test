@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/83853606acb50f7ab624c77984e8663907790284/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@8385360](https://github.com/Nebucatnetzer/manubot_test/tree/83853606acb50f7ab624c77984e8663907790284)
+from [Nebucatnetzer/manubot_test@16d3bce](https://github.com/Nebucatnetzer/manubot_test/tree/16d3bce4059f0c1d392c6759089b99ed7b08f84b)
 on December 22, 2019.
 </em></small>
 
@@ -432,7 +432,7 @@ gegenüber, sollten sie eintreffen.
 
 ### 2.9.1 Risikobeschreibung
 
-In der Tabelle: (@tbl:risikobeschreibung) sind die Risiken des Projektes gemeinsam mit ihren
+In der Tabelle: (@tbl:project-risks) sind die Risiken des Projektes gemeinsam mit ihren
 Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits vorher
 vermieden werden.
 
@@ -447,7 +447,7 @@ vermieden werden.
 | borg ändert fundamental seine api. | Gegen eine fixe Version von borg entwickeln. |
 
 Table: Risikobeschreibung
-{#tbl:risikobeschreibung}
+{#tbl:project-risks}
 
 # 3 Analyse{.page_break_before}
 
