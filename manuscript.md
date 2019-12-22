@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/fb8a3891026a2ea09aafea3dc255a837fc8ed23e/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fb8a3891026a2ea09aafea3dc255a837fc8ed23e/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fb8a3891026a2ea09aafea3dc255a837fc8ed23e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/fb8a3891026a2ea09aafea3dc255a837fc8ed23e/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b5a5b5869aeba5192ae508a2035b3b805e406e0b/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@fb8a389](https://github.com/Nebucatnetzer/manubot_test/tree/fb8a3891026a2ea09aafea3dc255a837fc8ed23e)
+from [Nebucatnetzer/manubot_test@b5a5b58](https://github.com/Nebucatnetzer/manubot_test/tree/b5a5b5869aeba5192ae508a2035b3b805e406e0b)
 on December 22, 2019.
 </em></small>
 
@@ -1377,11 +1377,11 @@ Table: Usability-Studie Bewertungsraster
 
 | Test | Proband 1 | Proband 2 | Proband 3 | Proband 4 | Probandin 5 |
 |---|---|---|---|---|---|
-| 1. | <div id="green"></div> | <div id="green"></div> | <div id="yellow"></div> | <div id="green"></div> | <div id="green"></div> |
-| 2. | <div id="yellow"></div> | <div id="yellow"></div> | <div id="orange"></div> | <div id="orange"></div> | <div id="orange"></div> |
-| 3. | <div id="green"></div> | <div id="yellow"></div> | <div id="green"></div> | <div id="green"></div> | <div id="green"></div> |
-| 4. | <div id="green"></div> | <div id="green"></div> | <div id="green"></div> | <div id="green"></div> | <div id="green"></div> |
-| 5. | <div id="green"></div> | <div id="yellow"></div> | <div id="orange"></div> | <div id="yellow"></div> | <div id="yellow"></div> |
+| 1. | <div id="green"> </div> | <div id="green"> </div> | <div id="yellow"> </div> | <div id="green"> </div> | <div id="green"> </div> |
+| 2. | <div id="yellow"> </div> | <div id="yellow"> </div> | <div id="orange"> </div> | <div id="orange"> </div> | <div id="orange"> </div> |
+| 3. | <div id="green"> </div> | <div id="yellow"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> |
+| 4. | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> | <div id="green"> </div> |
+| 5. | <div id="green"> </div> | <div id="yellow"> </div> | <div id="orange"> </div> | <div id="yellow"> </div> | <div id="yellow"> </div> |
 
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
