@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/4c1f08175750ff5c49b13a84785fe90a2bd6d9de/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/4c1f08175750ff5c49b13a84785fe90a2bd6d9de/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/4c1f08175750ff5c49b13a84785fe90a2bd6d9de/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/4c1f08175750ff5c49b13a84785fe90a2bd6d9de/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@4c1f081](https://github.com/Nebucatnetzer/manubot_test/tree/4c1f08175750ff5c49b13a84785fe90a2bd6d9de)
+from [Nebucatnetzer/manubot_test@2a423c1](https://github.com/Nebucatnetzer/manubot_test/tree/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6)
 on December 22, 2019.
 </em></small>
 
@@ -260,6 +260,9 @@ und ist nicht unwichtig.
 | 30. | Der User kann die „Retention Policy“ konfigurieren. |  | 2 |
 | 31. | Die Anwendung kann mit allen Features von borg umgehen. |  | 2 |
 | 32. | Die Applikation prüft, ob sie sich im richtigen Netzwerk befindet bevor sie eine Verbindung zum Server aufbaut. |  | 2 |
+
+Table: Projektziele
+{#tbl:projektziele}
 
 ## 2.4 Projektabgrenzung
 
@@ -443,6 +446,9 @@ vermieden werden.
 | User haben keine Zeit für Benuterfreundlichkeitsstudie. | Vor gängig einen Termin abmachen. |
 | borg ändert fundamental seine api. | Gegen eine fixe Version von borg entwickeln. |
 
+Table: Risikobeschreibung
+{#tbl:risikobeschreibung}
+
 # 3 Analyse{.page_break_before}
 
 ## 3.1 SWOT-Analyse
@@ -492,6 +498,9 @@ gestellt.
 |  |  |  | Ein nachhaltiges Projekt starten | mittel |
 |  |  |  | Anerkennung im fachlichen Umfeld | niedrig |
 
+Table: Umweltanalyse
+{#tbl:umweltanalyse}
+
 ## 3.3 Risiko-Analyse
 
 Bei der Risiko-Analyse wird von einem durchschnittlichen Benutzer ausgegangen,
@@ -519,11 +528,17 @@ Arbeit reduzieren kann.
 | 2 = mittel | Mässig wahrscheinlich, 20-50% |
 | 3 = hoch | Hohe Wahrscheinlichkeit > 50% |
 
+Table: Risikobewertung Wahrscheinlichkeit
+{#tbl:risikobewertung-wahrscheinlichkeit}
+
 | Bewertung | Beschreibung: Auswirkung (A) |
 |---|---|
 | 1 = gering | Geringe Auswirkungen auf Nützlichkeit |
 | 2 = mittel | Mittlere Auswirkung auf die Nützlichkeit |
 | 3 = hoch | Hohe Auswirkung auf die Nützlichkeit |
+
+Table: Risikobewertung Auswirkung
+{#tbl:risikobewertung-auswirkung}
 
 | Nr. | Beschreibung |
 |---|---|
@@ -532,6 +547,9 @@ Arbeit reduzieren kann.
 | 3. | Der Benutzer speichert die Backups auf der internen statt der externen Harddisk. |
 | 4. | Der Benutzer löscht aus Versehen ein Backup. |
 | 5. | Der Anwender vergisst die Backups zu machen. |
+
+Table: Risikobeschreibung
+{#tbl:risikobeschreibung}
 
 ![](images/istrisiko.svg)
 
@@ -601,6 +619,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | Author | A. Zweili |
 | Date | 30.12.2018 |
 
+Table: Use Case 1.0 Backup erstellen
+{#tbl:create-backup}
+
 #### 3.5.2.2. Use Case 2.0 Backup löschen
 
 | Identifier + Name | 2.0 Backup löschen |
@@ -624,6 +645,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
+
+Table: Use Case 2.0 Backup löschen
+{#tbl:delete-backup}
 
 #### 3.5.2.3. Use Case 3.0 Backup wiederherstellen
 
@@ -650,6 +674,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | Author | A. Zweili |
 | Date | 30.12.2018 |
 
+Table: Use Case 3.0 Backup wiederherstellen
+{#tbl:restore-backup}
+
 #### 3.5.2.4. Use Case 4.0 Einzelne Datei wiederherstellen
 
 | Identifier + Name | 4.0 Einzelne Datei wiederherstellen |
@@ -671,6 +698,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
+
+Table: Use Case 4.0 Einzelne Datei wiederherstellen
+{#tbl:restore-single-file}
 
 #### 3.5.2.5. Use Case 4.1 Backup mounten
 
@@ -695,6 +725,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
+
+Table: Use Case 4.1 Backup mounten
+{#tbl:mount-backup}
 
 #### 3.5.2.6. Use Case 5.0 Konfiguration ändern
 
@@ -722,6 +755,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | Author | A. Zweili |
 | Date | 30.12.2018 |
 
+Table: Use Case 5.0 Konfiguration ändern
+{#tbl:change-config}
+
 #### 3.5.2.7. Use Case 6.0 automatische Backups aktivieren
 
 | Identifier + Name | 6.0 automatische Backups aktivieren |
@@ -744,6 +780,9 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
+
+Table: Use Case 6.0 automatische Backups aktivieren
+{#tbl:automatic-backup}
 
 ## 3.6 Benötigte Funktionalität von BorgBackup
 
@@ -806,6 +845,9 @@ entsprechend der Bewertung in der Tabelle Projektziele (1).
 | 9. Verbreitung bei der borg Community | 5 | 5 | 5 | 25 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 5 | 15 |
 | Total |  |  |  | 415 |
+
+Table: Muster Bewertungstabelle
+{#tbl:example-table}
 
 ### 4.1.2 Backend
 
@@ -887,6 +929,9 @@ Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 3 | 9 |
 | Total |  |  |  | 279 |
 
+Table: C# Bewertungstabelle
+{#tbl:csharp}
+
 #### 4.1.2.2 C++
 
 C++ ist eine stark typisierte und kompilierte Programmiersprache. Sie ist seit
@@ -942,6 +987,9 @@ ungeeignet.
 | 9. Verbreitung bei der borg Community | 5 | 5 | 3 | 15 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 2 | 6 |
 | Total |  |  |  | 271 |
+
+Table: C++ Bewertungstabelle
+{#tbl:cplusplus}
 
 #### 4.1.2.3 Python
 
@@ -1011,6 +1059,9 @@ entwickeln kann, dies jedoch zulasten der Performance.
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 4 | 12 |
 | Total |  |  |  | 322 |
 
+Table: Python Bewertungstabelle
+{#tbl:python}
+
 ### 4.1.3 Frontend
 
 Fürs Frontend sind folgende Projekte interessant: [Qt], [Gtk] und [Electron].
@@ -1072,6 +1123,9 @@ gross.
 | 8. Lernfaktor | 5 | 5 | 4 | 20 |
 | Total |  |  |  | 295 |
 
+Table: Qt Bewertungstabelle
+{#tbl:qt}
+
 #### 4.1.3.2 Gtk
 
 Gtk ist sowohl für Linux wie auch für Windows und OS X erhältlich. Gtk hat als
@@ -1121,6 +1175,9 @@ Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
 | Total |  |  |  | 275 |
 
+Table: Gtk Bewertungstabelle
+{#tbl:gtk}
+
 #### 4.1.3.3 Electron
 
 Electron ist ein cross-plattform Framework zum Entwickeln von GUI, welches
@@ -1169,6 +1226,9 @@ Lernfaktor bei Electron wohl nicht so gross wie etwa bei Qt oder Gtk.
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
 | Total |  |  |  | 275 |
 
+Table: Electron Bewertungstabelle
+{#tbl:electron}
+
 ### 4.1.4 Ergebnis
 
 Aufgrund der erreichten Punktzahl, Tabelle:(21), bei den vorhergehenden
@@ -1185,6 +1245,9 @@ Python zu setzen und fürs Frontend Qt zu benutzen.
 | Qt | 295 |
 | Gtk | 275 |
 | Electron | 275 |
+
+Table: Variantenbewertung Ergebnis
+{#tbl:result}
 
 ## 4.2 Applikationsname
 
@@ -1290,6 +1353,9 @@ und nicht die des Projektleiters.
 | Rotbgcolor="#f44336" | Die Aufgabe war sehr schwierig. |  |  |  |
 | Schwarzbgcolor="#424242" | Die Aufgabe war unlösbar. |  |  |  |
 
+Table: Usability-Studie Probanden
+{#tbl:usability}
+
 ### 4.5.1 Aufgaben
 
 1. Du möchtest deine Dateien sichern. Erstelle dazu eine Datensicherung des
@@ -1312,6 +1378,9 @@ und nicht die des Projektleiters.
 | 3. | bgcolor="#4CAF50" | bgcolor="#FFEB3B" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" |
 | 4. | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" |
 | 5. | bgcolor="#4CAF50" | bgcolor="#FFEB3B" | bgcolor="#FF9800" | bgcolor="#FFEB3B" | bgcolor="#FFEB3B" |
+
+Table: Resultate zur Usability-Studie
+{#tbl:result-usability}
 
 #### 4.5.2.1 Proband 1
 
@@ -2109,6 +2178,9 @@ in welcher Form das Ziel bewiesen wurde.
 | 31. |  | Nicht erfüllt | Zurzeit sind nur die Features create, delete, mount, list, info und extract zu Teilen implementiert. |
 | 32. |  | Nicht erfüllt | Wurde noch nicht umgesetzt. |
 
+Table: Bewertete Projektziele
+{#tbl:result-project-targets}
+
 ### 6.1.1 Risikoanalyse der neuen Ist-Situation
 
 Das Ist-Riskio in der Sektion [Risiko-Analyse] könnte wie prognostiziert
@@ -2238,6 +2310,9 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu sichern.
 | iPad | 1 | 1 | keine Abweichung |
 | Notebook | 1 | 1 | keine Abweichung |
 
+Table: Projektressourcen
+{#tbl:projectressources}
+
 ## 7.2 Kosten
 
 | Name | geschätzter Aufwand in h | geschätzte Kosten in CHF | effektiver Aufwand in h | effektive Kosten in CHF |
@@ -2253,6 +2328,9 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu sichern.
 | Meeting #3 | 5 | 300 | 2 | 120 |
 | Total | 318 | 19080 | 288.37 | 17302.2 |
 
+Table: Kostenrechnung
+{#tbl:costs}
+
 ## 7.3 Zeitaufwand
 
 | Aufgabe | Gesch. Aufwand in h | Effekt. Aufwand in h | Begründung |
@@ -2267,6 +2345,9 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu sichern.
 | 9 Meeting #2 | 5 | 3 | Das zweite Meeting hat weit weniger Zeit benötigt und auch viel weniger Nacharbeiten nach sich gezogen. |
 | 10 Meeting #3 | 5 | 2 | Beim dritten Meeting ging es hauptsächlich nur noch um kleinere Details. |
 | Total | 318 | 288.37 |  |
+
+Table: Zeitcontrolling
+{#tbl:time-controlling}
 
 ## 7.4 Testfälle
 
@@ -2297,6 +2378,9 @@ eingesetzt, um seine sowie teilweise auch die Daten von Bekannten zu sichern.
 | TC-23 | Server Archiv erstellen | Server Repository bereit.\newline Server Konfigurationsdatei erstellt. | TC-04 durchführen. | Testdateien | Die Anwendung zeigt einen Fortschrittsbalken der nach erfolgtem Backup verschwindet. | Die Archiv Liste wird aktualisiert und zeigt ein Archiv an. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-24 | Lokales Archiv erstellen während dem eine VM läuft | TC-01 ausgeführt.\newline Virtualbox VM Starten. | 1. In der Ordnerübersicht das Code Repository auswählen.\newline 2. Den Button “Backup” betätigen. | Testdateien | Die Anwendung wirft eine Fehlermeldung aus das es zur Zeit aufgrund einer laufenden VM unsicher sei ein Backup durchzuführen. | Die geöffnete Fehlermeldung blockiert die Applikation. | Nicht implementiert |
 | TC-25 | Abgebrochenes Backup bereinigen | TC-01 ausgeführt. | 1. In der Ordnerübersicht das Code Repository auswählen.\newline 2. Den Button “Backup” betätigen.\newline 3. Die Anwendung schliessen.\newline 4. Anwendung wieder öffnen.\newline 5. TC-04 Durchführen. | Testdateien | Bei Schritt 4. sollte ein Teilarchiv zu sehen sein.\newline Bei Schritt 5 sollte einfach ein normales Archiv zu sehen sein. | Die Anwendung wird angezeigt. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
+
+Table: Testfälle
+{#tbl:testcases}
 
 ## 7.5 Klassendiagramm
 
