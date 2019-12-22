@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/49aadb247150456a5d04ad36c9e5e8039ea7f026/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/49aadb247150456a5d04ad36c9e5e8039ea7f026/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/49aadb247150456a5d04ad36c9e5e8039ea7f026/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/49aadb247150456a5d04ad36c9e5e8039ea7f026/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/49aadb247150456a5d04ad36c9e5e8039ea7f026">Nebucatnetzer/manubot_test@49aadb2</a> on December 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/b36e6fb0a4a37898b99af789b170eb83486acf1f">Nebucatnetzer/manubot_test@b36e6fb</a> on December 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -3598,14 +3598,17 @@ Wikipedia<br />
     h3:before {
         content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
         counter-increment: h3counter;
+        counter-reset: h4counter;
     }
     h4:before {
         content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
         counter-increment: h4counter;
+        counter-reset: h5counter;
     }
     h5:before {
         content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0\0000a0";
         counter-increment: h5counter;
+        counter-reset: h6counter;
     }
     h6:before {
         content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0\0000a0";
