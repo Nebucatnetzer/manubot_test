@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/16d3bce4059f0c1d392c6759089b99ed7b08f84b/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@16d3bce](https://github.com/Nebucatnetzer/manubot_test/tree/16d3bce4059f0c1d392c6759089b99ed7b08f84b)
+from [Nebucatnetzer/manubot_test@64331b0](https://github.com/Nebucatnetzer/manubot_test/tree/64331b01878de8d98a7cd01c901b9ad3dfb08b38)
 on December 22, 2019.
 </em></small>
 
@@ -792,7 +792,7 @@ Table: Use Case 5.0 Konfiguration ändern
 | Date | 30.12.2018 |
 
 Table: Use Case 6.0 automatische Backups aktivieren
-{#tbl:automatic-backup}
+{#tbl:automatic}
 
 ![Aktivitätsdiagramm zum Aktivieren von automatischen Backups](images/activity_automatic.svg){#fig:automatic}
 
