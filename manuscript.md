@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/97af289d0fea7a898c305dbb6e50b3d9d978f200/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/97af289d0fea7a898c305dbb6e50b3d9d978f200/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/97af289d0fea7a898c305dbb6e50b3d9d978f200/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/97af289d0fea7a898c305dbb6e50b3d9d978f200/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/a0f3c11b76564af2cf33c9eda0109b7965220007/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@97af289](https://github.com/Nebucatnetzer/manubot_test/tree/97af289d0fea7a898c305dbb6e50b3d9d978f200)
+from [Nebucatnetzer/manubot_test@a0f3c11](https://github.com/Nebucatnetzer/manubot_test/tree/a0f3c11b76564af2cf33c9eda0109b7965220007)
 on December 22, 2019.
 </em></small>
 
@@ -1351,12 +1351,12 @@ und nicht die des Projektleiters.
 Table: Usability-Studie Probanden
 {#tbl:probanden}
 
-|:---|:---|:---|:---|:---|
-|<!-- $id="green" --> Grün | Die Aufgabe war sehr einfach. |  |  |  |
-|<!-- $id="yellow" --> Gelb| Die Aufgabe war etwas herausfordernd. |  |  |  |
-|<!-- $id="orange" --> Orange | Die Aufgabe war schwierig. |  |  |  |
-|<!-- $id="red" --> Rot | Die Aufgabe war sehr schwierig. |  |  |  |
-|<!-- $id="black" --> Schwarz | Die Aufgabe war unlösbar. |  |  |  |
+|:---|:---|
+|<!-- $id="green" --> Grün | Die Aufgabe war sehr einfach. |
+|<!-- $id="yellow" --> Gelb| Die Aufgabe war etwas herausfordernd. |
+|<!-- $id="orange" --> Orange | Die Aufgabe war schwierig. |
+|<!-- $id="red" --> Rot | Die Aufgabe war sehr schwierig. |
+|<!-- $id="black" --> Schwarz | Die Aufgabe war unlösbar. |
 
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
