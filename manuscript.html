@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/b36e6fb0a4a37898b99af789b170eb83486acf1f/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/b36e6fb0a4a37898b99af789b170eb83486acf1f">Nebucatnetzer/manubot_test@b36e6fb</a> on December 22, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/b1e630a6d0fd48dbf5b7338a2708a8c3ec5930f6">Nebucatnetzer/manubot_test@b1e630a</a> on December 22, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -3584,37 +3584,19 @@ Wikipedia<br />
         border-bottom: solid 1px #bdbdbd;
     }
 
-    body {
-        counter-reset: h2counter;
-    }
-    h1 {
-        counter-reset: h2counter;
-    }
-    h2:before {
-        content: counter(h2counter) ".\0000a0\0000a0";
-        counter-increment: h2counter;
-        counter-reset: h3counter;
-    }
-    h3:before {
-        content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-        counter-increment: h3counter;
-        counter-reset: h4counter;
-    }
-    h4:before {
-        content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
-        counter-increment: h4counter;
-        counter-reset: h5counter;
-    }
-    h5:before {
-        content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0\0000a0";
-        counter-increment: h5counter;
-        counter-reset: h6counter;
-    }
-    h6:before {
-        content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0\0000a0";
-        counter-increment: h6counter;
-    }
-    /* -------------------------------------------------- */
+    body {counter-reset: h2}
+    h2 {counter-reset: h3}
+    h3 {counter-reset: h4}
+    h4 {counter-reset: h5}
+    h5 {counter-reset: h6}
+
+    h2:before {counter-increment: h2; content: counter(h2) ". "}
+    h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+    h4:before {counter-increment: h4; content: counter(h2) "." counter(h3) "." counter(h4) ". "}
+    h5:before {counter-increment: h5; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "}
+    h6:before {counter-increment: h6; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "}
+
+    h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before { co    /* -------------------------------------------------- */
     /* manuscript header */
     /* -------------------------------------------------- */
 
