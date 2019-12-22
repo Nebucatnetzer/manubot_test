@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/ca0a3a54f747dfee10ad7eff66fabc49acfcb875/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/643d6428b370051868c346b70839263a894a3e8c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/ca0a3a54f747dfee10ad7eff66fabc49acfcb875/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/643d6428b370051868c346b70839263a894a3e8c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/ca0a3a54f747dfee10ad7eff66fabc49acfcb875/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/643d6428b370051868c346b70839263a894a3e8c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/ca0a3a54f747dfee10ad7eff66fabc49acfcb875/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/643d6428b370051868c346b70839263a894a3e8c/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@ca0a3a5](https://github.com/Nebucatnetzer/manubot_test/tree/ca0a3a54f747dfee10ad7eff66fabc49acfcb875)
+from [Nebucatnetzer/manubot_test@643d642](https://github.com/Nebucatnetzer/manubot_test/tree/643d6428b370051868c346b70839263a894a3e8c)
 on December 22, 2019.
 </em></small>
 
@@ -2387,9 +2387,10 @@ Table: Zeitcontrolling
 Table: Testfälle
 {#tbl:testcases}
 
-## 7.5 Klassendiagramm
-
-![](images/class_diagramm.svg){style="transform:rotate(90deg);"}
+## 7.5 Klassendiagramm{.page_break_before}
+<br>
+![](images/class_diagramm.svg){style="transform:rotate(270deg);"}
+<br>
 
 
 ## References {.page_break_before}
