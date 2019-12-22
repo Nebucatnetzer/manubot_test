@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/541d789b17e8cc70ce510e3f68e18c675f6dde22/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/3e3d4e315d74f99df7d841d6b76bc2ff81e0ecc8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/541d789b17e8cc70ce510e3f68e18c675f6dde22/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3e3d4e315d74f99df7d841d6b76bc2ff81e0ecc8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/541d789b17e8cc70ce510e3f68e18c675f6dde22/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3e3d4e315d74f99df7d841d6b76bc2ff81e0ecc8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/541d789b17e8cc70ce510e3f68e18c675f6dde22/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/3e3d4e315d74f99df7d841d6b76bc2ff81e0ecc8/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@541d789](https://github.com/Nebucatnetzer/manubot_test/tree/541d789b17e8cc70ce510e3f68e18c675f6dde22)
+from [Nebucatnetzer/manubot_test@3e3d4e3](https://github.com/Nebucatnetzer/manubot_test/tree/3e3d4e315d74f99df7d841d6b76bc2ff81e0ecc8)
 on December 22, 2019.
 </em></small>
 
@@ -2389,7 +2389,7 @@ Table: Testfälle
 
 ## 7.5 Klassendiagramm{.page_break_before}
 
-![](images/class_diagramm.svg)<!-- style="transform:rotate(270deg);" height="20cm" -->
+![](images/class_diagramm.svg)<!-- $style="transform:rotate(270deg);" $height="20cm" -->
 
 
 ## References {.page_break_before}
