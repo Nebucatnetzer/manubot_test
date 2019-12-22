@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/64331b01878de8d98a7cd01c901b9ad3dfb08b38/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/854dfc7be4505be030f63a5565f68b964e50bf93/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@64331b0](https://github.com/Nebucatnetzer/manubot_test/tree/64331b01878de8d98a7cd01c901b9ad3dfb08b38)
+from [Nebucatnetzer/manubot_test@854dfc7](https://github.com/Nebucatnetzer/manubot_test/tree/854dfc7be4505be030f63a5565f68b964e50bf93)
 on December 22, 2019.
 </em></small>
 
@@ -118,7 +118,7 @@ Projektplanung sowie die dabei aufgetretenen Probleme.
 ## 1.1 Beschreibung
 
 Diese Arbeit hat zum Ziel, die Planung und Erstellung einer grafischen
-Oberfläche zum einfachen Bedienen der Software borg
+Oberfläche zum einfachen Bedienen der Software BorgBackup
 [@HDrQgtPu], durchzuführen sowie zu dokumentieren.
 
 ## 1.2 Zweck und Inhalt
@@ -144,7 +144,7 @@ Zusätzlich muss der Urheber genannt werden.
 
 ## 2.1 Vision
 
-Die Software soll borg für den durchschnittlichen Computer User zugänglich
+Die Software soll BorgBackup für den durchschnittlichen Computer User zugänglich
 machen. Backups sollen dabei schnell und unkompliziert erstellt werden können.
 Auch die Möglichkeit automatischer im Hintergrund laufender Backups soll dem
 User gegeben sein, damit die Hürde für Backups so tief wie möglich gehalten
@@ -243,8 +243,8 @@ und ist nicht unwichtig.
 | 13. | Der User kann den Namen eines Archivs selbst bestimmen. |  | 5 |
 | 14. | Die Anwendung meldet transparent, wenn das Repository nicht erreichbar ist. |  | 5 |
 | 15. | Die Anwendung meldet dem User, wenn noch ein hypervisor am Laufen ist. |  | 5 |
-| 16. | Die Anwendung leitet Meldungen von borg transparent weiter. |  | 5 |
-| 17. | Die Anwendung zeigt transparent an das borg im Hintergrund bereits läuft. |  | 5 |
+| 16. | Die Anwendung leitet Meldungen von BorgBackup transparent weiter. |  | 5 |
+| 17. | Die Anwendung zeigt transparent an das BorgBackup im Hintergrund bereits läuft. |  | 5 |
 | 18. | Das Repository wird nach jedem Backup bereinigt. |  | 4 |
 | 19. | Der User kann automatische Hintergrundbackups in der Anwendung konfigurieren. |  | 4 |
 | 20. | Die Anwendung gibt dem User die Möglichkeit ein passendes Repository zu erstellen, wenn keines gefunden wird, die Anwendung jedoch bereits konfiguriert ist. |  | 4 |
@@ -258,7 +258,7 @@ und ist nicht unwichtig.
 | 28. | Der User kann das Repository wechseln. |  | 2 |
 | 29. | Der User kann ein Archiv nach einer Datei oder einem Ordner durchsuchen. |  | 2 |
 | 30. | Der User kann die „Retention Policy“ konfigurieren. |  | 2 |
-| 31. | Die Anwendung kann mit allen Features von borg umgehen. |  | 2 |
+| 31. | Die Anwendung kann mit allen Features von BorgBackup umgehen. |  | 2 |
 | 32. | Die Applikation prüft, ob sie sich im richtigen Netzwerk befindet bevor sie eine Verbindung zum Server aufbaut. |  | 2 |
 
 Table: Projektziele
@@ -282,7 +282,7 @@ Community im Bezug auf die Entwicklung entgegengenommen.
 Bugs von BorgBackup welche während der Dauer der Diplomarbeit vom Studenten entdeckt
 werden, wird dieser dem Projekt melden, jedoch nicht selber beheben.
 
-![Kontextdiagramm des Borg GUI](images/kontextdiagramm.svg){#fig:context}
+![Kontextdiagramm des BorgBackup GUI](images/kontextdiagramm.svg){#fig:context}
 
 ## 2.5 Projektmethode
 
@@ -444,7 +444,7 @@ vermieden werden.
 | Manuelle Tests brauchen zu viel Zeit. | Soviel wie möglich automatisieren. Dabei jedoch nicht den Fokus auf die eigentliche Entwicklung verlieren. |
 | Die Programmierung des Programms benötigt zu viel Zeit. | Bei der Projektplanung genau definieren was die GUI Applikation beinhalten muss. Ziele definieren, Abgrenzungen treffen. |
 | User haben keine Zeit für Benuterfreundlichkeitsstudie. | Vor gängig einen Termin abmachen. |
-| borg ändert fundamental seine api. | Gegen eine fixe Version von borg entwickeln. |
+| BorgBackup ändert fundamental seine api. | Gegen eine fixe Version von BorgBackup entwickeln. |
 
 Table: Risikobeschreibung
 {#tbl:project-risks}
@@ -487,7 +487,7 @@ gestellt.
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
 |:---|:---|:---|:---|:---|
-| 1. | borg Community | gering | Eine Applikation, die den Umfang von borg abdeckt | mittel |
+| 1. | BorgBackup Community | gering | Eine Applikation, die den Umfang von BorgBackup abdeckt | mittel |
 |  |  |  | Open-Source | hoch |
 |  |  |  | Mitspracherecht bei der Entwicklung | niedrig |
 | 2. | User | gering | Einfache Bedienbarkeit | hoch |
@@ -501,7 +501,7 @@ gestellt.
 Table: Umweltanalyse
 {#tbl:umweltanalyse}
 
-## 3.3 Risiko-Analyse {#risk-analysis}
+## 3.3 Risiko-Analyse
 
 Bei der Risiko-Analyse wird von einem durchschnittlichen Benutzer ausgegangen,
 der zur Zeit noch keine Backups macht und beginnen möchte BorgBackup zu nutzen, um
@@ -601,7 +601,7 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 
 | Identifier + Name | 1.0 Backup erstellen |
 |:---|:---|
-| Description | Das Erstellen einer Datensicherung durch borg anstossen. |
+| Description | Das Erstellen einer Datensicherung durch BorgBackup anstossen. |
 | Actors | Benutzer |
 | Status | Freigegeben |
 | Includes | - |
@@ -715,20 +715,20 @@ Table: Use Case 4.0 Einzelne Datei wiederherstellen
 | Identifier + Name | 4.1 Backup mounten |
 |:---|:---|
 | Description | Ein Backup wird als fuse gemountet. |
-| Actors | Borg GUI, borg |
+| Actors | Borg GUI, BorgBackup |
 | Status | Freigegeben |
 | Includes | - |
-| Trigger | Das Borg GUI gibt an borg den Input zum mounten weiter. |
+| Trigger | Das Borg GUI gibt an BorgBackup den Input zum mounten weiter. |
 | Preconditions | Use Case 1.0 wurde ausgeführt. |
 | Postconditions | Das Backup wurde gemountet. |
 | Normal Flow | 1. Borg GUI sammelt die Backup ID in Use Case 4.0. |
-|  | 2. Borg GUI übergibt die Backup ID an borg zusammen mit einem Zielpfad. |
-|  | 3. borg hängt das Backup als fuse Laufwerk am Zielpfad ein. |
-|  | 4. borg meldet Erfolg an Borg GUI. |
-| Alternative Flow | 1. Borg GUI sammelt die Backup ID in Use Case 4.0. |
-|  | 2. Borg GUI übergibt die Backup ID an borg zusammen mit einem Zielpfad. |
-|  | 3. borg hängt das Backup als fuse Laufwerk am Zielpfad ein. |
-|  | 4. borg meldet einen Fehler an Borg GUI. |
+|  | 2. Borg GUI übergibt die Backup ID an BorgBackup zusammen mit einem Zielpfad. |
+|  | 3. BorgBackup hängt das Backup als fuse Laufwerk am Zielpfad ein. |
+|  | 4. BorgBackup meldet Erfolg an Borg GUI. |
+| Alternative Flow | 1. BorgBackup GUI sammelt die Backup ID in Use Case 4.0. |
+|  | 2. Borg GUI übergibt die Backup ID an BorgBackup zusammen mit einem Zielpfad. |
+|  | 3. BorgBackup hängt das Backup als fuse Laufwerk am Zielpfad ein. |
+|  | 4. BorgBackup meldet einen Fehler an Borg GUI. |
 | Notes | - |
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
@@ -801,13 +801,14 @@ Table: Use Case 6.0 automatische Backups aktivieren
 Damit nachvollziehbar ist welche Funktionen von BorgBackup verwendet wurden um die
 Use Cases umsetzen zu können, werden diese hier in Beziehung zur jeweiligen
 Funktion des GUI aufgelistet:
+
 * Für das Erstellen von Archiven `borg create` [@aOjcjuFL].
 * Für das Anzeigen der Archiven `borg list` [@Jy9J8yh4].
 * Für das Wiederherstellen der Archive `borg extract` [@TfKFZXxY].
 * Für das Löschen der Archive `borg delete` [@ks2O2RFV].
 * Zum Mounten der Archive `borg mount` [@JKnXXa50].
 * Zum Unmounten der Archive `borg umount` [@JKnXXa50].
-* Zum anzeigen der Repository Statistik ~borg info~[@Jy9J8yh4].
+* Zum anzeigen der Repository Statistik `borg info` [@Jy9J8yh4].
 
 Die detaillierte Implementation wird in der Sektion [Realisierung](#realisierung) beschrieben.
 
@@ -832,10 +833,10 @@ zusammen. Dadurch ergeben sich dann die Bewertungen, welche in der Tabelle:(@tbl
 aufgenommen wurden. Die möglichen Varianten wurden danach bewertet. Die
 effektive Berechnung des Resultats wird nach folgender Formel durchgeführt.
 
-\begin{equation" G * EP = KE \end{equation}
+$$G * EP = KE$$
 
-Also die Gewichtung(/G/) multipliziert mit der erreichten Punktzahl(/EP/)
-ergibt das Kriteriumsergebnis(/KE/). Für das Endresultat wird dann die Summe
+Also die Gewichtung(*G*) multipliziert mit der erreichten Punktzahl(*EP*)
+ergibt das Kriteriumsergebnis(*KE*). Für das Endresultat wird dann die Summe
 über alle Kriterien gebildet. Die Variante mit der höchsten Summe wurde für das
 Projekt ausgewählt.
 
@@ -852,7 +853,7 @@ entsprechend der Bewertung in der Tabelle Projektziele:(@tbl:projektziele).
 | 6. Lesbarkeit des Codes | 5 | 5 | 5 | 25 |
 | 7. Einfachheit des Setups | 5 | 5 | 5 | 25 |
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
-| 9. Verbreitung bei der borg Community | 5 | 5 | 5 | 25 |
+| 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 5 | 25 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 5 | 15 |
 | Total |  |  |  | 415 |
 
@@ -861,11 +862,11 @@ Table: Muster Bewertungstabelle
 
 ### 4.1.2 Backend
 
-Für die Backend Programmierung bieten sich die folgende drei Sprachen an: [C#](#csharp),
-[C++](#cplusplus) und [Python](#python). Dies vor allem, weil alle drei
+Für die Backend Programmierung bieten sich die folgende drei Sprachen an: [C#](#c#),
+[C++](#c++) und [Python](#python). Dies vor allem, weil alle drei
 Allrounder Sprachen sind und sich gut für Desktop Applikationen eignen.
 
-#### 4.1.2.1 C\# {#csharp}
+#### 4.1.2.1 C\#
 
 C# ist eine von Microsoft entwickelte Programmiersprache, welche viele
 Frameworks zur Verfügung stellt. Insbesondere aufgrund der grossen
@@ -929,14 +930,14 @@ Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 | 6. Lesbarkeit des Codes | 5 | 5 | 4 | 20 |
 | 7. Einfachheit des Setups | 5 | 5 | 2 | 10 |
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
-| 9. Verbreitung bei der borg Community | 5 | 5 | 1 | 5 |
+| 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 1 | 5 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 3 | 9 |
 | Total |  |  |  | 279 |
 
 Table: C# Bewertungstabelle
 {#tbl:csharp}
 
-#### 4.1.2.2 C++ {#cplusplus}
+#### 4.1.2.2 C++
 
 C++ ist eine stark typisierte und kompilierte Programmiersprache. Sie ist seit
 1998 Teil des ISO Standards [@WzoMxt1q].
@@ -988,14 +989,14 @@ ungeeignet.
 | 6. Lesbarkeit des Codes | 5 | 5 | 2 | 10 |
 | 7. Einfachheit des Setups | 5 | 5 | 3 | 15 |
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
-| 9. Verbreitung bei der borg Community | 5 | 5 | 3 | 15 |
+| 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 3 | 15 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 2 | 6 |
 | Total |  |  |  | 271 |
 
 Table: C++ Bewertungstabelle
 {#tbl:cplusplus}
 
-#### 4.1.2.3 Python {#python}
+#### 4.1.2.3 Python
 
 Der Python Interpreter ist für eine Vielzahl an Betriebssystemen erhältlich,
 inklusive Windows, OS X und Linux. Nahezu jedes Desktop Linux System kommt mit
@@ -1029,9 +1030,10 @@ Um ein Python Programm zu starten, braucht es eigentlich kein grosses Setup.
 Solange die Abhängigkeiten vorhanden sind, kann man ein Skript mit einem
 einfachen Befehl, Code Snippet:(#code-example) starten.
 
-``` shell {#code-example}
+``` shell
 python3 example.py
 ```
+{#code-example}
 
 Da Python schon eine etwas bekanntere Sprache ist, ist der Lernfaktor der
 Sprache selber nicht mehr so hoch. Allerdings gibt es noch viele interessante
@@ -1057,7 +1059,7 @@ entwickeln kann, dies jedoch zulasten der Performance.
 | 6. Lesbarkeit des Codes | 5 | 5 | 4 | 20 |
 | 7. Einfachheit des Setups | 5 | 5 | 4 | 20 |
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
-| 9. Verbreitung in der borg Community | 5 | 5 | 5 | 25 |
+| 9. Verbreitung in der BorgBackup Community | 5 | 5 | 5 | 25 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 4 | 12 |
 | Total |  |  |  | 322 |
 
@@ -1074,7 +1076,7 @@ Verbreitung in der Community und Geschwindigkeit der Entwicklung
 ausgeschlossen. In beiden Fällen wäre nicht mal eine ungenaue Schätzung
 wirklich möglich.
 
-#### 4.1.3.1 Qt {#qt}
+#### 4.1.3.1 Qt
 
 Qt [@rudIQ4z5], „cute“ ausgesprochen, ist ein
 Framework zum Entwickeln von grafischen Oberflächen, welche auf verschiedenen
@@ -1121,7 +1123,7 @@ gross.
 Table: Qt Bewertungstabelle
 {#tbl:qt}
 
-#### 4.1.3.2 Gtk {#gtk}
+#### 4.1.3.2 Gtk
 
 Gtk ist sowohl für Linux wie auch für Windows und OS X erhältlich. Gtk hat als
 Projekt der Gnome Foundation seine Wurzeln jedoch ganz klar in der Linux Welt.
@@ -1173,7 +1175,7 @@ Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 Table: Gtk Bewertungstabelle
 {#tbl:gtk}
 
-#### 4.1.3.3 Electron {#electron}
+#### 4.1.3.3 Electron
 
 Electron ist ein cross-plattform Framework zum Entwickeln von GUI, welches
 dabei jedoch auf Technologien aus der Webentwicklung benutzt. Entwickelt wird
@@ -1311,11 +1313,11 @@ Klassennamen, welche in fetter Schrift gehalten sind, wurden dabei vom
 Projektleiter erstellt. Die Klassennamen, welche kursiv sind, sind Klassen,
 welche entweder von Python oder Qt bereitgestellt werden.
 
-## 4.5 Usability-Studie {#usability}
+## 4.5 Usability-Studie
 
 Um Borg-Qt auf seine Nutzerfreundlichkeit zu testen, wird im Rahmen der
 Diplomarbeit noch eine kleine Usability-Studie gemacht. Bei einer solchen
-Studie erhalten die Probanden, Tabelle:(@tbl:probanden), ein paar Aufgaben [](#tasks),
+Studie erhalten die Probanden, Tabelle:(@tbl:probanden), ein paar [Aufgaben](#aufgaben),
 welche sie in einer begrenzten Zeit zu erledigen haben. Die Aufsichtsperson
 gibt ihnen dabei keinerlei Hilfestellungen. Die Probanden sollen die Aufgaben
 alleine mithilfe der Tipps und Hinweisen in der Anwendung lösen. Im Anschluss
@@ -1351,7 +1353,7 @@ Table: Usability-Studie Probanden
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
 
-### 4.5.1 Aufgaben {#tasks}
+### 4.5.1 Aufgaben
 
 1. Du möchtest deine Dateien sichern. Erstelle dazu eine Datensicherung des
     Ordners `/home/testuser/Downloads`.
@@ -1566,7 +1568,7 @@ gespeichert werden. Somit kann man einfach auf den benötigten Wert zugreifen,
 in dem man seinen Schlüssel angibt. Ein Beispiel ist im Code Snippet:(#code-init) zu
 sehen.
 
-``` {#code-init}
+```
  # docs/borg_qt.conf.example
  [borgqt]
  includes = [
@@ -1577,6 +1579,7 @@ sehen.
  password = foo
  prefix = muster
 ```
+{#code-init}
 
 Das Auslesen und Schreiben der Konfigurationsdatei liess sicher relativ einfach
 realisieren. Die grösste Herausforderung dabei war, dass `Configparser` keinen
@@ -1596,7 +1599,7 @@ Liste zurück.
 Beim Schreiben der Konfigurationsdatei macht man dann einfach das Umgekehrte.
 Man konvertiert eine Python Liste in einen JSON String.
 
-``` python {#code-config}
+``` python
  # borg_qt/config.py
 
  def _return_list_option(self, option):
@@ -1607,6 +1610,7 @@ Man konvertiert eine Python Liste in einen JSON String.
      else:
          return []
 ```
+{#code-config}
 
 Die Datei wird jeweils beim Start der Applikation gelesen und angewendet. Somit
 weiss die Applikation bereits nach dem Start wo das Repository liegen sollte
@@ -1618,7 +1622,7 @@ Applikation eine entsprechende Meldung, Abbildung:(@fig:missing-config), aus. De
 unter `~/.config/borg_qt/borg_qt.conf` wird dabei gemäss dem Ziel Nr. 21 über
 die Umgebungsvariable `HOME` zusammengesetzt
 
-``` python {#code-get-path}
+``` python
  # borg_qt/config.py
 
  def _get_path(self):
@@ -1633,6 +1637,7 @@ die Umgebungsvariable `HOME` zusammengesetzt
      else:
          raise BorgException("Configuration file not found!")
 ```
+{#code-get-path}
 
 ![Screenshot der Borg-Qt Fehlermeldung bei fehlender Konfigurationsda-
 tei.](images/borgqt_missing_config.png){@fig:missing-config}
@@ -1717,7 +1722,7 @@ wiederverwendet werden. Der restliche JSON Output kann dann einfach mit dem
 die Fehlermeldungen von BorgBackup angezeigt und es muss nur an gewissen Stellen noch
 applikationsspezifisches Exception Handling betrieben werden.
 
-``` python {#code-json-err}
+``` python
  # borg_qt/borg_interface.py
 
  def process_json_error(self, json_err):
@@ -1729,6 +1734,7 @@ applikationsspezifisches Exception Handling betrieben werden.
              err = json.loads(error_list[0])
              raise BorgException(err[`message`])
 ```
+{#code-json-err}
 
 Die ganze Funktionalität wurde dann in der Klasse `BorgQtThread`
 zusammengefasst. Somit kann für jede Funktion von BorgBackup eine einzelne Klasse
@@ -1767,7 +1773,7 @@ Parameter gepaart und als gesamte Liste an das finale Kommando angehängt. Die
 „Includes“ funktionieren auf die gleiche Weise, benötigen jedoch keine
 zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(#code-create).
 
-``` python {#code-create}
+``` python
  # borg_qt/borg_interface.py
  # Funktion zum Verarbeiten der "Excludes"
  def _process_excludes(self, excludes):
@@ -1789,6 +1795,7 @@ zusätzlichen Parameter. Zu sehen ist dies im Codesnippet:(#code-create).
      if self.excludes:
          self.command.extend(self.excludes)
 ```
+{#code-create}
 
 ### 5.5.2 Frontend
 
@@ -1805,7 +1812,7 @@ zu geben, dass die Applikation noch am Arbeiten ist.
 
 ![Screenshot des „Aktion in Ausführung“ Dialogs.](images/borgqt_progress_v2.png){#fig:progress}
 
-Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung](#first-implementation)
+Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung](#erste-umsetzung)
 noch etwas angepasst werden. BorgBackup gibt, während dem Erstellen eines Archivs
 keine Informationen zurück, welche es einem erlauben würden einen
 Fortschrittsbalken zu generieren, welcher den effektiven Fortschritt anzeigt.
@@ -2010,7 +2017,7 @@ Sollte also etwa jeden Mittwoch ein Backup gemacht werden aber der Computer
 lief an diesem Tag nicht, startet Systemd Borg-Qt, sobald der Computer das
 nächste Mal eingeschaltet wird kommt.
 
-``` {#code-service}
+```
  #~/.config/systemd/user/borg_qt.service
  [Unit]
  Description = Runs Borg-Qt once in the backround to take a backup according to the configuration.
@@ -2019,8 +2026,9 @@ nächste Mal eingeschaltet wird kommt.
  Type = oneshot
  ExecStart = /home/andreas/bin/borg_qt -B
 ```
+{#code-service}
 
-``` {#code-timer}
+```
  #~/.config/systemd/user/borg_qt.timer
  [Unit]
  Description = Starts the borg_qt.service according to the configured schedule.
@@ -2032,13 +2040,15 @@ nächste Mal eingeschaltet wird kommt.
  [Install]
  WantedBy = timers.target
 ```
+{#code-timer}
 
 Programmlisting 9 Systemd Timer Datei für Borg-Qt
 
 ## 5.10 GUI Anpassungen nach Usability-Studie
 
-Im Rahmen der durchgeführten [Usability-Studie](#usability) machten die User folgenden
+Im Rahmen der durchgeführten [Usability-Studie](#usability-studie) machten die User folgenden
 Feststellungen:
+
 * „Include“ und „Exclude“ Funktionen sind unklar beschriftet.
 * Die Funktionen sind unklar.
 * Texte sind nicht einheitlich.
@@ -2091,12 +2101,13 @@ das Binary einbinden. Der gezeigte Code wurde dabei in ein Makefile
 implementiert. Somit kann man in der obersten Ebene des Repository einfach den
 Befehl `make` ausführen und das Binary wird im Ordner `dist` erstellt.
 
-``` {#code-install}
+```
  pyinstaller --hidden-import=PyQt5.sip \
      --add-data=borg_qt/static/icons:static/icons \
      --add-data=borg_qt/static/UI:static/UI \
      -F borg_qt/borg_qt.py; \
 ```
+{#code-install}
 
 Auf Github wird jeweils ein Release erstellt und dazu die passenden Binaries
 hochgeladen. Github packt dabei den Source Code beim Erstellen des Releases in
@@ -2140,13 +2151,13 @@ in welcher Form das Ziel bewiesen wurde.
 | 13. |  | Erfüllt | Wurde mit TC-19 bewiesen. |
 | 14. |  | Erfüllt | Wurde mit TC-02, TC-06, TC-09, TC-13 und TC-17 bewiesen. |
 | 15. |  | Nicht erfüllt | Dies ist ein sehr komplexes Feature und braucht genügend Zeit, damit es richtig umgesetzt werden kann. Konnte deshalb nicht im Rahmen der Diplomarbeit realisiert werden. |
-| 16. |  | Erfüllt | Wurde mit TC-02, TC-05, TC-06, TC-09, TC-13 und TC-17 bewiesen. Die angezeigten Fehlermeldungen sind Meldungen von borg welche 1:1 an den User durchgereicht werden. |
+| 16. |  | Erfüllt | Wurde mit TC-02, TC-05, TC-06, TC-09, TC-13 und TC-17 bewiesen. Die angezeigten Fehlermeldungen sind Meldungen von BorgBackup welche 1:1 an den User durchgereicht werden. |
 | 17. |  | Erfüllt | Wurde mit TC-05 bewiesen. |
 | 18. |  | Erfüllt | Wurde mit TC-25 bewiesen. |
 | 19. |  | Erfüllt | Wurde mit TC-21 und TC-22 bewiesen. Läuft so produktiv auf dem Computer des Projektleiters. |
 | 20. |  | Nicht erfüllt | Wurde noch nicht umgesetzt. |
 | 21. |  | Erfüllt | Ist in der Sektion Einstellungen beschrieben. Zurzeit wird jedoch nur $HOME verwendet. |
-| 22. |  | Nicht erfüllt | Zurzeit werden noch alle Daten direkt aus dem borg Repository gelesen. |
+| 22. |  | Nicht erfüllt | Zurzeit werden noch alle Daten direkt aus dem BorgBackup Repository gelesen. |
 | 23. |  | Nicht erfüllt | Wurde noch nicht umgesetzt. |
 | 24. |  | Nicht erfüllt | Wurde mangels Datenbank noch nicht umgesetzt. |
 | 25. |  | Nicht erfüllt | Wurde noch nicht umgesetzt. |
@@ -2163,7 +2174,7 @@ Table: Bewertete Projektziele
 
 ### 6.1.1 Risikoanalyse der neuen Ist-Situation
 
-Das Ist-Riskio in der Sektion [Risiko-Analyse](#risk-analysis) könnte wie prognostiziert
+Das Ist-Riskio in der Sektion [Risiko-Analyse](#risiko-analyse) könnte wie prognostiziert
 erhehblich gesenkt werden. Entgegen der ursprünglichen Annahme konnten die
 automatischen Backups doch noch während der Diplomarbeit implementiert werden.
 Dadurch konnte auch das Risiko Nr. 5 (Der Benutzer vergisst Backups zu machen)
@@ -2334,7 +2345,7 @@ Table: Zeitcontrolling
 | TC-02 | Anwendung starten | Lokale Konfigurationsdatei erstellt. | 1. Anwendung starten. | - | Die Anwendung wirft eine Fehlermeldung das sie das lokale Repository nicht finden kann. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-03 | Anwendung starten | - | 1. Anwendung starten. | - | Die wirft eine Fehlermeldung das sie die Konfigurationsdatei nicht finden kann. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-04 | Lokales Backup erstellen | TC-01 ausgeführt. | 1. In der Ordnerübersicht das Code Repository auswählen.\newline 2. Den Button “Backup” betätigen. | Testdateien | Die Anwendung zeigt einen Fortschrittsbalken der nach erfolgreichem Backupen verschwindet. | Die Archiv Liste wird aktualisiert und zeigt ein Archiv an. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
-| TC-05 | Lokales Backup erstellen | TC-01 ausgeführt.\newline borg erstellt bereits ein Archiv. | 1. In der Ordnerübersicht das Code Repository auswählen.\newline 2. Den Button “Backup” betätigen. | Testdateien | Die Anwendung wirft eine Fehlermeldung das borg bereits ausgeführt wird. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
+| TC-05 | Lokales Backup erstellen | TC-01 ausgeführt.\newline BorgBackup erstellt bereits ein Archiv. | 1. In der Ordnerübersicht das Code Repository auswählen.\newline 2. Den Button “Backup” betätigen. | Testdateien | Die Anwendung wirft eine Fehlermeldung das BorgBackup bereits ausgeführt wird. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-06 | Lokales Backup erstellen | TC-01 ausgeführt. | 1. Das Lokale Repository an einen beliebigen Ort verschieben.\newline 2. In der Ordnerübersicht das Code Repository auswählen.\newline 3. Den Button “Backup” betätigen. | Testdateien | Die Anwendung wirft eine Fehlermeldung das sie das lokale Repository nicht finden kann. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-07 | In lokales Repository sichern | TC-01 ausgeführt. | 1. Den Button “Backup” betätigen. | - | Die Anwendung wirft eine Fehlermeldung das der User einen Pfad angeben soll. | Die geöffnete Fehlermeldung blockiert die Applikation. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
 | TC-08 | Lokales Archiv löschen | TC-04 ausgeführt. | 1. In der Backup Liste das Backup auswählen.\newline 2. Den Button “Delete” betätigen. | - | Die Anwendung zeigt einen Fortschrittsbalken der nach erfolgtem Löschen verschwindet. | Die Archiv Liste wird aktualisiert und ist nun leer. | Erfolgreich durchgeführt 25.02.2019 A.Z. |
