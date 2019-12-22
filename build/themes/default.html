@@ -95,7 +95,18 @@
         content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
         counter-increment: h3counter;
     }
-
+    h4:before {
+        content: counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
+        counter-increment: h4counter;
+    }
+    h5:before {
+        content: counter(h4counter) "." counter(h5counter) ".\0000a0\0000a0";
+        counter-increment: h5counter;
+    }
+    h6:before {
+        content: counter(h5counter) "." counter(h6counter) ".\0000a0\0000a0";
+        counter-increment: h6counter;
+    }
     /* -------------------------------------------------- */
     /* manuscript header */
     /* -------------------------------------------------- */
