@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/9daf5152891a9052158100a267d83d8078f78839/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/9daf5152891a9052158100a267d83d8078f78839/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/9daf5152891a9052158100a267d83d8078f78839/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/9daf5152891a9052158100a267d83d8078f78839/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@2a423c1](https://github.com/Nebucatnetzer/manubot_test/tree/2a423c1c44cc8b2d1e8ee3b075edf561d02de1f6)
+from [Nebucatnetzer/manubot_test@9daf515](https://github.com/Nebucatnetzer/manubot_test/tree/9daf5152891a9052158100a267d83d8078f78839)
 on December 22, 2019.
 </em></small>
 
@@ -1347,13 +1347,17 @@ und nicht die des Projektleiters.
 | 3 | Männlich | 26 | Gut | Mittel |
 | 4 | Männlich | 34 | Mässig | Mittel |
 | 5 | Weiblich | 26 | Gut | Mittel |
-| Tabelle 23 Usability-Studie Bewertungsraster Grünbgcolor="#4CAF50" | Die Aufgabe war sehr einfach. |  |  |  |
-| Gelbbgcolor="#FFEB3B" | Die Aufgabe war etwas herausfordernd. |  |  |  |
-| Orangebgcolor="#FF9800" | Die Aufgabe war schwierig. |  |  |  |
-| Rotbgcolor="#f44336" | Die Aufgabe war sehr schwierig. |  |  |  |
-| Schwarzbgcolor="#424242" | Die Aufgabe war unlösbar. |  |  |  |
 
 Table: Usability-Studie Probanden
+{#tbl:probanden}
+
+|Grünb {#green} | Die Aufgabe war sehr einfach. |  |  |  |
+| Gelb {#yellow}| Die Aufgabe war etwas herausfordernd. |  |  |  |
+| Orange {#orange} | Die Aufgabe war schwierig. |  |  |  |
+| Rot {#red} | Die Aufgabe war sehr schwierig. |  |  |  |
+| Schwarz {#black} | Die Aufgabe war unlösbar. |  |  |  |
+
+Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
 
 ### 4.5.1 Aufgaben
@@ -1373,11 +1377,11 @@ Table: Usability-Studie Probanden
 
 | Test | Proband 1 | Proband 2 | Proband 3 | Proband 4 | Probandin 5 |
 |---|---|---|---|---|---|
-| 1. | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#FFEB3B" | bgcolor="#4CAF50" | bgcolor="#4CAF50" |
-| 2. | bgcolor="#FFEB3B" | bgcolor="#FFEB3B" | bgcolor="#FF9800" | bgcolor="#FF9800" | bgcolor="#FF9800" |
-| 3. | bgcolor="#4CAF50" | bgcolor="#FFEB3B" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" |
-| 4. | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" | bgcolor="#4CAF50" |
-| 5. | bgcolor="#4CAF50" | bgcolor="#FFEB3B" | bgcolor="#FF9800" | bgcolor="#FFEB3B" | bgcolor="#FFEB3B" |
+| 1. | {#green} | {#green} | {#yellow} | {#green} | {#green} |
+| 2. | {#yellow} | {#yellow} | {#orange} | {#orange} | {#orange} |
+| 3. | {#green} | {#yellow} | {#green} | {#green} | {#green} |
+| 4. | {#green} | {#green} | {#green} | {#green} | {#green} |
+| 5. | {#green} | {#yellow} | {#orange} | {#yellow} | {#yellow} |
 
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
