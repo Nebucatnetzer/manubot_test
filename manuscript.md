@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@d37a7b3](https://github.com/Nebucatnetzer/manubot_test/tree/d37a7b3de7011f569004f6efe03c431699373336)
+from [Nebucatnetzer/manubot_test@c4604fe](https://github.com/Nebucatnetzer/manubot_test/tree/c4604fe500f408f38ffee90460c2c520051cdfc6)
 on December 23, 2019.
 </em></small>
 
@@ -1348,6 +1348,8 @@ und nicht die des Projektleiters.
 Table: Usability-Studie Probanden
 {#tbl:probanden}
 
+|||
+|:---|:---|
 |<!-- $style="background: #4CAF50;" --> Grün | Die Aufgabe war sehr einfach. |
 |<!-- $style="background: #FFEB3B;" --> Gelb| Die Aufgabe war etwas herausfordernd. |
 |<!-- $style="background: #FF9800;" --> Orange | Die Aufgabe war schwierig. |
