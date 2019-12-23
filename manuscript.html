@@ -106,9 +106,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <meta property="twitter:url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_fulltext_html_url" content="https://Nebucatnetzer.github.io/manubot_test/" />
   <meta name="citation_pdf_url" content="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/eeed6110a7841f0363fa44b7b286fcfb48cc8ec9/" />
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/eeed6110a7841f0363fa44b7b286fcfb48cc8ec9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/eeed6110a7841f0363fa44b7b286fcfb48cc8ec9/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" /> <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" /> <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
@@ -119,7 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Dokumentation Diplomarbeit</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/eeed6110a7841f0363fa44b7b286fcfb48cc8ec9/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/eeed6110a7841f0363fa44b7b286fcfb48cc8ec9">Nebucatnetzer/manubot_test@eeed611</a> on December 23, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/">permalink</a>) was automatically generated from <a href="https://github.com/Nebucatnetzer/manubot_test/tree/42cc06d2676a25549b85e22ffec339c380963860">Nebucatnetzer/manubot_test@42cc06d</a> on December 23, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Andreas Zweili</strong><br> <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" /> <a href="https://orcid.org/-">-</a> · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" /> <a href="https://github.com/Nebucatnetzer">Nebucatnetzer</a><br> <small> </small></li>
@@ -4774,8 +4774,8 @@ Wikipedia<br />
         /* Move top-level headings to a new page on the right-hand side: */
         h2
         {
-            page-break-before: right; /* CSS 2 */
-            break-before: recto;      /* CSS 3+,
+            page-break-before: page; /* CSS 2 */
+            break-before: page;      /* CSS 3+,
                                         also works for languages written and paginated right-to-left */
         }
         /* Override the previous ruleset for the very first heading: */
@@ -4802,6 +4802,9 @@ Wikipedia<br />
             page-break-before: avoid;
         }
         p {
+            page-break-inside: avoid;
+        }
+        div {
             page-break-inside: avoid;
         }
     }
