@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@59ed62e](https://github.com/Nebucatnetzer/manubot_test/tree/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee)
+from [Nebucatnetzer/manubot_test@8d54572](https://github.com/Nebucatnetzer/manubot_test/tree/8d5457282ec5937d3398ee4b9888bd98fdf8fe00)
 on December 23, 2019.
 </em></small>
 
@@ -155,7 +155,7 @@ sie hat bis man sie braucht.
 
 ### Ausgangslage
 
-borg ist deshalb interessant, weil es während einem Backup relativ wenig
+BorgBackup ist deshalb interessant, weil es während einem Backup relativ wenig
 Ressource im Vergleich zu anderen Systemen benötigt und schon relativ lange
 aktiv entwickelt wird. Dadurch ist es im Alltag geprüft worden. Des Weiteren
 bietet BorgBackup die Funktion für Verschlüsselung, was es einem User ermöglicht die
@@ -1475,7 +1475,7 @@ respektive Ordner ein-/ausschliessen. Ein paar der Probanden hatten es zuerst
 Um sicherzugehen, dass die gewählten Technologien auch den Anforderungen
 entsprechen wurde ein kleines „Hello World“ Programm mit Python3 und Qt
 geschrieben. Dieses läuft ohne jegliche Probleme und Anpassung auf Windows,
-Linux und OS X. Wie in den Screenshots in Abbildung:(@fig:hellow-world) zu sehen ist.
+Linux und OS X. Wie in den Screenshots in Abbildung:(@fig:hello-world) zu sehen ist.
 
 ![Python und Qt Applikation unter Windows (links), Linux (rechts) und
 OS X (unten)](images/hello_world.png){#fig:hello-world}
@@ -1649,7 +1649,7 @@ def _get_path(self):
 :::
 
 ![Screenshot der Borg-Qt Fehlermeldung bei fehlender Konfigurationsda-
-tei.](images/borgqt_missing_config.png){@fig:missing-config}
+tei.](images/borgqt_missing_config.png){#fig:missing-config}
 
 #### Frontend
 
@@ -1820,10 +1820,10 @@ angewählten Objektes and die `create_backup` Methode weiter.
 ![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree}
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit Ladebalken
-angezeigt, Abbildung:(@fig:progress). Dieser dient hauptsächlich dazu dem User das Gefühl
+angezeigt, Abbildung:(@fig:progress-v2). Dieser dient hauptsächlich dazu dem User das Gefühl
 zu geben, dass die Applikation noch am Arbeiten ist.
 
-![Screenshot des „Aktion in Ausführung“ Dialogs.](images/borgqt_progress_v2.png){#fig:progress}
+![Screenshot des „Aktion in Ausführung“ Dialogs.](images/borgqt_progress_v2.png){#fig:progress-v2}
 
 Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung](#erste-umsetzung)
 noch etwas angepasst werden. BorgBackup gibt, während dem Erstellen eines Archivs
