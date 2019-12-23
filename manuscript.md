@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/6b47a234bff2fb85fe2bd60e99a118b7fc92ed09/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/6b47a234bff2fb85fe2bd60e99a118b7fc92ed09/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/6b47a234bff2fb85fe2bd60e99a118b7fc92ed09/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/6b47a234bff2fb85fe2bd60e99a118b7fc92ed09/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@32b1afe](https://github.com/Nebucatnetzer/manubot_test/tree/32b1afef02725e2277e8d998366e727ddfde88ef)
+from [Nebucatnetzer/manubot_test@6b47a23](https://github.com/Nebucatnetzer/manubot_test/tree/6b47a234bff2fb85fe2bd60e99a118b7fc92ed09)
 on December 23, 2019.
 </em></small>
 
@@ -113,7 +113,7 @@ die Realisierung besagter Oberflache und der dabei verwendeten Werkzeuge, die
 Projektplanung sowie die dabei aufgetretenen Probleme.
 
 
-## Über dieses Dokument{.page_break_before}
+## Über dieses Dokument
 
 ### Beschreibung
 
@@ -140,7 +140,7 @@ Schule erstellt und steht unter der Creative Commons BY-SA 4.0
 Arbeit unter Beibehalten der Lizenz kopiert und weiterverarbeitet werden.
 Zusätzlich muss der Urheber genannt werden.
 
-## Initialisierung{.page_break_before}
+## Initialisierung
 
 ### Vision
 
@@ -450,7 +450,7 @@ vermieden werden.
 Table: Risikobeschreibung
 {#tbl:project-risks}
 
-## Analyse{.page_break_before}
+## Analyse
 
 ### SWOT-Analyse
 
@@ -815,7 +815,7 @@ Funktion des GUI aufgelistet:
 
 Die detaillierte Implementation wird in der Sektion [Realisierung](#realisierung) beschrieben.
 
-## Konzept{.page_break_before}
+## Konzept
 
 ### Varianten
 
@@ -1468,7 +1468,7 @@ umbenannt. Somit zeigen die Buttons dann auch direkt, dass sie Dateien
 respektive Ordner ein-/ausschliessen. Ein paar der Probanden hatten es zuerst
 über den „Remove“ Button versucht.
 
-## Realisierung{.page_break_before #realisierung}
+## Realisierung
 
 ### Cross-plattform Kompatibilität
 
@@ -2139,7 +2139,7 @@ Funktionen noch nicht implementiert wurden. TC-18 ist zwar technisch bereits
 möglich wurde im GUI jedoch noch nicht umgesetzt. Die Resultate wurden in der
 Tabelle:(@tbl:testcases) erfasst.
 
-## Ausblick/Fazit{.page_break_before}
+## Ausblick/Fazit
 
 ### Zielbewertung
 
