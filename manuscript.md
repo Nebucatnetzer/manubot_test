@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/f7562a95edc56d85a65eb3ff9bfb145655532adf/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f7562a95edc56d85a65eb3ff9bfb145655532adf/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f7562a95edc56d85a65eb3ff9bfb145655532adf/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8d5457282ec5937d3398ee4b9888bd98fdf8fe00/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/f7562a95edc56d85a65eb3ff9bfb145655532adf/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@8d54572](https://github.com/Nebucatnetzer/manubot_test/tree/8d5457282ec5937d3398ee4b9888bd98fdf8fe00)
+from [Nebucatnetzer/manubot_test@f7562a9](https://github.com/Nebucatnetzer/manubot_test/tree/f7562a95edc56d85a65eb3ff9bfb145655532adf)
 on December 23, 2019.
 </em></small>
 
@@ -2192,11 +2192,11 @@ Das Ist-Riskio in der Sektion [Risiko-Analyse](#risiko-analyse) könnte wie prog
 erhehblich gesenkt werden. Entgegen der ursprünglichen Annahme konnten die
 automatischen Backups doch noch während der Diplomarbeit implementiert werden.
 Dadurch konnte auch das Risiko Nr. 5 (Der Benutzer vergisst Backups zu machen)
-erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(@fig:target-risk-new),
-eine bessere Risikobewertung als das geplante Soll-Risiko, Abbildung:(@fig:planned-risk-grey).
+erheblich gesenkt werden. Somit hat die neue Ist-Situation, Abbildung:(@fig:targetrisknew),
+eine bessere Risikobewertung als das geplante Soll-Risiko, Abbildung:(@fig:plannedriskgrey).
 
-![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:planned-risk-grey width="7.2cm"}
-![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:target-risk-new width="7.2cm"}
+![Risikoanalyse der Soll-Situation in grau](images/sollrisiko_grey.svg){#fig:plannedriskgrey width="7.2cm"}
+![Risikoanalyse der neuen Ist-Situation](images/ist_risiko_neu.svg){#fig:targetrisknew width="7.2cm"}
 
 ### Projektmanagement
 
