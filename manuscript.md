@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/84214c9ae49894e2943cc1e5f98aec169cfa69c1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/84214c9ae49894e2943cc1e5f98aec169cfa69c1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/84214c9ae49894e2943cc1e5f98aec169cfa69c1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/42cc06d2676a25549b85e22ffec339c380963860/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/84214c9ae49894e2943cc1e5f98aec169cfa69c1/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@42cc06d](https://github.com/Nebucatnetzer/manubot_test/tree/42cc06d2676a25549b85e22ffec339c380963860)
+from [Nebucatnetzer/manubot_test@84214c9](https://github.com/Nebucatnetzer/manubot_test/tree/84214c9ae49894e2943cc1e5f98aec169cfa69c1)
 on December 23, 2019.
 </em></small>
 
