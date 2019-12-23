@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="627"
+   height="1231"
+   viewBox="-0.5 -0.5 627 1231"
+   content="&lt;mxfile host=&quot;Electron&quot; modified=&quot;2019-12-22T13:43:17.307Z&quot; agent=&quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/11.3.0 Chrome/78.0.3904.130 Electron/7.1.4 Safari/537.36&quot; version=&quot;12.1.7&quot; etag=&quot;NWTfO9wNSmygNtF3yNsg&quot; type=&quot;device&quot; pages=&quot;1&quot;&gt;&lt;diagram id=&quot;cYwamhkUEYAFQywuLdVz&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg501"
+   sodipodi:docname="class_diagramm.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata505">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1144"
+     id="namedview503"
+     showgrid="false"
+     inkscape:zoom="0.98684764"
+     inkscape:cx="619.43078"
+     inkscape:cy="1272.5075"
+     inkscape:window-x="1920"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg501" />
+  <defs
+     id="defs103">
+    <clipPath
+       id="mx-clip-544-138-152-26-0">
+      <rect
+         x="544"
+         y="138"
+         width="152"
+         height="26"
+         id="rect10" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-164-152-26-0">
+      <rect
+         x="544"
+         y="164"
+         width="152"
+         height="26"
+         id="rect13" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-190-152-26-0">
+      <rect
+         x="544"
+         y="190"
+         width="152"
+         height="26"
+         id="rect16" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-224-152-26-0">
+      <rect
+         x="544"
+         y="224"
+         width="152"
+         height="26"
+         id="rect19" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-250-152-26-0">
+      <rect
+         x="544"
+         y="250"
+         width="152"
+         height="26"
+         id="rect22" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-276-152-26-0">
+      <rect
+         x="544"
+         y="276"
+         width="152"
+         height="26"
+         id="rect25" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-144-152-26-0">
+      <rect
+         x="954"
+         y="144"
+         width="152"
+         height="26"
+         id="rect28" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-178-152-26-0">
+      <rect
+         x="954"
+         y="178"
+         width="152"
+         height="26"
+         id="rect31" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-204-152-26-0">
+      <rect
+         x="954"
+         y="204"
+         width="152"
+         height="26"
+         id="rect34" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-230-152-26-0">
+      <rect
+         x="954"
+         y="230"
+         width="152"
+         height="26"
+         id="rect37" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-256-152-26-0">
+      <rect
+         x="954"
+         y="256"
+         width="152"
+         height="26"
+         id="rect40" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-282-152-26-0">
+      <rect
+         x="954"
+         y="282"
+         width="152"
+         height="26"
+         id="rect43" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-308-152-26-0">
+      <rect
+         x="954"
+         y="308"
+         width="152"
+         height="26"
+         id="rect46" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-954-334-152-26-0">
+      <rect
+         x="954"
+         y="334"
+         width="152"
+         height="26"
+         id="rect49" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-747-250-152-26-0">
+      <rect
+         x="747"
+         y="250"
+         width="152"
+         height="26"
+         id="rect52" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-747-284-152-26-0">
+      <rect
+         x="747"
+         y="284"
+         width="152"
+         height="26"
+         id="rect55" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-747-310-152-26-0">
+      <rect
+         x="747"
+         y="310"
+         width="152"
+         height="26"
+         id="rect58" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-747-336-152-26-0">
+      <rect
+         x="747"
+         y="336"
+         width="152"
+         height="26"
+         id="rect61" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-364-138-152-26-0">
+      <rect
+         x="364"
+         y="138"
+         width="152"
+         height="26"
+         id="rect64" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-55-375-152-26-0">
+      <rect
+         x="55"
+         y="375"
+         width="152"
+         height="26"
+         id="rect67" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-444-152-26-0">
+      <rect
+         x="544"
+         y="444"
+         width="152"
+         height="26"
+         id="rect70" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-478-152-26-0">
+      <rect
+         x="544"
+         y="478"
+         width="152"
+         height="26"
+         id="rect73" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-504-152-26-0">
+      <rect
+         x="544"
+         y="504"
+         width="152"
+         height="26"
+         id="rect76" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-364-603-152-26-0">
+      <rect
+         x="364"
+         y="603"
+         width="152"
+         height="26"
+         id="rect79" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-724-603-152-26-0">
+      <rect
+         x="724"
+         y="603"
+         width="152"
+         height="26"
+         id="rect82" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-894-603-152-26-0">
+      <rect
+         x="894"
+         y="603"
+         width="152"
+         height="26"
+         id="rect85" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-544-603-152-26-0">
+      <rect
+         x="544"
+         y="603"
+         width="152"
+         height="26"
+         id="rect88" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-184-603-152-26-0">
+      <rect
+         x="184"
+         y="603"
+         width="152"
+         height="26"
+         id="rect91" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-4-603-152-26-0">
+      <rect
+         x="4"
+         y="603"
+         width="152"
+         height="26"
+         id="rect94" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-1074-603-152-26-0">
+      <rect
+         x="1074"
+         y="603"
+         width="152"
+         height="26"
+         id="rect97" />
+    </clipPath>
+    <clipPath
+       id="mx-clip-159-138-152-26-0">
+      <rect
+         x="159"
+         y="138"
+         width="152"
+         height="26"
+         id="rect100" />
+    </clipPath>
+  </defs>
+  <g
+     id="g499"
+     transform="rotate(-90,616.17341,613.73968)">
+    <path
+       d="M 660,107 V 87 h 280 v 65 h 2.01"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path105"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 949.01,152 -3.5,2.06 -3.5,-2.06 3.5,-2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path107"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 540,133 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path109"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 540,133 V 297 H 700 V 133"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path111"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 540,133 H 700"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path113"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g117"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="619.5"
+         y="125.5"
+         id="text115">Config</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-138-152-26-0)"
+       font-size="12px"
+       id="g121"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="150.5"
+         id="text119">config</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-164-152-26-0)"
+       font-size="12px"
+       id="g125"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="176.5"
+         id="text123">service</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-190-152-26-0)"
+       font-size="12px"
+       id="g129"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="202.5"
+         id="text127">timer</text>
+    </g>
+    <path
+       d="M 540,215 H 700"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path131"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       clip-path="url(#mx-clip-544-224-152-26-0)"
+       font-size="12px"
+       id="g135"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="236.5"
+         id="text133">apply_option()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-250-152-26-0)"
+       font-size="12px"
+       id="g139"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="262.5"
+         id="text137">read()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-276-152-26-0)"
+       font-size="12px"
+       id="g143"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="288.5"
+         id="text141">write()</text>
+    </g>
+    <path
+       d="m 950,138.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path145"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 950,138.5 v 216 h 160 v -216"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path147"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 950,138.5 h 160"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path149"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g153"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="1029.5"
+         y="131"
+         id="text151">MainWindow</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-144-152-26-0)"
+       font-size="12px"
+       id="g157"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="156"
+         id="text155">config</text>
+    </g>
+    <path
+       d="m 950,168.5 h 160"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path159"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       clip-path="url(#mx-clip-954-178-152-26-0)"
+       font-size="12px"
+       id="g163"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="190"
+         id="text161">background_backup()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-204-152-26-0)"
+       font-size="12px"
+       id="g167"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="216"
+         id="text165">create_backup()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-230-152-26-0)"
+       font-size="12px"
+       id="g171"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="242"
+         id="text169">restore_backup()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-256-152-26-0)"
+       font-size="12px"
+       id="g175"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="268"
+         id="text173">delete_backup()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-282-152-26-0)"
+       font-size="12px"
+       id="g179"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="294"
+         id="text177">mount_backup()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-308-152-26-0)"
+       font-size="12px"
+       id="g183"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="320"
+         id="text181">show_help()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-954-334-152-26-0)"
+       font-size="12px"
+       id="g187"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="955.5"
+         y="346"
+         id="text185">show_settings()</text>
+    </g>
+    <path
+       d="m 743,245 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path189"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 743,245 V 357 H 903 V 245"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path191"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 743,245 H 903"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path193"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g197"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="822.5"
+         y="237.5"
+         id="text195">SystemdFile</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-747-250-152-26-0)"
+       font-size="12px"
+       id="g201"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="748.5"
+         y="262.5"
+         id="text199">content</text>
+    </g>
+    <path
+       d="M 743,275 H 903"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path203"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       clip-path="url(#mx-clip-747-284-152-26-0)"
+       font-size="12px"
+       id="g207"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="748.5"
+         y="296.5"
+         id="text205">disable()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-747-310-152-26-0)"
+       font-size="12px"
+       id="g211"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="748.5"
+         y="322.5"
+         id="text209">enable()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-747-336-152-26-0)"
+       font-size="12px"
+       id="g215"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="748.5"
+         y="348.5"
+         id="text213">write()</text>
+    </g>
+    <path
+       d="m 360,133 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path217"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 360,133 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path219"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 360,133 H 520"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path221"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g225"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="439.5"
+         y="125.5"
+         id="text223">ProgressDialog</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-364-138-152-26-0)"
+       font-size="12px"
+       id="g229"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="365.5"
+         y="150.5"
+         id="text227">thread</text>
+    </g>
+    <path
+       d="m 51,370 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path231"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 51,370 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path233"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 51,370 H 211"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path235"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g239"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="130.5"
+         y="362.5"
+         id="text237">BorgException</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-55-375-152-26-0)"
+       font-size="12px"
+       id="g241"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="M 620,533.12 V 548 H 80 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path243"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path245"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 548 H 260 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path247"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path249"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 548 H 440 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path251"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path253"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 572"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path255"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path257"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 548 h 180 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path259"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path261"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 548 h 350 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path263"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path265"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 620,533.12 V 548 h 530 v 24"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path267"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,526.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path269"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 540,439 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path271"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 540,439 v 86 h 160 v -86"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path273"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 540,439 H 700"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path275"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g279"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="619.5"
+         y="431.5"
+         id="text277">BorgQtThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-444-152-26-0)"
+       font-size="12px"
+       id="g283"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="456.5"
+         id="text281">p</text>
+    </g>
+    <path
+       d="M 540,469 H 700"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path285"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       clip-path="url(#mx-clip-544-478-152-26-0)"
+       font-size="12px"
+       id="g289"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="490.5"
+         id="text287">start()</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-504-152-26-0)"
+       font-size="12px"
+       id="g293"
+       style="font-size:12px;font-family:Helvetica;fill:#000000">
+      <text
+         x="545.5"
+         y="516.5"
+         id="text291">stop()</text>
+    </g>
+    <path
+       d="m 360,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path295"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 360,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path297"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 360,597.5 H 520"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path299"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g303"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="439.5"
+         y="590"
+         id="text301">BackupThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-364-603-152-26-0)"
+       font-size="12px"
+       id="g305"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 720,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path307"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 720,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path309"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 720,597.5 H 880"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path311"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g315"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="799.5"
+         y="590"
+         id="text313">InfoThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-724-603-152-26-0)"
+       font-size="12px"
+       id="g317"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 890,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path319"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 890,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path321"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 890,597.5 h 160"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path323"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g327"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="969.5"
+         y="590"
+         id="text325">ListThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-894-603-152-26-0)"
+       font-size="12px"
+       id="g329"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 540,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path331"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 540,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path333"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 540,597.5 H 700"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path335"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g339"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="619.5"
+         y="590"
+         id="text337">DeleteThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-544-603-152-26-0)"
+       font-size="12px"
+       id="g341"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 180,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path343"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 180,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path345"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 180,597.5 H 340"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path347"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g351"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="259.5"
+         y="590"
+         id="text349">ListThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-184-603-152-26-0)"
+       font-size="12px"
+       id="g353"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 0,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path355"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 0,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path357"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 0,597.5 H 160"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path359"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g363"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="79.5"
+         y="590"
+         id="text361">MountThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-4-603-152-26-0)"
+       font-size="12px"
+       id="g365"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 1070,597.5 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path367"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 1070,597.5 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path369"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 1070,597.5 h 160"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path371"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g375"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="1149.5"
+         y="590"
+         id="text373">RestoreThread</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-1074-603-152-26-0)"
+       font-size="12px"
+       id="g377"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="m 155,133 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path379"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 155,133 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path381"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 155,133 H 315"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path383"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="12px"
+       id="g387"
+       style="font-weight:bold;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="234.5"
+         y="125.5"
+         id="text385">Help</text>
+    </g>
+    <g
+       clip-path="url(#mx-clip-159-138-152-26-0)"
+       font-size="12px"
+       id="g389"
+       style="font-size:12px;font-family:Helvetica;fill:#000000" />
+    <path
+       d="M 131,297.12 V 344"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path391"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 131,290.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path393"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 61,263 v -26 h 140 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path395"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 61,263 v 26 h 140 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path397"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 61,263 H 201"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path399"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g403"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="130.5"
+         y="254.5"
+         id="text401">Exception</text>
+    </g>
+    <path
+       d="M 440,60.12 V 80 H 235 v 27"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path405"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 440,53.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path407"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 440,60.12 V 107"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path409"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 440,53.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path411"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 440,60.12 V 80 h 180 v 27"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path413"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 440,53.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path415"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 370,26 V 0 h 140 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path417"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 370,26 V 52 H 510 V 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path419"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 370,26 H 510"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path421"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g425"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="439.5"
+         y="17.5"
+         id="text423">QDialog</text>
+    </g>
+    <path
+       d="M 620,394.12 V 413"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path427"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 620,387.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path429"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 550,360 v -26 h 140 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path431"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 550,360 v 26 h 140 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path433"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 550,360 H 690"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path435"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g439"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="619.5"
+         y="351.5"
+         id="text437">QThread</text>
+    </g>
+    <path
+       d="M 1030,78.12 V 113"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path441"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 1030,71.12 3.5,7 h -7 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path443"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 960,43.5 v -26 h 140 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path445"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 960,43.5 v 26 h 140 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path447"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 960,43.5 h 140"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path449"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g453"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="1029.5"
+         y="35"
+         id="text451">QMainWindow</text>
+    </g>
+    <path
+       d="M 760,452 H 707.99"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path455"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 700.99,452 3.5,-2.06 3.5,2.06 -3.5,2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path457"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 760,465 v -26 h 140 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path459"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 760,465 v 26 h 140 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path461"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 760,465 H 900"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path463"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g467"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="829.5"
+         y="456.5"
+         id="text465">subprocess.Popen</text>
+    </g>
+    <path
+       d="M 743,146 H 707.99"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path469"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 700.99,146 3.5,-2.06 3.5,2.06 -3.5,2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path471"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 903,146 h 27 v 112 h -19.01"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path473"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 903.99,258 3.5,-2.06 3.5,2.06 -3.5,2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path475"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 743,159 v -26 h 160 v 26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path477"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 743,159 v 26 h 160 v -26"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path479"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 743,159 H 903"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path481"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <g
+       font-style="italic"
+       font-size="12px"
+       id="g485"
+       style="font-style:italic;font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="822.5"
+         y="150.5"
+         id="text483">configparser.ConfigParser</text>
+    </g>
+    <path
+       d="M 707.99,172 H 722 v 82 h 21"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path487"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 700.99,172 3.5,-2.06 3.5,2.06 -3.5,2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path489"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 707.99,198 H 722 v 56 h 21"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path491"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 700.99,198 3.5,-2.06 3.5,2.06 -3.5,2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path493"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="M 352.01,146 H 340 v 295 h 200"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path495"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-miterlimit:10" />
+    <path
+       d="m 359.01,146 -3.5,2.06 -3.5,-2.06 3.5,-2.06 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path497"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-miterlimit:10" />
+  </g>
+</svg>
