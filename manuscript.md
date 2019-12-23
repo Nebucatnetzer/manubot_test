@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/2ff6be7e44694b9983b27ef304a1514a6d44454c/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/8d2b6a06fedc548bfde5da21bb14ba7a359f4792/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2ff6be7e44694b9983b27ef304a1514a6d44454c/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d2b6a06fedc548bfde5da21bb14ba7a359f4792/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/2ff6be7e44694b9983b27ef304a1514a6d44454c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/8d2b6a06fedc548bfde5da21bb14ba7a359f4792/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/2ff6be7e44694b9983b27ef304a1514a6d44454c/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/8d2b6a06fedc548bfde5da21bb14ba7a359f4792/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@2ff6be7](https://github.com/Nebucatnetzer/manubot_test/tree/2ff6be7e44694b9983b27ef304a1514a6d44454c)
+from [Nebucatnetzer/manubot_test@8d2b6a0](https://github.com/Nebucatnetzer/manubot_test/tree/8d2b6a06fedc548bfde5da21bb14ba7a359f4792)
 on December 23, 2019.
 </em></small>
 
@@ -380,7 +380,7 @@ ausschliesslich Farben aus der von Google entwickelten Design Sprache
 ### Zeitplanung
 
 Die detaillierte Zeitplanung ist dem Ganttchart in der Datei
-![02_Zeitplanung_Andreas_Zweili.html](02_Zeitplanung_Andreas_Zweili.html?sanitize=true) zu entnehmen. Bei der Zeitplanung wurde
+02_Zeitplanung_Andreas_Zweili.html zu entnehmen. Bei der Zeitplanung wurde
 darauf geachtet, dass die Arbeit soweit als möglich nicht mit dem Berufsleben
 kollidiert. An einem normalen Arbeitstag wurde dabei damit gerechnet das ca. 2
 Stunden Arbeit am Abend möglich sein sollten. An einem arbeitsfreien Tag wurde
@@ -484,7 +484,7 @@ Diplomarbeit soll das Projekt für interessierte Entwickler jedoch offen sein.
 Der Quellcode wird bereits während der Arbeit öffentlich zur Verfügung
 gestellt.
 
-![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="90%"}
+![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="80vw"}
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
 |:---|:---|:---|:---|:---|
