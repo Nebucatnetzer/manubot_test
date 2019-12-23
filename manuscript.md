@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Andreas Zweili
-date-meta: '2019-12-22'
+date-meta: '2019-12-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Dokumentation Diplomarbeit" />
 
-  <meta name="dc.date" content="2019-12-22" />
+  <meta name="dc.date" content="2019-12-23" />
 
-  <meta name="citation_publication_date" content="2019-12-22" />
+  <meta name="citation_publication_date" content="2019-12-23" />
 
   <meta name="dc.language" content="de-CH" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/dc921a7a91bf454ea60d9e62f361f70829cdf5e1/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/dc921a7a91bf454ea60d9e62f361f70829cdf5e1/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/dc921a7a91bf454ea60d9e62f361f70829cdf5e1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,10 +84,10 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/dc921a7a91bf454ea60d9e62f361f70829cdf5e1/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@dc921a7](https://github.com/Nebucatnetzer/manubot_test/tree/dc921a7a91bf454ea60d9e62f361f70829cdf5e1)
-on December 22, 2019.
+from [Nebucatnetzer/manubot_test@fbfde37](https://github.com/Nebucatnetzer/manubot_test/tree/fbfde37f6ee8bc250b2905262e94c89e472c472f)
+on December 23, 2019.
 </em></small>
 
 ## Authors
@@ -1349,11 +1349,11 @@ Table: Usability-Studie Probanden
 {#tbl:probanden}
 
 |:---|:---|
-|<!-- $id="green" --> Grün | Die Aufgabe war sehr einfach. |
-|<!-- $id="yellow" --> Gelb| Die Aufgabe war etwas herausfordernd. |
-|<!-- $id="orange" --> Orange | Die Aufgabe war schwierig. |
-|<!-- $id="red" --> Rot | Die Aufgabe war sehr schwierig. |
-|<!-- $id="black" --> Schwarz | Die Aufgabe war unlösbar. |
+|<!-- $style="background: #4CAF50;" --> Grün | Die Aufgabe war sehr einfach. |
+|<!-- $style="background: #FFEB3B;" --> Gelb| Die Aufgabe war etwas herausfordernd. |
+|<!-- $style="background: #FF9800;" --> Orange | Die Aufgabe war schwierig. |
+|<!-- $style="background: #f44336;" --> Rot | Die Aufgabe war sehr schwierig. |
+|<!-- $style="background: #424242;" --> Schwarz | Die Aufgabe war unlösbar. |
 
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
@@ -1375,11 +1375,11 @@ Table: Usability-Studie Bewertungsraster
 
 | Test | Proband 1 | Proband 2 | Proband 3 | Proband 4 | Probandin 5 |
 |---|---|---|---|---|---|
-| 1. | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="green" --> | <!-- $id="green" --> |
-| 2. | <!-- $id="yellow" --> | <!-- $id="yellow" --> | <!-- $id="orange" --> | <!-- $id="orange" --> | <!-- $id="orange" --> |
-| 3. | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> |
-| 4. | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> |
-| 5. | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="orange" --> | <!-- $id="yellow" --> | <!-- $id="yellow" --> |
+| 1. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
+| 2. | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FF9800;" --> |
+| 3. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
+| 4. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
+| 5. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FFEB3B;" --> |
 
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
