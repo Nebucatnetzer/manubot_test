@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/fbfde37f6ee8bc250b2905262e94c89e472c472f/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/d37a7b3de7011f569004f6efe03c431699373336/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@fbfde37](https://github.com/Nebucatnetzer/manubot_test/tree/fbfde37f6ee8bc250b2905262e94c89e472c472f)
+from [Nebucatnetzer/manubot_test@d37a7b3](https://github.com/Nebucatnetzer/manubot_test/tree/d37a7b3de7011f569004f6efe03c431699373336)
 on December 23, 2019.
 </em></small>
 
@@ -1348,7 +1348,6 @@ und nicht die des Projektleiters.
 Table: Usability-Studie Probanden
 {#tbl:probanden}
 
-|:---|:---|
 |<!-- $style="background: #4CAF50;" --> Grün | Die Aufgabe war sehr einfach. |
 |<!-- $style="background: #FFEB3B;" --> Gelb| Die Aufgabe war etwas herausfordernd. |
 |<!-- $style="background: #FF9800;" --> Orange | Die Aufgabe war schwierig. |
