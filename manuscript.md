@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/1fec54eada2748b4bc17929456f95084c059a2e2/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/1fec54eada2748b4bc17929456f95084c059a2e2/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/1fec54eada2748b4bc17929456f95084c059a2e2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/1fec54eada2748b4bc17929456f95084c059a2e2/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@1fec54e](https://github.com/Nebucatnetzer/manubot_test/tree/1fec54eada2748b4bc17929456f95084c059a2e2)
+from [Nebucatnetzer/manubot_test@59ed62e](https://github.com/Nebucatnetzer/manubot_test/tree/59ed62e7b8eb182c02ea2a3fd608e2bb16036dee)
 on December 23, 2019.
 </em></small>
 
@@ -484,7 +484,7 @@ Diplomarbeit soll das Projekt für interessierte Entwickler jedoch offen sein.
 Der Quellcode wird bereits während der Arbeit öffentlich zur Verfügung
 gestellt.
 
-![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="80vw"}
+![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="80%"}
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
 |:---|:---|:---|:---|:---|
