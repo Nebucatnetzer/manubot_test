@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/b7ac37d2b3dafe760fe7c41be38eb2183aa32c1d/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/45bd959476aede0ad0fd2ea8fe705ee2e913c7d5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b7ac37d2b3dafe760fe7c41be38eb2183aa32c1d/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/45bd959476aede0ad0fd2ea8fe705ee2e913c7d5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/b7ac37d2b3dafe760fe7c41be38eb2183aa32c1d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/45bd959476aede0ad0fd2ea8fe705ee2e913c7d5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/b7ac37d2b3dafe760fe7c41be38eb2183aa32c1d/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/45bd959476aede0ad0fd2ea8fe705ee2e913c7d5/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@b7ac37d](https://github.com/Nebucatnetzer/manubot_test/tree/b7ac37d2b3dafe760fe7c41be38eb2183aa32c1d)
+from [Nebucatnetzer/manubot_test@45bd959](https://github.com/Nebucatnetzer/manubot_test/tree/45bd959476aede0ad0fd2ea8fe705ee2e913c7d5)
 on December 23, 2019.
 </em></small>
 
@@ -380,7 +380,7 @@ ausschliesslich Farben aus der von Google entwickelten Design Sprache
 ### Zeitplanung
 
 Die detaillierte Zeitplanung ist dem Ganttchart in der Datei
-![02_Zeitplanung_Andreas_Zweili.html](02_Zeitplanung_Andreas_Zweili.html) zu entnehmen. Bei der Zeitplanung wurde
+![02_Zeitplanung_Andreas_Zweili.html](02_Zeitplanung_Andreas_Zweili.html?sanitize=true) zu entnehmen. Bei der Zeitplanung wurde
 darauf geachtet, dass die Arbeit soweit als möglich nicht mit dem Berufsleben
 kollidiert. An einem normalen Arbeitstag wurde dabei damit gerechnet das ca. 2
 Stunden Arbeit am Abend möglich sein sollten. An einem arbeitsfreien Tag wurde
