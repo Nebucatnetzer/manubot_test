@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/c4604fe500f408f38ffee90460c2c520051cdfc6/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/32b1afef02725e2277e8d998366e727ddfde88ef/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@c4604fe](https://github.com/Nebucatnetzer/manubot_test/tree/c4604fe500f408f38ffee90460c2c520051cdfc6)
+from [Nebucatnetzer/manubot_test@32b1afe](https://github.com/Nebucatnetzer/manubot_test/tree/32b1afef02725e2277e8d998366e727ddfde88ef)
 on December 23, 2019.
 </em></small>
 
@@ -1350,11 +1350,11 @@ Table: Usability-Studie Probanden
 
 |||
 |:---|:---|
-|<!-- $style="background: #4CAF50;" --> Grün | Die Aufgabe war sehr einfach. |
-|<!-- $style="background: #FFEB3B;" --> Gelb| Die Aufgabe war etwas herausfordernd. |
-|<!-- $style="background: #FF9800;" --> Orange | Die Aufgabe war schwierig. |
-|<!-- $style="background: #f44336;" --> Rot | Die Aufgabe war sehr schwierig. |
-|<!-- $style="background: #424242;" --> Schwarz | Die Aufgabe war unlösbar. |
+|<!-- $id="green" --> Grün | Die Aufgabe war sehr einfach. |
+|<!-- $id="yellow" --> Gelb| Die Aufgabe war etwas herausfordernd. |
+|<!-- $id="orange" --> Orange | Die Aufgabe war schwierig. |
+|<!-- $id="red" --> Rot | Die Aufgabe war sehr schwierig. |
+|<!-- $id="black" --> Schwarz | Die Aufgabe war unlösbar. |
 
 Table: Usability-Studie Bewertungsraster
 {#tbl:usability}
@@ -1376,11 +1376,11 @@ Table: Usability-Studie Bewertungsraster
 
 | Test | Proband 1 | Proband 2 | Proband 3 | Proband 4 | Probandin 5 |
 |---|---|---|---|---|---|
-| 1. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
-| 2. | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FF9800;" --> |
-| 3. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
-| 4. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #4CAF50;" --> |
-| 5. | <!-- $style="background: #4CAF50;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FF9800;" --> | <!-- $style="background: #FFEB3B;" --> | <!-- $style="background: #FFEB3B;" --> |
+| 1. | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="green" --> | <!-- $id="green" --> |
+| 2. | <!-- $id="yellow" --> | <!-- $id="yellow" --> | <!-- $id="orange" --> | <!-- $id="orange" --> | <!-- $id="orange" --> |
+| 3. | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> |
+| 4. | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> | <!-- $id="green" --> |
+| 5. | <!-- $id="green" --> | <!-- $id="yellow" --> | <!-- $id="orange" --> | <!-- $id="yellow" --> | <!-- $id="yellow" --> |
 
 Table: Resultate zur Usability-Studie
 {#tbl:result-usability}
