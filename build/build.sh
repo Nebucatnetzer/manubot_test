@@ -33,6 +33,7 @@ echo >&2 "Exporting HTML manuscript"
 pandoc --verbose \
   --from=markdown \
   --to=html5 \
+  --toc \
   --filter=pandoc-fignos \
   --filter=pandoc-eqnos \
   --filter=pandoc-tablenos \
@@ -68,6 +69,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_EXISTS" ]; then
   pandoc \
     --from=markdown \
     --to=html5 \
+    --toc \
     --pdf-engine=weasyprint \
     --pdf-engine-opt=--presentational-hints \
     --filter=pandoc-fignos \
