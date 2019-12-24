@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Andreas Zweili
-date-meta: '2019-12-23'
+date-meta: '2019-12-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Dokumentation Diplomarbeit" />
 
-  <meta name="dc.date" content="2019-12-23" />
+  <meta name="dc.date" content="2019-12-24" />
 
-  <meta name="citation_publication_date" content="2019-12-23" />
+  <meta name="citation_publication_date" content="2019-12-24" />
 
   <meta name="dc.language" content="de-CH" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/cd1746e985ae4b02081ac0576681ace25cf5e6fc/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/85d5d15899203ef09c145f4f8766f90cf301f393/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/cd1746e985ae4b02081ac0576681ace25cf5e6fc/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/85d5d15899203ef09c145f4f8766f90cf301f393/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/cd1746e985ae4b02081ac0576681ace25cf5e6fc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/85d5d15899203ef09c145f4f8766f90cf301f393/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,10 +84,10 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/cd1746e985ae4b02081ac0576681ace25cf5e6fc/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/85d5d15899203ef09c145f4f8766f90cf301f393/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@cd1746e](https://github.com/Nebucatnetzer/manubot_test/tree/cd1746e985ae4b02081ac0576681ace25cf5e6fc)
-on December 23, 2019.
+from [Nebucatnetzer/manubot_test@85d5d15](https://github.com/Nebucatnetzer/manubot_test/tree/85d5d15899203ef09c145f4f8766f90cf301f393)
+on December 24, 2019.
 </em></small>
 
 ## Authors
