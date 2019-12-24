@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/d8907133ca7afd3d1023ba95b120e42bfd75da06/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/1757cca07e51f598c81a6e9ac0eb51bcf50f24fc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d8907133ca7afd3d1023ba95b120e42bfd75da06/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/1757cca07e51f598c81a6e9ac0eb51bcf50f24fc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/d8907133ca7afd3d1023ba95b120e42bfd75da06/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/1757cca07e51f598c81a6e9ac0eb51bcf50f24fc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/d8907133ca7afd3d1023ba95b120e42bfd75da06/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/1757cca07e51f598c81a6e9ac0eb51bcf50f24fc/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@d890713](https://github.com/Nebucatnetzer/manubot_test/tree/d8907133ca7afd3d1023ba95b120e42bfd75da06)
+from [Nebucatnetzer/manubot_test@1757cca](https://github.com/Nebucatnetzer/manubot_test/tree/1757cca07e51f598c81a6e9ac0eb51bcf50f24fc)
 on December 24, 2019.
 </em></small>
 
@@ -227,7 +227,7 @@ Bewertung sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
 | Ziel-Nr. | Zielsetzung | Muss | Wunsch <br> (1-5, 5=sehr wichtig) |
-|:-|:---|:---|:---|
+|:-|:---|:-|:--|
 | 1. | Die Anwendung setzt auf cross-plattform (Linux, Windows, OS X) fähige Technologien. | x |  |
 | 2. | Die Anwendung steht unter der gpl v3 der Öffentlichkeit zur Verfügung. | x |  |
 | 3. | Der User kann mit weniger als 3 Klicks ein Backup ausführen. | x |  |
