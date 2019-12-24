@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/73c705f7cfba0d23c55e4f0d8949e1ef4bdc3de8/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/3bdd7416474dcf60eb7d1fe35a33659f6f488649/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/73c705f7cfba0d23c55e4f0d8949e1ef4bdc3de8/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3bdd7416474dcf60eb7d1fe35a33659f6f488649/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/73c705f7cfba0d23c55e4f0d8949e1ef4bdc3de8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3bdd7416474dcf60eb7d1fe35a33659f6f488649/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/73c705f7cfba0d23c55e4f0d8949e1ef4bdc3de8/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/3bdd7416474dcf60eb7d1fe35a33659f6f488649/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@73c705f](https://github.com/Nebucatnetzer/manubot_test/tree/73c705f7cfba0d23c55e4f0d8949e1ef4bdc3de8)
+from [Nebucatnetzer/manubot_test@3bdd741](https://github.com/Nebucatnetzer/manubot_test/tree/3bdd7416474dcf60eb7d1fe35a33659f6f488649)
 on December 24, 2019.
 </em></small>
 
@@ -227,7 +227,7 @@ Bewertung sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
 | Ziel-Nr. | Zielsetzung | Muss | Wunsch <br> (1-5, 5=sehr wichtig) |
-|:---|:---|:---|:---|
+|:-|:---|:---|:---|
 | 1. | Die Anwendung setzt auf cross-plattform (Linux, Windows, OS X) fähige Technologien. | x |  |
 | 2. | Die Anwendung steht unter der gpl v3 der Öffentlichkeit zur Verfügung. | x |  |
 | 3. | Der User kann mit weniger als 3 Klicks ein Backup ausführen. | x |  |
@@ -542,7 +542,7 @@ Table: Risikobewertung Auswirkung
 {#tbl:risikobewertung-auswirkung}
 
 | Nr. | Beschreibung |
-|:---|:---|
+|:-|:------|
 | 1. | Der Benutzer hat noch nie die Kommandozeile verwendet und scheitert bereits an der Installation von BorgBackup. |
 | 2. | Der Benutzer verwendet keine Verschlüsselung und verliert seine Harddisk. |
 | 3. | Der Benutzer speichert die Backups auf der internen statt der externen Harddisk. |
