@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/3cf919b3409cc374d6bbe0902ae070afa46fecba/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3cf919b3409cc374d6bbe0902ae070afa46fecba/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/3cf919b3409cc374d6bbe0902ae070afa46fecba/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/3cf919b3409cc374d6bbe0902ae070afa46fecba/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@3cf919b](https://github.com/Nebucatnetzer/manubot_test/tree/3cf919b3409cc374d6bbe0902ae070afa46fecba)
+from [Nebucatnetzer/manubot_test@609cf0f](https://github.com/Nebucatnetzer/manubot_test/tree/609cf0fd90d5ef133f617f1c5aae10200e8ce376)
 on December 25, 2019.
 </em></small>
 
@@ -845,7 +845,7 @@ entsprechend der Bewertung in der Tabelle Projektziele:(@tbl:projektziele).
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
 | 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 5 | 25 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 5 | 15 |
-| Total |  |  |  | 415 |
+| **Total** |  |  |  | **415** |
 Table: Muster Bewertungstabelle
 {#tbl:example-table}
 
@@ -921,7 +921,7 @@ Jedoch aufgrund des moderneren Unterbaus ist sie sicher schneller als C++.
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
 | 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 1 | 5 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 3 | 9 |
-| Total |  |  |  | 279 |
+| **Total** |  |  |  | **279** |
 Table: C# Bewertungstabelle
 {#tbl:csharp}
 
@@ -979,7 +979,7 @@ ungeeignet.
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
 | 9. Verbreitung bei der BorgBackup Community | 5 | 5 | 3 | 15 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 2 | 6 |
-| Total |  |  |  | 271 |
+| **Total** |  |  |  | **271** |
 Table: C++ Bewertungstabelle
 {#tbl:cplusplus}
 
@@ -1049,7 +1049,7 @@ entwickeln kann, dies jedoch zulasten der Performance.
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
 | 9. Verbreitung in der BorgBackup Community | 5 | 5 | 5 | 25 |
 | 10. Geschwindigkeit der Entwicklung | 3 | 5 | 4 | 12 |
-| Total |  |  |  | 322 |
+| **Total** |  |  |  | **322** |
 Table: Python Bewertungstabelle
 {#tbl:python}
 
@@ -1105,7 +1105,7 @@ gross.
 | 6. Lesbarkeit des Codes | 5 | 5 | 3 | 15 |
 | 7. Einfachheit des Setups | 5 | 5 | 4 | 20 |
 | 8. Lernfaktor | 5 | 5 | 4 | 20 |
-| Total |  |  |  | 295 |
+| **Total** |  |  |  | **295** |
 Table: Qt Bewertungstabelle
 {#tbl:qt}
 
@@ -1156,7 +1156,7 @@ Da die Kenntnisse gleich null sind, ist der Lernfaktor auf dem Maximum.
 | 6. Lesbarkeit des Codes | 5 | 5 | 3 | 15 |
 | 7. Einfachheit des Setups | 5 | 5 | 3 | 15 |
 | 8. Lernfaktor | 5 | 5 | 5 | 25 |
-| Total |  |  |  | 275 |
+| **Total** |  |  |  | **275** |
 Table: Gtk Bewertungstabelle
 {#tbl:gtk}
 
@@ -1206,7 +1206,7 @@ Lernfaktor bei Electron wohl nicht so gross wie etwa bei Qt oder Gtk.
 | 6. Lesbarkeit des Codes | 5 | 5 | 3 | 15 |
 | 7. Einfachheit des Setups | 5 | 5 | 3 | 15 |
 | 8. Lernfaktor | 5 | 5 | 3 | 15 |
-| Total |  |  |  | 275 |
+| **Total** |  |  |  | **275** |
 Table: Electron Bewertungstabelle
 {#tbl:electron}
 
@@ -2315,7 +2315,7 @@ Table: Projektressourcen
 | Meeting #1 | 5 | 300 | 6.87 | 412.2 |
 | Meeting #2 | 5 | 300 | 3 | 180 |
 | Meeting #3 | 5 | 300 | 2 | 120 |
-| Total | 318 | 19080 | 288.37 | 17302.2 |
+| **Total** | **318** | **19080** | **288.37** | **17302.2** |
 Table: Kostenrechnung
 {#tbl:costs}
 
@@ -2332,7 +2332,7 @@ Table: Kostenrechnung
 | 8 Meeting #1 | 5 | 6.87 | Das erste Meeting hat viele Nacharbeiten nach sich gezogen die so nicht geplant waren. |
 | 9 Meeting #2 | 5 | 3 | Das zweite Meeting hat weit weniger Zeit benötigt und auch viel weniger Nacharbeiten nach sich gezogen. |
 | 10 Meeting #3 | 5 | 2 | Beim dritten Meeting ging es hauptsächlich nur noch um kleinere Details. |
-| Total | 318 | 288.37 |  |
+| **Total** | **318** | **288.37** |  |
 Table: Zeitcontrolling
 {#tbl:time-controlling}
 
