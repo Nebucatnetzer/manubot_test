@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/f25a42075c091b0aecceb77019836478037ae2c4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f25a42075c091b0aecceb77019836478037ae2c4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/f25a42075c091b0aecceb77019836478037ae2c4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/f25a42075c091b0aecceb77019836478037ae2c4/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@567e43f](https://github.com/Nebucatnetzer/manubot_test/tree/567e43ff7f446becf2c841cae1c1cbea2dcd2a47)
+from [Nebucatnetzer/manubot_test@f25a420](https://github.com/Nebucatnetzer/manubot_test/tree/f25a42075c091b0aecceb77019836478037ae2c4)
 on December 25, 2019.
 </em></small>
 
@@ -1473,7 +1473,7 @@ spezifischen Pfades zu machen ist sehr gelungen. Da sie es dem User so einfach
 wie möglich macht ein Backup zu erstellen.
 
 ![Screenshot des Hauptfensters der Software „Back in
-Time“](images/bit_main.png){#fig:bit}
+Time“](images/bit_main.png){#fig:bit width="90%"}
 
 #### Erste Umsetzung {#first-implementation}
 
@@ -1510,7 +1510,7 @@ bereitstellt. Dadurch können die Icons frei skalieren und funktionieren auch
 auf Geräten mit einer hohen Auflösung.
 
 ![Screenshot des Borg-Qt Hauptfensters Version
-1](images/borgqt_main_v1.png){#fig:borgqt-main1}
+1](images/borgqt_main_v1.png){#fig:borgqt-main1 width="90%"}
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den „General“ Tab,
 Abbildung:(@fig:settings-general), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
@@ -1800,7 +1800,7 @@ Knopf mit der Methode `create_backup` verknüpft werden. Des Weiteren wurde ein
 Dateibaum, in Abbildung:(@fig:file-tree) grün umrahmt, eingefügt. Dieser gibt den Pfad des
 angewählten Objektes and die `create_backup` Methode weiter.
 
-![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree}
+![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree width="90%"}
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit Ladebalken
 angezeigt, Abbildung:(@fig:progress-v2). Dieser dient hauptsächlich dazu dem User das Gefühl
@@ -1852,7 +1852,7 @@ gemounteten Archive aushängen kann. Anschliessend startet die Datensicherung,
 wie wenn kein Archiv gemountet gewesen wäre.
 
 ![Screenshot der aktualisierten Archivliste und Repository
-Statistik.](images/borgqt_archive_list.png){#fig:archive-list}
+Statistik.](images/borgqt_archive_list.png){#fig:archive-list width="90%"}
 
 ### Restore
 
