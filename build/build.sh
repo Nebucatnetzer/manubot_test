@@ -33,6 +33,7 @@ echo >&2 "Exporting HTML manuscript"
 pandoc --verbose \
   --from=markdown \
   --to=html5 \
+  --dpi=300 \
   --filter=pandoc-fignos \
   --filter=pandoc-eqnos \
   --filter=pandoc-tablenos \
@@ -68,6 +69,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_EXISTS" ]; then
   pandoc \
     --from=markdown \
     --to=html5 \
+    --dpi=300 \
     --pdf-engine=weasyprint \
     --pdf-engine-opt=--presentational-hints \
     --filter=pandoc-fignos \
@@ -103,6 +105,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
     athenapdf \
     --delay=${MANUBOT_ATHENAPDF_DELAY:-1100} \
     --pagesize=A4 \
+    --zoom=0.5 \
     manuscript.html manuscript.pdf
   rm -rf output/images
 fi
