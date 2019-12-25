@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,9 +84,9 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/609cf0fd90d5ef133f617f1c5aae10200e8ce376/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/567e43ff7f446becf2c841cae1c1cbea2dcd2a47/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@609cf0f](https://github.com/Nebucatnetzer/manubot_test/tree/609cf0fd90d5ef133f617f1c5aae10200e8ce376)
+from [Nebucatnetzer/manubot_test@567e43f](https://github.com/Nebucatnetzer/manubot_test/tree/567e43ff7f446becf2c841cae1c1cbea2dcd2a47)
 on December 25, 2019.
 </em></small>
 
@@ -1126,7 +1126,7 @@ OS X können die Applikationen schnell etwas fremd wirken. Dies ist gut bei der
 Applikation Meld [@I3bSM8kr] zu sehen, wenn man eine Datei auswählen möchte,
 Abbildung:(@fig:meld).
 
-![Screenshot der Applikation Meld unter Windows 10](images/meld.png){#fig:meld width="90%"}
+![Screenshot der Applikation Meld unter Windows 10](images/meld.png){#fig:meld}
 
 Die Gtk Dokumentation empfiehlt
 [@kB8qUrdi], dass man unter Microsoft
@@ -1473,7 +1473,7 @@ spezifischen Pfades zu machen ist sehr gelungen. Da sie es dem User so einfach
 wie möglich macht ein Backup zu erstellen.
 
 ![Screenshot des Hauptfensters der Software „Back in
-Time“](images/bit_main.png){#fig:bit width="90%"}
+Time“](images/bit_main.png){#fig:bit}
 
 #### Erste Umsetzung {#first-implementation}
 
@@ -1510,7 +1510,7 @@ bereitstellt. Dadurch können die Icons frei skalieren und funktionieren auch
 auf Geräten mit einer hohen Auflösung.
 
 ![Screenshot des Borg-Qt Hauptfensters Version
-1](images/borgqt_main_v1.png){#fig:borgqt-main1 width="90%"}
+1](images/borgqt_main_v1.png){#fig:borgqt-main1}
 
 Im Einstellungsfenster gibt es drei Tabs zur Auswahl. Einmal den „General“ Tab,
 Abbildung:(@fig:settings-general), dieser zeigt allgemeine Optionen an. Im zweiten Tab „Include“,
@@ -1519,13 +1519,13 @@ will. Der dritte Tab „Exclude“, Abbildung:(@fig:settings-exclude), gibt dem 
 einzelne Ordner oder Dateien von den Backups auszuschliessen.
 
 ![Screenshot der Borg-Qt „General“ Einstellungen Version
-1](images/borgqt_settings_general_v1.png){#fig:settings-general width="90%"}
+1](images/borgqt_settings_general_v1.png){#fig:settings-general}
 
 ![Screenshot der Borg-Qt „Include“ Einstellungen Version
-1](images/borgqt_settings_include_v1.png){#fig:settings-include width="90%"}
+1](images/borgqt_settings_include_v1.png){#fig:settings-include}
 
 ![Screenshot der Borg-Qt „Exclude“ Einstellungen Version
-1](images/borgqt_settings_exclude_v1.png){#fig:settings-exclude width="90%"}
+1](images/borgqt_settings_exclude_v1.png){#fig:settings-exclude}
 
 Das „Progress“ Dialogfenster, Abbildung:(@fig:progress), zeigt dem User einen
 Fortschrittsbalken und einen „Cancel“ Button zum Abbrechen der Aktion an. Das
@@ -1533,7 +1533,7 @@ Fenster ist generisch gehalten, damit es von verschiedenen Tasks gleichermassen
 genutzt werden kann.
 
 ![Screenshot des Borg-Qt „Progress“ Dialogfensters Version
-1](images/borgqt_progress_v1.png){#fig:progress width="90%"}
+1](images/borgqt_progress_v1.png){#fig:progress}
 
 ### Einstellungen
 
@@ -1632,7 +1632,7 @@ def _get_path(self):
 :::
 
 ![Screenshot der Borg-Qt Fehlermeldung bei fehlender Konfigurationsda-
-tei.](images/borgqt_missing_config.png){#fig:missing-config width="90%"}
+tei.](images/borgqt_missing_config.png){#fig:missing-config}
 
 #### Frontend
 
@@ -1800,14 +1800,14 @@ Knopf mit der Methode `create_backup` verknüpft werden. Des Weiteren wurde ein
 Dateibaum, in Abbildung:(@fig:file-tree) grün umrahmt, eingefügt. Dieser gibt den Pfad des
 angewählten Objektes and die `create_backup` Methode weiter.
 
-![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree width="90%"}
+![Screenshot des Dateibaumes.](images/borgqt_file_tree.png){#fig:file-tree}
 
 Während dem ein Archiv erstellt wird, wird ein kleiner Dialog mit Ladebalken
 angezeigt, Abbildung:(@fig:progress-v2). Dieser dient hauptsächlich dazu dem User das Gefühl
 zu geben, dass die Applikation noch am Arbeiten ist.
 
 ![Screenshot des „Aktion in Ausführung“
-Dialogs.](images/borgqt_progress_v2.png){#fig:progress-v2 width="90%"}
+Dialogs.](images/borgqt_progress_v2.png){#fig:progress-v2}
 
 Der Dialog musste gegenüber der ersten Version in Sektion: [Erste Umsetzung](#erste-umsetzung)
 noch etwas angepasst werden. BorgBackup gibt, während dem Erstellen eines Archivs
@@ -1852,7 +1852,7 @@ gemounteten Archive aushängen kann. Anschliessend startet die Datensicherung,
 wie wenn kein Archiv gemountet gewesen wäre.
 
 ![Screenshot der aktualisierten Archivliste und Repository
-Statistik.](images/borgqt_archive_list.png){#fig:archive-list width="90%"}
+Statistik.](images/borgqt_archive_list.png){#fig:archive-list}
 
 ### Restore
 
@@ -1866,7 +1866,7 @@ erscheint folgende Fehlermeldung, Abbildung:(@fig:no-archive), um den Benutzer d
 hinzuweisen, das er dies noch tun sollte.
 
 ![Screenshot der Fehlermeldung eines fehlenden Archivs während einem
-Restore.](images/borgqt_no_archive_selected.png){#fig:no-archive width="90%"}
+Restore.](images/borgqt_no_archive_selected.png){#fig:no-archive}
 
 Für die Wiederherstellung einer Datensicherung, selektiert der User das
 gewünschte Archiv. Als zweiten Schritt startet er den Prozess mit Klick auf
@@ -1879,7 +1879,7 @@ Nach der erfolgreichen Wiederherstellung öffnet die Applikation den Zielort in
 einem Dateimanager, damit der User gleich mit den Dateien weiterarbeiten kann.
 
 ![Screenshot der Fehlermeldung wenn der Zielort nicht beschreibbar
-ist.](images/borgqt_not_writeable.png){#fig:not-writeable width="90%"}
+ist.](images/borgqt_not_writeable.png){#fig:not-writeable}
 
 Gibt es, während dem Wiederherstellen, einen Fehler gibt die Anwendung den
 entsprechenden Fehler aus und löscht zusätzlich noch den zu Beginn erstellten
@@ -1924,7 +1924,7 @@ Vorgang abgebrochen. Nach der Löschung werden die Archivliste und die
 Repository Statistik aktualisiert, um den neuen Zustand wiederzugeben.
 
 ![Screenshot des Yes/No Dialogs in der „Delete“
-Funktion.](images/borgqt_yes_no.png){#fig:yes-or-no width="90%"}
+Funktion.](images/borgqt_yes_no.png){#fig:yes-or-no}
 
 ### Automatische Backups
 
@@ -1992,7 +1992,7 @@ erstellen könnte „Montag, Mittwoch, Freitag stündliche Backups.“ (`Monday,
 Wednesday, Friday *-*-* *:00:00`).
 
 ![Screenshot der „Schedule“
-Einstellungen](images/borgqt_settings_schedule.png){#fig:settings-schedule width="90%"}
+Einstellungen](images/borgqt_settings_schedule.png){#fig:settings-schedule}
 
 Das Erstellen der eigentlichen Systemd Konfiguration passiert in Borg-Qt in der
 `Config` Klasse zum gleichen Zeitpunkt, wie die eigentliche Konfigurationsdatei
@@ -2061,10 +2061,10 @@ und zwei Labels hinzugefügt, nun wird klarer auf ihre Funktion hingewiesen,
 Abbildungen:(@fig:settings-include-v2) und (@fig:settings-exclude-v2).
 
 ![Screenshot der Borg-Qt „Include“ Einstellungen Version
-2](images/borgqt_settings_include_v2.png){#fig:settings-include-v2 width="90%"}
+2](images/borgqt_settings_include_v2.png){#fig:settings-include-v2}
 
 ![Screenshot der Borg-Qt „Exclude“ Einstellungen Version
-2](images/borgqt_settings_exclude_v2.png){#fig:settings-exclude-v2 width="90%"}
+2](images/borgqt_settings_exclude_v2.png){#fig:settings-exclude-v2}
 
 Um die Funktionen der Applikation zur erklären wurde ein Hilfe Fenster,
 Abbildung:(@fig:help), eingebaut. Dieses wird dem Benutzer beim Start der Applikation
