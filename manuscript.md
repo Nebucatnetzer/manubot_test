@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Andreas Zweili
-date-meta: '2019-12-24'
+date-meta: '2019-12-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Dokumentation Diplomarbeit" />
 
-  <meta name="dc.date" content="2019-12-24" />
+  <meta name="dc.date" content="2019-12-25" />
 
-  <meta name="citation_publication_date" content="2019-12-24" />
+  <meta name="citation_publication_date" content="2019-12-25" />
 
   <meta name="dc.language" content="de-CH" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Nebucatnetzer.github.io/manubot_test/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/cd0d6cfd1ae0ff1a7caa10acb7d243a4832de5d9/" />
+  <link rel="alternate" type="text/html" href="https://Nebucatnetzer.github.io/manubot_test/v/557c1538df92827f38ea0067820ad77c3d01bdaa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/cd0d6cfd1ae0ff1a7caa10acb7d243a4832de5d9/" />
+  <meta name="manubot_html_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/557c1538df92827f38ea0067820ad77c3d01bdaa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/cd0d6cfd1ae0ff1a7caa10acb7d243a4832de5d9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Nebucatnetzer.github.io/manubot_test/v/557c1538df92827f38ea0067820ad77c3d01bdaa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,10 +84,10 @@ title: Dokumentation Diplomarbeit
 
 <small><em>
 This manuscript
-([permalink](https://Nebucatnetzer.github.io/manubot_test/v/cd0d6cfd1ae0ff1a7caa10acb7d243a4832de5d9/))
+([permalink](https://Nebucatnetzer.github.io/manubot_test/v/557c1538df92827f38ea0067820ad77c3d01bdaa/))
 was automatically generated
-from [Nebucatnetzer/manubot_test@cd0d6cf](https://github.com/Nebucatnetzer/manubot_test/tree/cd0d6cfd1ae0ff1a7caa10acb7d243a4832de5d9)
-on December 24, 2019.
+from [Nebucatnetzer/manubot_test@557c153](https://github.com/Nebucatnetzer/manubot_test/tree/557c1538df92827f38ea0067820ad77c3d01bdaa)
+on December 25, 2019.
 </em></small>
 
 ## Authors
@@ -226,8 +226,8 @@ ist und daher in naher Zukunft zu implementieren ist. Ein Ziel mit einer tiefen
 Bewertung sollte, wenn möglich, auch einmal in die Software integriert werden
 und ist nicht unwichtig.
 
-| Ziel-Nr. | Zielsetzung | Muss | Wunsch <br> (1-5, 5=sehr wichtig) |
-|:-|:---|:-|:--|
+| Ziel-Nr. | Zielsetzung | Muss | Wunsch<br> (1-5, 5=sehr wichtig) |
+|:----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|:------|:----------------------------------|
 | 1. | Die Anwendung setzt auf cross-plattform (Linux, Windows, OS X) fähige Technologien. | x |  |
 | 2. | Die Anwendung steht unter der gpl v3 der Öffentlichkeit zur Verfügung. | x |  |
 | 3. | Der User kann mit weniger als 3 Klicks ein Backup ausführen. | x |  |
@@ -243,8 +243,8 @@ und ist nicht unwichtig.
 | 13. | Der User kann den Namen eines Archivs selbst bestimmen. |  | 5 |
 | 14. | Die Anwendung meldet transparent, wenn das Repository nicht erreichbar ist. |  | 5 |
 | 15. | Die Anwendung meldet dem User, wenn noch ein hypervisor am Laufen ist. |  | 5 |
-| 16. | Die Anwendung leitet Meldungen von BorgBackup transparent weiter. |  | 5 |
-| 17. | Die Anwendung zeigt transparent an das BorgBackup im Hintergrund bereits läuft. |  | 5 |
+| 16. | Die Anwendung leitet Meldungen von borg transparent weiter. |  | 5 |
+| 17. | Die Anwendung zeigt transparent an das borg im Hintergrund bereits läuft. |  | 5 |
 | 18. | Das Repository wird nach jedem Backup bereinigt. |  | 4 |
 | 19. | Der User kann automatische Hintergrundbackups in der Anwendung konfigurieren. |  | 4 |
 | 20. | Die Anwendung gibt dem User die Möglichkeit ein passendes Repository zu erstellen, wenn keines gefunden wird, die Anwendung jedoch bereits konfiguriert ist. |  | 4 |
@@ -258,9 +258,8 @@ und ist nicht unwichtig.
 | 28. | Der User kann das Repository wechseln. |  | 2 |
 | 29. | Der User kann ein Archiv nach einer Datei oder einem Ordner durchsuchen. |  | 2 |
 | 30. | Der User kann die „Retention Policy“ konfigurieren. |  | 2 |
-| 31. | Die Anwendung kann mit allen Features von BorgBackup umgehen. |  | 2 |
+| 31. | Die Anwendung kann mit allen Features von borg umgehen. |  | 2 |
 | 32. | Die Applikation prüft, ob sie sich im richtigen Netzwerk befindet bevor sie eine Verbindung zum Server aufbaut. |  | 2 |
-
 Table: Projektziele
 {#tbl:projektziele}
 
@@ -438,15 +437,14 @@ Gegenmassnahmen aufgelistet. Somit können gewisse Risiken bereits vorher
 vermieden werden.
 
 | Beschreibung | Massnahmen |
-|:---|:---|
+|:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | Ein grösseres Problem in der Programmierung blockiert den Fortschritt. | Immer nur eine Sache auf einmal in der Code-Basis ändern, alle Fehler beheben und erst dann zur nächsten Aufgabe weitergehen. |
 | Viel Arbeit an der Arbeitsstelle, dabei bleibt weniger Zeit für die Diplomarbeit. | Auf der Arbeit Freitage eingeben um die Last etwas zu verteilen. Projektplanung machen. |
 | Know-How zur Umsetzung ist nicht vollständig vorhanden. | Gute Informationsbeschaffung im Internet, Büchern, etc. |
 | Manuelle Tests brauchen zu viel Zeit. | Soviel wie möglich automatisieren. Dabei jedoch nicht den Fokus auf die eigentliche Entwicklung verlieren. |
 | Die Programmierung des Programms benötigt zu viel Zeit. | Bei der Projektplanung genau definieren was die GUI Applikation beinhalten muss. Ziele definieren, Abgrenzungen treffen. |
 | User haben keine Zeit für Benuterfreundlichkeitsstudie. | Vor gängig einen Termin abmachen. |
-| BorgBackup ändert fundamental seine api. | Gegen eine fixe Version von BorgBackup entwickeln. |
-
+| borg ändert fundamental seine api. | Gegen eine fixe Version von borg entwickeln. |
 Table: Risikobeschreibung
 {#tbl:project-risks}
 
@@ -487,8 +485,8 @@ gestellt.
 ![Stakeholder Diagramm](images/stakeholder_diagramm.svg){#fig:stakeholder width="80%"}
 
 | Nr. | Stakeholder | Einfluss | Anforderung/Wünsche | Wahrscheinlichkeit |
-|:---|:---|:---|:---|:---|
-| 1. | BorgBackup Community | gering | Eine Applikation, die den Umfang von BorgBackup abdeckt | mittel |
+|:-----|:----------------|:----------|:---------------------------------------------------|:--------------------|
+| 1. | borg Community | gering | Eine Applikation, die den Umfang von borg abdeckt | mittel |
 |  |  |  | Open-Source | hoch |
 |  |  |  | Mitspracherecht bei der Entwicklung | niedrig |
 | 2. | User | gering | Einfache Bedienbarkeit | hoch |
@@ -498,7 +496,6 @@ gestellt.
 | 4. | Projektleiter | hoch | Stabile Anwendung erstellen | mittel |
 |  |  |  | Ein nachhaltiges Projekt starten | mittel |
 |  |  |  | Anerkennung im fachlichen Umfeld | niedrig |
-
 Table: Umweltanalyse
 {#tbl:umweltanalyse}
 
@@ -524,31 +521,28 @@ Analyse nicht davon ausgegangen, dass man das Risiko Nr. 5 im Rahmen dieser
 Arbeit reduzieren kann.
 
 | Bewertung | Beschreibung: Wahrscheinlichkeit (W) |
-|:---|:---|
+|:------------|:--------------------------------------|
 | 1 = gering | Unwahrscheinlich, <20% |
 | 2 = mittel | Mässig wahrscheinlich, 20-50% |
 | 3 = hoch | Hohe Wahrscheinlichkeit > 50% |
-
 Table: Risikobewertung Wahrscheinlichkeit
 {#tbl:risikobewertung-wahrscheinlichkeit}
 
 | Bewertung | Beschreibung: Auswirkung (A) |
-|:---|:---|
+|:------------|:------------------------------------------|
 | 1 = gering | Geringe Auswirkungen auf Nützlichkeit |
 | 2 = mittel | Mittlere Auswirkung auf die Nützlichkeit |
 | 3 = hoch | Hohe Auswirkung auf die Nützlichkeit |
-
 Table: Risikobewertung Auswirkung
 {#tbl:risikobewertung-auswirkung}
 
 | Nr. | Beschreibung |
-|:-|:------|
-| 1. | Der Benutzer hat noch nie die Kommandozeile verwendet und scheitert bereits an der Installation von BorgBackup. |
+|:-----|:-----------------------------------------------------------------------------------------------------------|
+| 1. | Der Benutzer hat noch nie die Kommandozeile verwendet und scheitert bereits an der Installation von borg. |
 | 2. | Der Benutzer verwendet keine Verschlüsselung und verliert seine Harddisk. |
 | 3. | Der Benutzer speichert die Backups auf der internen statt der externen Harddisk. |
 | 4. | Der Benutzer löscht aus Versehen ein Backup. |
 | 5. | Der Anwender vergisst die Backups zu machen. |
-
 Table: Risikobeschreibung
 {#tbl:risikobeschreibung}
 
@@ -603,8 +597,8 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 ##### Use Case 1.0 Backup erstellen
 
 | Identifier + Name | 1.0 Backup erstellen |
-|:---|:---|
-| Description | Das Erstellen einer Datensicherung durch BorgBackup anstossen. |
+|:-------------------|:------------------------------------------------------------------------------------------------|
+| Description | Das Erstellen einer Datensicherung durch borg anstossen. |
 | Actors | Benutzer |
 | Status | Freigegeben |
 | Includes | - |
@@ -621,7 +615,6 @@ Use Cases und zeigt einem gut die Zuständigkeiten der Aktoren auf.
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
-
 Table: Use Case 1.0 Backup erstellen
 {#tbl:backup}
 
@@ -630,7 +623,7 @@ Table: Use Case 1.0 Backup erstellen
 ##### Use Case 2.0 Backup löschen
 
 | Identifier + Name | 2.0 Backup löschen |
-|:---|:---|
+|:-------------------|:------------------------------------------------------------------|
 | Description | Ein zuvor erstelltes Backup wird gelöscht. |
 | Actors | Benutzer |
 | Status | Freigegeben |
@@ -650,7 +643,6 @@ Table: Use Case 1.0 Backup erstellen
 | UC History | 1.0 Draft erstellt durch AZ |
 | Author | A. Zweili |
 | Date | 30.12.2018 |
-
 Table: Use Case 2.0 Backup löschen
 {#tbl:delete}
 
